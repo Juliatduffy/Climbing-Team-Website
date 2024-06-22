@@ -1,12 +1,13 @@
+/* Common across on all pages*/
 body {
     margin: 0;
     font-family: 'Lucida Sans';
     line-height: 1.5;
-    letter-spacing: 3;
     background-color: rgb(28, 28, 28);
     color: #fff; 
 }
 
+/* Header bar without dropdown on all pages*/
 header {
     background-color: #000;
     color: #fff;
@@ -14,41 +15,31 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 40px;
-    min-height: 65px;
+    padding: 10px 30px;
+    height: 65px;
 }
 
+/* University of Utah Climbing Team Logo on all pages*/
 .logo img {
     height: 65px;
+    margin-top: 10px;
     width: auto;
     justify-content: center;
 }
 
-.menu-toggle {
+/*Hamburger icon that is hidden when screen is large*/
+.hamburger-icon {
     display: none;
     cursor: pointer;
-}
-
-.hamburger-icon {
-    display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 25px;
     height: 20px;
 }
-
 .hamburger-icon span {
     width: 100%;
     height: 3px;
     background-color: #fff;
-}
-
-.navbar {
-    display: flex;
-    align-items: center;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
 }
 
 .navbar ul {
@@ -79,100 +70,11 @@ main {
     color: #fff;
   }
   
-  .recteam {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    align-items: center;
-    max-width: 950px; /* Updated max-width */
-    margin: 0 auto; /* Center-align the content */
-    margin-top: 0;
-  }
-
-  .recteam-content {
-    display: flex;
-    text-align: left;
-    flex-direction: column;
-    font-size: 15pt;
-  }
   
-  .recteam .recteam-content p {
-    margin: 0; /* Remove default margin */
-    margin-bottom: 20px; /* Add margin-bottom for spacing between paragraphs */
-  }
-  
-  .joessunset img {
-    height: auto;
-    width: 100%;
-  }
-  
-  .dropdown {
-    position: relative;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #161515;
-    min-width: 160px;
-    z-index: 1;
-  }
-  
-  .dropdown-content a {
-    color: #fff;
-    padding: 10px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  .dropdown-content a:hover {
-    color: #d96c6c;
-  }
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-
-  .outdoor-trips-content {
-    display: flex;
-    align-items: flex-start;
-  }
-  
-  .outdoor-trips-content p {
-    flex: 1;
-    margin-right: 20px;
-  }
-  
-  .outdoor-trip-photo {
-    width: 300px;
-    height: auto;
-    float: right;
-    margin-left: 20px;
-    margin-bottom: 10px; /* Adjust margin as needed */
-  }
-  
-  .practices-content {
-    display: flex;
-    align-items: flex-start;
-  }
-
-  .practices-photo {
-    width: 600px;
-    height: auto;
-    float: left;
-    margin-right: 20px;
-    margin-bottom: 10px;
-  }
-  
-  .practices-content p {
-    margin-bottom: 20px; /* Add space between paragraphs */
-  }
-  
-  
-/* Media Queries */
-@media (max-width: 768px) {
-    .menu-toggle {
-        display: block;
+/* Resizing Stuff */
+@media (max-width: 700px) {
+    .hamburger-icon {
+        display: flex;
     }
     .navbar {
         display: none;
@@ -203,35 +105,36 @@ main {
     }
 
     header {
-    padding-left: 0;
+      padding-left: 1px;
+    }
+
+    .recteam{
+      align-items: center;
     }
 
     .recteam-content {
       align-items: center;
       text-align: center;
+      width: 100%;
     }
 
     .outdoor-trips-content {
       flex-direction: column;
-      align-items: center;
+    }
+    .practices-content {
+      flex-direction: column-reverse;
     }
     
-    .outdoor-trip-photo {
-      width: 400px;
+    .outdoor-trip-photo, .practices-photo, .joessunset {
+      max-width: 1000px;
+      width: 100%;
       height: auto;
+      margin: 10px, 0px, 10px, 0px;
       margin-left: 0px;
-      margin-bottom: 10px; /* Adjust margin as needed */
     }
 
-    .practices-content {
-      flex-direction: column; /* Stack items vertically */
-      align-items: center; /* Center-align items */
+    .recteam-content h1 {
+      font-size: 30pt;
     }
-
-    .practices-photo {
-      width: 500px;
-      height: auto;
-      align-items: center; /* Center-align items */
-        }
   
 }
