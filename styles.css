@@ -65,6 +65,34 @@ header {
     color: #c02f2f;
 }
 
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #161515;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  color: #d96c6c;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 main {
   padding: 10px;
     color: #fff;
@@ -131,6 +159,7 @@ main {
       height: auto;
       margin: 10px, 0px, 10px, 0px;
       margin-left: 0px;
+      align-items: center;
     }
 
     .recteam-content h1 {

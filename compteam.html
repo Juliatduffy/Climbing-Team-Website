@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>University of Utah Climbing</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+   
+  .compteam {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-items: center;
+    max-width: 950px; 
+    margin: 0 auto; 
+    margin-top: 0;
+  }
+
+  .compteam-content {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    font-size: 15pt;
+    max-width: 100%;
+  }
+  
+  .compteam h1 {
+    text-align: center;
+    align-items: center;
+    font-size: 40pt;
+  }
+
+  .compteam .compteam-content p {
+    margin: 0; 
+    margin-bottom: 20px; 
+  }
+
+  
+  .compheader img {
+    height: auto;
+    width: 100%;
+    padding: 40px;
+    align-items: center;
+  }
+  
+/* For aligning images and text in outdoor trips and practices sections */
+.outdoor-trips-content, .practices-content {
+  display: flex;
+  align-items: flex-start;
+}
+
+/* For text in outdoor trips section */
+.outdoor-trips-content p {
+  flex: 1;
+  margin-right: 20px;
+}
+
+/* For the outdoor trips image */
+.outdoor-trip-photo {
+  max-width: 300px;
+  height: auto;
+  margin-left: 20px;
+  margin-bottom: 10px; 
+  order: 2; /
+}
+
+/* For text in practices section */
+.practices-content p {
+  margin-left: 20px;
+  flex: 1;
+  order: 2; 
+}
+
+/* For the practices image */
+.practices-photo {
+  max-width: 300px;
+  height: auto;
+  margin-right: 20px;
+  margin-bottom: 10px; 
+  order: 1; 
+}
+.bullet-list {
+      padding: 0;
+    }
+    .bullet-list li {
+      position: relative;
+      padding-left: 20px; 
+      margin-bottom: 10px; 
+    }
+    .bullet-list li::before {
+    list-style: none;
+      position: absolute;
+      left: 0;
+      color: #ffffff; 
+      font-size: 20px; /* Bullet size */
+    }
+    .bullet-list li strong {
+            display: block;
+            font-weight: 900;
+            margin-bottom: 10px;
+        }
+    .red-box {
+            background-color: rgba(207, 49, 49, 0.445);
+            padding: 20px;
+            border-radius: 5px;
+            color: white;
+        }
+        .red-box ul {
+            list-style: none;
+            padding: 0;
+        }
+        .red-box ul li::before {
+            color: white;
+            font-size: 20px;
+            padding-right: 10px;
+        }
+  </style>
+</head>
+
+<body>
+  <header class= "header">
+    <div class="logo">
+      <img src="images/usoclogo.png" alt="Logo">
+    </div>
+    <div class="hamburger-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <nav class="navbar">
+        <ul>
+          <li><a href="home.html">HOME</a></li>
+          <li class="dropdown">
+            <span class="about-dropbtn">ABOUT</span>
+            <div class="dropdown-content">
+              <a href="policies.html">CONSTITUTION</a>
+              <a href="leadership.html">LEADERSHIP</a>
+              <a href="contact.html">CONTACT</a>
+            </div>
+          </li>
+          <li class="dropdown">
+            <span class="dropbtn">JOIN</span>
+            <div class="dropdown-content">
+              <a href="recteam.html">REC TEAM</a>
+              <a href="compteam.html">COMP TEAM</a>
+            </div>
+          </li>
+          <li><a href="FAQ.html">FAQ</a></li>
+        </ul>
+      </nav>
+  </header>
+
+  
+  <main>
+    <section class="compteam"> 
+        <h1>COMPETITION TEAM</h1>
+      <div class="compteam-content">
+        <img src="images/compheader.png" class="compheader">
+          <h3>THE COMP TEAM</h3>
+          <p> &emsp; 
+            The competition team is for intermediate-advanced climbers who are interested in competing in 
+            <a href="https://usaclimbing.org/compete/collegiate-series/" style="color: white;">USA Climbing</a> collegiate-level events. 
+            It is strongly encouraged that competitive team members attend team practice every week. Additionally, there will be several comp 
+            team specific events that members are required to attend. This team is for those who aspire to compete at the 
+            <a href=" https://usaclimbing.org/collegiate-national-championships/" style="color: white;">Collegiate National Championships</a> at the end of 
+            the year. Membership in USA Climbing is required, and all comp team members are required to attend at least one local qualifying event.</p>
+          <h3>PRICE BREAKDOWN</h3>
+          <p> &emsp; Comp team members must pay an additional $150 in team dues at the beginning of the competition season. In addition 
+            to the $50 Rec Team fee, that is $200 total. While this is a steep price, we have consistently worked as a team to receive 
+            funding from our sponsors and through school organizations. Much of the money we receive each year is reimbursed back to comp 
+            team members directly. In 2024, we were able to provide $150 to everyone who opted into CNQE funding, and $300 to all 
+            athletes who qualified for the World University Championships. In addition to these reimbursements, comp team members will be provided with jerseys 
+            and gear (i.e. harnesses, chalk pots, bags), at no additional cost. Lastly, comp team members who qualify for the National Championships 
+            are guaranteed housing at our team Airbnb.</p>
+          <p> &emsp; We understand that competing is expensive, and we strive to make it as accessible as possible. If you are serious about 
+            wanting to compete, but cannot do so for financial reasons, reach out to us and we can see what options are available. A further 
+            price breakdown of competition registration and USA Climbing membership fees can be found 
+            <a href="https://docs.google.com/document/d/e/2PACX-1vRBr4ZiTHgSn27Px-_QoUlQxij6G3vAFJghmYn4_p4tCEtEkNTaOo2OIVSJhUdiaQ/pub" style="color: white;">here</a>. </p>
+          </p>
+          <h3>EVENT SCHEDULE</h3>
+            <p>&emsp; While exact dates for the 2024-2025 season have yet to be announced, there are three main events/series of events to look forward to:</p>
+          <div class="red-box">
+            <ul class="bullet-list">
+                <li>
+                    <strong>QE (Qualifying Events)</strong>
+                    <p>From October to March, USA Climbing (USAC) will host a series of local qualifying events that anyone with a USAC membership may attend. Participation in one or more of these qualifying events is enough to qualify for the CNQE series. Athletes can choose to compete in a lead event and/or a bouldering event, will qualify for both disciplines in the CNQE series.</p>
+                </li>
+                <li>
+                    <strong>CNQE (Collegiate Nationals Qualifying Event)</strong>
+                    <p>In April, USAC will host 10-15 CNQE events where the top five ranked athletes in each discipline (bouldering and lead) will earn qualification to the national championships in all three disciplines (bouldering, lead, and speed). These events are scattered throughout the country, and competitors may choose which event they would like to attend. All collegiate competitors with an active USAC membership are qualified to compete in the speed discipline at nationals.</p>
+                </li>
+                <li>
+                    <strong>Collegiate National Championships</strong>
+                    <p>At the end of each season, (in May) the very best collegiate climbers from across the country compete at the National Championships. This is the biggest (and most fun) event of the year. Every other year, the highest-ranked athletes may qualify for the Collegiate World Championships.</p>
+                </li>
+            </ul>
+          </div>
+            <h3>HOW TO JOIN</h3>
+             <p> &emsp; 
+            Everyone is welcome to join the rec team, but we ask that all team members pay $50 in team dues each year. This money stays within the club and is used to organize team events such as movie nights, park days, and outdoor climbing trips. For outdoor trips, gas money and housing may be provided. If you plan on paying for a gym membership in Salt Lake this year, paying these team dues and joining our roster will save you ~ $300 a year in membership discounts.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
