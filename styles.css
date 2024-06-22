@@ -15,7 +15,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 30px;
+  padding: 1rem 4rem;
   height: 65px;
 }
 
@@ -112,6 +112,10 @@ main {
         background-color: #000;
     }
 
+    .header {
+        padding: 1rem 1rem;
+    }
+
     .navbar ul {
         flex-direction: column;
     }
@@ -176,9 +180,17 @@ main {
     .compteam h1 {
       font-size: 1.35rem;
     }
+
+    .home h1 {
+      font-size: 1.35rem;
+    }
+
+    .carousel{
+      width: 100%;
+    }
   
     .compteam{
-      width: 100%;
+      width: 90%;
     }
 
     .compteam-content{
