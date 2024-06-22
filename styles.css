@@ -22,9 +22,7 @@ header {
 /* University of Utah Climbing Team Logo on all pages*/
 .logo img {
   height: auto;
-  max-height: 65px;
-  max-width: 300px;
-  width: 40vw;
+  width: 70%;
   margin-top: 10px;
   justify-content: center;
 }
@@ -127,10 +125,10 @@ main {
         text-align: center;
     }
 
-    .recteam{
+    .recteam-content{
       align-items: center;
-      text-align: left;
-      width: 100%;
+      text-align: center;
+      margin: 10px;
     }
 
     .outdoor-trips-content {
@@ -140,23 +138,22 @@ main {
     .practices-content {
       flex-direction: column-reverse;
       align-items: center;
-
     }
-    
+
     .outdoor-trip-photo, .practices-photo, .joessunset {
       width: 100%;
       height: auto;
-      margin: 10px, 0px, 10px, 0px;
       margin-left: 0px;
+      margin-right: 0px;
       align-items: center;
     }
 
     .recteam-content h1 {
-      font-size: 1.5rem;
+      font-size: 1.35rem;
     }
 
     .compteam h1 {
-      font-size: 1.5rem;
+      font-size: 1.35rem;
     }
   
 
