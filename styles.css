@@ -125,10 +125,17 @@ main {
         text-align: center;
     }
 
+    .recteam {
+      width: 100%
+    }
     .recteam-content{
       align-items: center;
       text-align: center;
-      margin: 10px;
+      margin: 0px 1em 0px 1em ;
+    }
+
+    .recteam-content p {
+      text-align: left;
     }
 
     .outdoor-trips-content {
@@ -140,7 +147,21 @@ main {
       align-items: center;
     }
 
-    .outdoor-trip-photo, .practices-photo, .joessunset {
+    .practices-photo {
+      width: fit-content;
+      height: auto;
+      margin: 0;
+      padding: 0;
+      align-items: center;
+    }
+    .joessunset {
+      width: 100%;
+      height: auto;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+
+    .outdoor-trip-photo  {
       width: 100%;
       height: auto;
       margin-left: 0px;
@@ -156,5 +177,14 @@ main {
       font-size: 1.35rem;
     }
   
+    .compteam{
+      width: 100%;
+    }
 
+    .compteam-content{
+      text-align: center;
+    }
+    .compteam-content p {
+      text-align: left;
+    }
 }
