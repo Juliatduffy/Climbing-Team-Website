@@ -7,22 +7,33 @@
   <title>University of Utah Climbing</title>
   <link rel="stylesheet" href="styles.css">
   <style>
+
+    .home-header-bar {
+      display:flex;
+      background-color: rgba(214, 49, 49, 0.682);
+      justify-content: center;
+      align-items: center;
+      height: 100px; 
+      width: 100%;
+    }
     .home {
       display: flex;
       flex-direction: column;
       align-items: center;
-      max-width: 950px;
+      padding: 0;
       margin: 0 auto;
       font-size: 27;
     }
 
-    .home h1 {
-      font-size: 1.7rem;
+    .home-header-bar h1 {
+      font-size: 3rem;
+      text-align: center;
+      width:100%;
     }
 
     .carousel {
       position: relative;
-      width: 70%;
+      width: 80%;
       height: auto;
       margin: 20px 0;
       overflow: hidden;
@@ -32,13 +43,13 @@
     .carousel img {
       align-items: center;
       display: none;
-      border-left: 40px solid  rgba(207, 49, 49, 0.445);
-      border-right: 40px solid  rgba(207, 49, 49, 0.445);
+      border-left: 60px solid   rgb(0, 0, 0);
+      border-right: 60px solid    rgb(0, 0, 0);
     }
 
     .carousel img.active {
       display: block;
-      width: calc(100% - 80px);
+      width: calc(100% - 120px);
       height: auto;
     }
 
@@ -96,9 +107,13 @@
     </nav>
   </header>
 
+  <div class="home-header-bar">
+    <h1>UNIVERSITY OF UTAH CLIMBING TEAM</h1>
+
+  </div>
+
   <main>
     <div class="home">
-      <h1>Welcome to the Climbing Team at the University of Utah!</h1>
       <div class="carousel">
         <img src="images/eliredrocks.png" class="carousel-image">
         <img src="images/sophsport.jpg" class="carousel-image">
@@ -107,7 +122,7 @@
         <img src="images/zoe.jpg" class="carousel-image">
         <img src="images/soph_boss.png" class="carousel-image">
         <img src="images/levi.jpg" class="carousel-image">
-        <img src="images/lionshare.png" class="carousel-image">
+        <img src="images/JuliaPaganBig.png" class="carousel-image">
 
         <div class="carousel-buttons">
           <button class="prev-button" id="prevButton">&lt;</button>
