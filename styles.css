@@ -20,6 +20,15 @@ header {
   height: 6vh;
 }
 
+.home-header-bar {
+  display:flex;
+  background-color: rgba(214, 49, 49, 0.682);
+  justify-content: center;
+  align-items: center;
+  height: 2vh; 
+  width: 100%;
+}
+
 /* University of Utah Climbing Team Logo on all pages*/
 .logo img {
   height: auto;
@@ -96,6 +105,53 @@ main {
   padding: 10px;
     color: #fff;
   }
+
+  .carousel {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+    overflow: hidden;
+  }
+
+  .carousel img {
+    align-items: center;
+    display: none;
+    border-left: 80px solid   rgb(0, 0, 0);
+    border-right: 80px solid    rgb(0, 0, 0);
+  }
+
+  .carousel img.active {
+    display: block;
+    width: calc(100% - 160px);
+    height: auto;
+  }
+
+  .carousel-buttons {
+    position: absolute;
+    top: 50%;
+    width: 98%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+  }
+
+  .prev-button, .next-button {
+    background-color: transparent;
+    color: rgb(168, 168, 168);
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 24px; 
+  }
+
+  .prev-button:hover, .next-button:hover {
+    transform: scale(1.4);
+    color: white;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  }
+
   
   
 /* Resizing Stuff */

@@ -7,13 +7,13 @@
   <title>University of Utah Climbing</title>
   <link rel="stylesheet" href="styles.css">
   <style>
-   
+
   .compteam {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     align-items: center;
-    max-width: 950px; 
+    max-width: 800px; 
     margin: 0 auto; 
     margin-top: 0;
   }
@@ -21,27 +21,27 @@
   .compteam-content {
     display: flex;
     text-align: left;
+    align-items: center;
     flex-direction: column;
     font-size: 1.2rem;
     max-width: 100%;
   }
   
+  .compteam-content h3{
+    text-align: left;
+    width:100%;
+  }
   .compteam-content h1{
-    font-size: 1.7rem;
+    font-size: 3vw;
+    text-align: left;
+    width: 100%;
   }
 
   .compteam-content p {
     margin: 0; 
   }
-  
-  .compheader img {
-    height: auto;
-    width: 100%;
-    padding: 40px;
-    align-items: center;
-  }
-  
-.bullet-list {
+
+    .bullet-list {
       padding: 0;
     }
     .bullet-list li {
@@ -66,7 +66,7 @@
             padding: 20px;
             border-radius: 5px;
             color: white;
-            margin-top: 10px;
+            margin-top: 20px;
         }
         .red-box ul {
             list-style: none;
@@ -112,14 +112,23 @@
         </ul>
       </nav>
   </header>
-
+  <div class="home-header-bar"></div>
   
   <main>
     <section class="compteam"> 
       <div class="compteam-content">
         <h1>COMPETITION TEAM</h1>
-        <img src="images/compheader.png" class="compheader">
-          <h3>THE COMP TEAM</h3>
+        <div class="carousel">
+          <img src="images/soph_boss.png" class="carousel-image">
+          <img src="images/levi.jpg" class="carousel-image">
+          <img src="images/thea.jpg" class="carousel-image">
+          <div class="carousel-buttons">
+            <button class="prev-button" id="prevButton">&lt;</button>
+            <button class="next-button"id="nextButton">&gt;</button>
+          </div>
+        </div>  
+
+        <h3>THE COMP TEAM</h3>
           <p> &emsp; 
             The competition team is for intermediate-advanced climbers who are interested in competing in 
             <a href="https://usaclimbing.org/compete/collegiate-series/" style="color: white;">USA Climbing</a> collegiate-level events. 
