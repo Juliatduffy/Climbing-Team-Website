@@ -31,14 +31,38 @@
       height: auto;
     }
 
+    .image-wrap .black-box {
+      display: block;
+      z-index: 100;
+      background-color: black;
+      position: absolute;
+      height: 32%;
+      width: 52%;
+      top: 18%;
+      left: 48%;
+    }
+
     .overlay-text {
       position: absolute;
       padding-bottom: 1vw;
-      top: 30%;
+      top: 20%;
       left: 50%;
       color: white;
-      font-size: 3vw;
-      text-align: center;
+      font-size: 4vw;
+      text-align: left;
+      z-index: 100;
+      font-weight: bold;
+      
+    }
+
+    .overlay-text {
+      position: absolute;
+      padding-bottom: 1vw;
+      top: 20%;
+      left: 50%;
+      color: white;
+      font-size: 4vw;
+      text-align: left;
       z-index: 100;
       font-weight: bold;
       
@@ -47,18 +71,27 @@
     .overlay-sub-text {
       position: absolute;
       padding-top: 1vw;
-      top: 40%;
+      top: 30%;
       left: 50%;
       color: white;
-      font-size: 1.6vw;
-      text-align: center;
+      font-size: 2vw;
+      text-align: left;
       z-index: 100;
       font-weight: bold;
     }
 
-    .join-btn, .learn-btn, .contact-btn {
+    .button-wrapper{
+      align-items: right;
       position: absolute;
-      background-color: rgba(214, 49, 49);
+      top: 40%;
+      left: 50%;
+      display: flex;
+      gap: 1rem;
+      z-index: 100;
+    }
+
+    .join-btn, .learn-btn, .contact-btn {
+      background-color: #c02f2f;
       color: white;
       border: none;
       padding: 1vw 1vw;
@@ -69,23 +102,11 @@
       text-align: center;
       text-decoration: none;
       transition: all 0.3s ease;
-      top: 60%;
     }
 
-    .learn-btn {
-      left: 50%;
-    }
-
-    .join-btn {
-      left: 64%;
-    }
     
-    .contact-btn {
-      left: 76%;
-    }
-
     .join-btn:hover, .learn-btn:hover, .contact-btn:hover {
-      background-color: rgb(255, 72, 72);
+      background-color: rgba(214, 49, 49);
       transform: scale(1.05);
       box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
     }
@@ -140,12 +161,15 @@
     <div class="home-header-bar"></div>
 
     <div class="image-wrap">
-      <img src="images/joessunsethome.png" class="home-img">
-      <div class="overlay-text">UNIVERSITY OF UTAH</div>
-      <div class="overlay-sub-text">CLIMBING TEAM</div>
+      <img src="images/joessunset2.png" class="home-img">
+      <div class="black-box"></div>
+      <div class="overlay-text">CLIMBING TEAM</div>
+      <div class="overlay-sub-text">UNIVERSITY OF UTAH</div>
+      <div class=" button-wrapper">
       <button class="learn-btn">LEARN MORE</button>
       <button class="join-btn">JOIN NOW</button>
       <button class="contact-btn">CONTACT US</button>
+    </div>
     </div>
 
     <script src="app.js"></script>
