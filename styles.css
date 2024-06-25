@@ -5,7 +5,7 @@ body {
   font-family: 'Lucida Sans';
   line-height: 1.5;
   background-color: rgb(28, 28, 28);
-  color: #fff; 
+  color: #fff;
 }
 
 /* Header bar without dropdown on all pages*/
@@ -25,7 +25,7 @@ header {
   background-color: rgba(214, 49, 49, 0.682);
   justify-content: center;
   align-items: center;
-  height: 2vh; 
+  height: 2vh;
   width: 100%;
 }
 
@@ -109,6 +109,7 @@ main {
   .carousel {
     position: relative;
     width: 100%;
+    max-width: 800px;
     height: auto;
     margin: 20px 0;
     overflow: hidden;
@@ -117,20 +118,20 @@ main {
   .carousel img {
     align-items: center;
     display: none;
-    border-left: 80px solid   rgb(0, 0, 0);
-    border-right: 80px solid    rgb(0, 0, 0);
+    border-left: 50px solid   rgb(0, 0, 0);
+    border-right: 50px solid    rgb(0, 0, 0);
   }
 
   .carousel img.active {
     display: block;
-    width: calc(100% - 160px);
+    width: calc(100% - 100px);
     height: auto;
   }
 
   .carousel-buttons {
     position: absolute;
     top: 50%;
-    width: 98%;
+    width: 100%;
     height: 100%;
     display: flex;
     justify-content: space-between;
@@ -143,17 +144,16 @@ main {
     border: none;
     padding: 15px;
     cursor: pointer;
-    font-size: 24px; 
+    font-size: 24px;
   }
 
   .prev-button:hover, .next-button:hover {
     transform: scale(1.4);
     color: white;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
   }
 
-  
-  
+
+
 /* Resizing Stuff */
 @media (max-width: 700px) {
     .hamburger-icon {
@@ -167,7 +167,19 @@ main {
         left: 0;
         width: 100%;
         background-color: #000;
+        transform: translateY(-2vh);
+        z-index: 1000;
     }
+
+    .home-header-bar {
+      display: flex;
+      background-color: rgba(214, 49, 49, 0.682);
+      justify-content: center;
+      align-items: center;
+      height: 2vh;
+      width: 100%;
+    }
+    
 
     .header {
         padding: 1rem 1rem;
@@ -186,54 +198,6 @@ main {
         text-align: center;
     }
 
-    .recteam {
-      width: 100%
-    }
-    .recteam-content{
-      align-items: center;
-      text-align: center;
-      margin: 0px 1em 0px 1em ;
-    }
-
-    .recteam-content p {
-      text-align: left;
-    }
-
-    .outdoor-trips-content {
-      flex-direction: column;
-      align-items: center;
-    }
-    .practices-content {
-      flex-direction: column-reverse;
-      align-items: center;
-    }
-
-    .practices-photo {
-      width: fit-content;
-      height: auto;
-      margin: 0;
-      padding: 0;
-      align-items: center;
-    }
-    .joessunset {
-      width: 100%;
-      height: auto;
-      margin-left: 0px;
-      margin-right: 0px;
-    }
-
-    .outdoor-trip-photo  {
-      width: 100%;
-      height: auto;
-      margin-left: 0px;
-      margin-right: 0px;
-      align-items: center;
-    }
-
-    .recteam-content h1 {
-      font-size: 1.35rem;
-    }
-
     .compteam h1 {
       font-size: 1.35rem;
     }
@@ -244,16 +208,35 @@ main {
 
     .carousel{
       width: 100%;
+      z-index: 1;
     }
+    
+  .carousel img {
+    align-items: center;
+    display: none;
+    border-left: none;
+    border-right: none;
+  }
   
+  .carousel img.active {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .prev-button, .next-button {
+  width: 5vw;
+  }
+
     .compteam{
       width: 90%;
     }
 
-    .compteam-content{
-      text-align: center;
-    }
     .compteam-content p {
       text-align: left;
     }
 }
+
+
+/*use webp
+netlify */

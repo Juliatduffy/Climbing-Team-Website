@@ -30,10 +30,6 @@
       font-size: 1.7rem;
     }
   
-  .joessunset img {
-    height: auto;
-    width: 100%;
-  }
   
 /* For aligning images and text in outdoor trips and practices sections */
 .outdoor-trips-content, .practices-content {
@@ -68,9 +64,49 @@
   order: 1; 
   margin-right: 2rem;
 }
+
+@media (max-width: 700px) {
+
+    .recteam {
+      display:flex;
+      width: 90%
+    }
+
+    .recteam-content {
+      text-align: left;
+      align-items: center;
+    }
+
+    .outdoor-trips-content {
+      flex-direction: column;
+      align-items: center;
+      width: 100%
+    }
+
+    .practices-content  {
+      flex-direction: column-reverse;
+      align-items: center;
+      width: 100%
+    }
+
+  .practices-photo {
+      width: 80%;
+      height: auto;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .outdoor-trip-photo  {
+      width: 80%;
+      height: auto;
+      margin-left: 0px;
+      margin-right: 0px;
+      align-items: center;
+    }
+}
+
   </style>
 </head>
-
 <body>
   <header class= "header">
     <div class="logo">
@@ -133,7 +169,6 @@
               &emsp; Throughout the school year, our team organizes outdoor climbing trips in nearby climbing areas. Utah and its surrounding states have a lot to offer, so whenever the weather is good we try and get after it! During longer breaks, such as fall and spring break, team funding may be used to book housing. During shorter trips, we will typically find a place to camp as a team. We will do our best to ensure that anyone who would like to participate in these trips will be accommodated, whether they need a ride or camping gear, or climbing gear. These trips are subject to last-minute changes, as the weather can be unpredictable. The best way to stay up to date on these changes is through our <a href="contact.html" style="color: white;">team discord</a>. A tentative schedule for this year's outdoor trips can be found on this <a href="https://docs.google.com/document/d/1YVJ5Dw1n9C6tzwtJjsVarQeeGbufINMrHUBqFkH_RqE/edit?usp=sharing" style="color: white;">google doc</a>. 
             </p>
             <img src="images/JessieMoe.png" class="outdoor-trip-photo">
-         
           </div>
             <h3>HOW TO JOIN</h3>
              <p> &emsp; 
