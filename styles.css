@@ -16,24 +16,24 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 5rem;
-  height: 7vh;
+  padding: 1rem 4rem 1rem 1rem;
+  height: 10vh;
 }
 
 .home-header-bar {
   display:flex;
-  background-color: rgba(214, 49, 49, 0.682);
+  background-color: rgb(170, 38, 38);
   justify-content: center;
   align-items: center;
-  height: 2vh;
+  height: 3vh;
   width: 100%;
 }
 
 /* University of Utah Climbing Team Logo on all pages*/
 .logo img {
   height: auto;
-  width: 70%;
-  max-height: 80px;
+  height: 6vh;
+  padding-left: 1vw;
   justify-content: center;
 }
 
@@ -152,7 +152,27 @@ main {
     color: white;
   }
 
+   /* Footer styling */
+   .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 2rem;
+  }
 
+  .footer a {
+    color: rgb(255, 74, 74);
+    text-decoration: none;
+    margin: 0 0.5rem;
+  }
+
+  .footer a:hover {
+    text-decoration: underline;
+  }
 
 /* Resizing Stuff */
 @media (max-width: 700px) {

@@ -34,7 +34,7 @@
     .image-wrap .black-box {
       display: block;
       z-index: 100;
-      background-color: black;
+      background-color: rgb(28, 28, 28);
       position: absolute;
       height: 32%;
       width: 52%;
@@ -55,24 +55,11 @@
       
     }
 
-    .overlay-text {
-      position: absolute;
-      padding-bottom: 1vw;
-      top: 20%;
-      left: 50%;
-      color: white;
-      font-size: 4vw;
-      text-align: left;
-      z-index: 100;
-      font-weight: bold;
-      
-    }
-
     .overlay-sub-text {
       position: absolute;
       padding-top: 1vw;
-      top: 30%;
-      left: 50%;
+      top: 28%;
+      left: 50.2%;
       color: white;
       font-size: 2vw;
       text-align: left;
@@ -86,15 +73,16 @@
       top: 40%;
       left: 50%;
       display: flex;
-      gap: 1rem;
+      gap: 1.5rem;
       z-index: 100;
     }
 
-    .join-btn, .learn-btn, .contact-btn {
+    .join-btn, .learn-btn, .contact-btn , .pic-btn{
       background-color: #c02f2f;
       color: white;
+      font-family: 'Lucida Sans';
       border: none;
-      padding: 1vw 1vw;
+      padding: .8vw 1vw;
       font-size: 1.2vw;
       line-height: 1.2;
       cursor: pointer;
@@ -102,13 +90,39 @@
       text-align: center;
       text-decoration: none;
       transition: all 0.3s ease;
+      font-weight: 500;
     }
 
     
-    .join-btn:hover, .learn-btn:hover, .contact-btn:hover {
+    .join-btn:hover, .learn-btn:hover, .contact-btn:hover, .pic-btn {
       background-color: rgba(214, 49, 49);
       transform: scale(1.05);
       box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    }
+
+     .home-info {
+      display: flex;
+      background-color: rgb(28, 28, 28);
+      align-items: center;
+      justify-content: center;
+      color: white;
+      height: 80vh;
+      width: 100%;
+    }
+
+    .home-pic {
+      top: 20%;
+      left:60%;
+      width: 300px;
+      height: auto;
+      margin: 40px;
+    }
+
+    .home-info p {
+      font-size: 1.5rem;
+      margin-right: 3vw;
+      background-color: #c02f2f;
+      padding: 4px;
     }
     
     @media (max-width: 700px) {
@@ -129,7 +143,7 @@
   <body>
     <header class="header">
       <div class="logo">
-        <img src="images/usoclogo.png" alt="Logo">
+        <img src="images/mylogo.png" alt="Logo">
       </div>
       <div class="hamburger-icon">
         <span></span>
@@ -163,14 +177,32 @@
     <div class="image-wrap">
       <img src="images/joessunset2.png" class="home-img">
       <div class="black-box"></div>
-      <div class="overlay-text">CLIMBING TEAM</div>
-      <div class="overlay-sub-text">UNIVERSITY OF UTAH</div>
+      <div class="overlay-text">UNIVERSITY OF UTAH</div>
+      <div class="overlay-sub-text">CLIMBING TEAM</div>
       <div class=" button-wrapper">
-      <button class="learn-btn">LEARN MORE</button>
-      <button class="join-btn">JOIN NOW</button>
-      <button class="contact-btn">CONTACT US</button>
+        <button class="learn-btn">LEARN MORE</button>
+        <button class="join-btn">JOIN NOW</button>
+        <button class="contact-btn">CONTACT US</button>
+        <button class="pic-btn">GALLERY</button>
+      </div>
     </div>
+    <div class="home-space"></div>
+    <div class="home-info">
+      <img src="images/julia.JPG" class="home-pic">
+      <p>Welcome to the University of Utah Climbing Team! We love climbing! We compete and go 
+        on outdoor climbing trips and have fun movie nights and things yahoo 
+        goooo utes. we are also the best to ever do it cu later hehe.
+      </p>
     </div>
+
+    <footer class="footer">
+      <p>U of U Climbing Team 2024 </p>
+      <p>
+        <a href="https://www.instagram.com/utahclimbingteam/">Instagram</a> |
+        <a href="https://www.facebook.com/Uclimbingteam/">Facebook</a> |
+        <a href="https://usaclimbing.org/">USA Climbing</a>
+      </p>
+    </footer>
 
     <script src="app.js"></script>
 
