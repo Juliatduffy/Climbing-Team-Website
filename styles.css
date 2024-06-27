@@ -7,7 +7,10 @@ body {
   background-color: rgb(28, 28, 28);
   color: #fff;
   overflow-x: hidden; /* Prevent horizontal overflow */
+}
 
+.content {
+  height:100%;
 }
 
 /* Header bar without dropdown on all pages*/
@@ -18,7 +21,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 4rem 1rem 1rem;
+  padding: 1rem 1rem 1rem 1rem;
   height: 10vh;
 }
 
@@ -53,8 +56,8 @@ header {
   cursor: pointer;
   flex-direction: column;
   justify-content: space-between;
-  width: 25px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
 }
 .hamburger-icon span {
   width: 100%;
@@ -71,7 +74,7 @@ header {
 }
 
 .navbar li {
-  margin: 0 3vw;
+  margin: 0 1.2vw;
 }
 
 .navbar li a {
@@ -189,14 +192,9 @@ main {
   }
 
 
-  @media (max-width: 1100px) {
-  .header  {
-    font-size: 1.1em;
-  }
-  }
 
 /* Resizing Stuff */
-@media (max-width: 700px) {
+@media (max-width: 1000px) {
     .hamburger-icon {
         display: flex;
     }
@@ -224,7 +222,7 @@ main {
 
     .logo .img2 {
       width: auto;
-      height: 7vh;
+      height: 6vh;
       justify-content: center;
     }
     .header {
