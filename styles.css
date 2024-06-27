@@ -6,13 +6,15 @@ body {
   line-height: 1.5;
   background-color: rgb(28, 28, 28);
   color: #fff;
+  overflow-x: hidden; /* Prevent horizontal overflow */
+
 }
 
 /* Header bar without dropdown on all pages*/
 header {
   background-color: #000;
   color: #fff;
-  font-size: 1.2em;
+  font-size: 1.4em;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -22,7 +24,7 @@ header {
 
 .home-header-bar {
   display:flex;
-  background-color: rgb(170, 38, 38);
+  background-color: rgb(170, 20, 20);
   justify-content: center;
   align-items: center;
   height: 3vh;
@@ -30,12 +32,20 @@ header {
 }
 
 /* University of Utah Climbing Team Logo on all pages*/
-.logo img {
+.logo .img1 {
   height: auto;
-  height: 6vh;
+  width: 35vw;
   padding-left: 1vw;
   justify-content: center;
 }
+
+.logo .img2 {
+  height: 0;
+  width: 0;
+  padding-left: 1vw;
+  justify-content: center;
+}
+
 
 /*Hamburger icon that is hidden when screen is large*/
 .hamburger-icon {
@@ -61,7 +71,7 @@ header {
 }
 
 .navbar li {
-  margin: 0 20px;
+  margin: 0 3vw;
 }
 
 .navbar li a {
@@ -72,7 +82,7 @@ header {
 }
 
 .navbar li a:hover {
-  color: #c02f2f;
+  color:rgb(170, 20, 20);
 }
 .dropdown {
   position: relative;
@@ -145,12 +155,14 @@ main {
     padding: 15px;
     cursor: pointer;
     font-size: 24px;
+    outline: none;
   }
 
   .prev-button:hover, .next-button:hover {
     transform: scale(1.4);
     color: white;
   }
+  
 
    /* Footer styling */
    .footer {
@@ -165,8 +177,10 @@ main {
   }
 
   .footer a {
-    color: rgb(255, 74, 74);
+    color: rgb(181, 40, 40);
     text-decoration: none;
+    font-family: 'Lucida Sans';
+    font-weight: 400;
     margin: 0 0.5rem;
   }
 
@@ -175,7 +189,7 @@ main {
   }
 
 /* Resizing Stuff */
-@media (max-width: 700px) {
+@media (max-width: 1000px) {
     .hamburger-icon {
         display: flex;
     }
@@ -183,30 +197,37 @@ main {
         display: none;
         flex-direction: column;
         position: absolute;
-        top: 80px;
+        top: 12vh;
         left: 0;
         width: 100%;
         background-color: #000;
         transform: translateY(-2vh);
         z-index: 1000;
+
     }
 
     .home-header-bar {
-      display: flex;
-      background-color: rgba(214, 49, 49, 0.682);
-      justify-content: center;
-      align-items: center;
       height: 2vh;
-      width: 100%;
     }
     
+    .logo .img1 {
+      width: 0;
+      height: 0;
+    }
 
+    .logo .img2 {
+      width: auto;
+      height: 7vh;
+      justify-content: center;
+    }
     .header {
-        padding: 1rem 1rem;
+        height: 8vh;
+        padding-right: 6vw;
     }
 
     .navbar ul {
         flex-direction: column;
+        
     }
 
     .navbar.active {
@@ -214,8 +235,9 @@ main {
     }
 
     .navbar li {
-        margin: 15px 0px 15px 0px;
+        margin: 18px 0px 18px 0px;
         text-align: center;
+        font-size: .8em;
     }
 
     .compteam h1 {
@@ -231,22 +253,6 @@ main {
       z-index: 1;
     }
     
-  .carousel img {
-    align-items: center;
-    display: none;
-    border-left: none;
-    border-right: none;
-  }
-  
-  .carousel img.active {
-    display: block;
-    width: 100%;
-    height: auto;
-  }
-
-  .prev-button, .next-button {
-  width: 5vw;
-  }
 
     .compteam{
       width: 90%;
@@ -255,6 +261,7 @@ main {
     .compteam-content p {
       text-align: left;
     }
+
 }
 
 

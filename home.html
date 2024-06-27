@@ -19,7 +19,6 @@
     .home-img {
       display: flex;
       padding:0;
-      align-items: center;
       width: 100%;
       height: auto;
       margin: 0;
@@ -31,7 +30,7 @@
       height: auto;
     }
 
-    .image-wrap .black-box {
+    .black-box {
       display: block;
       z-index: 100;
       background-color: rgb(28, 28, 28);
@@ -73,17 +72,17 @@
       top: 40%;
       left: 50%;
       display: flex;
-      gap: 1.5rem;
+      gap: 1.5vw;
       z-index: 100;
     }
 
     .join-btn, .learn-btn, .contact-btn , .pic-btn{
-      background-color: #c02f2f;
+      background-color:rgb(170, 20, 20);;
       color: white;
       font-family: 'Lucida Sans';
       border: none;
       padding: .8vw 1vw;
-      font-size: 1.2vw;
+      font-size: 1.5vw;
       line-height: 1.2;
       cursor: pointer;
       border-radius: 5px;
@@ -92,10 +91,8 @@
       transition: all 0.3s ease;
       font-weight: 500;
     }
-
-    
-    .join-btn:hover, .learn-btn:hover, .contact-btn:hover, .pic-btn {
-      background-color: rgba(214, 49, 49);
+    .join-btn:hover, .learn-btn:hover, .contact-btn:hover, .pic-btn:hover {
+      background-color: rgb(221, 66, 66);
       transform: scale(1.05);
       box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
     }
@@ -106,26 +103,33 @@
       align-items: center;
       justify-content: center;
       color: white;
-      height: 80vh;
+      height: auto;
+      padding:0;
+      margin:0;
       width: 100%;
     }
 
     .home-pic {
-      top: 20%;
-      left:60%;
-      width: 300px;
-      height: auto;
-      margin: 40px;
+      width: 40vw;
+      margin: 4vw;
     }
 
     .home-info p {
-      font-size: 1.5rem;
-      margin-right: 3vw;
-      background-color: #c02f2f;
+      background-color:rgb(170, 20, 20);
+      font-size: 2vw;
       padding: 4px;
+      margin: 4vw;
+      max-width: 50vw;
     }
     
-    @media (max-width: 700px) {
+    @media (max-width: 1200px) {
+
+      .home-pic{
+        margin: 8vw 4vw;
+      }
+    }
+
+    @media (max-width: 1000px) {
 
       .overlay-text {
         font-size: 4vw;
@@ -134,7 +138,76 @@
         font-size: 2vw;
       }
 
-      
+      .home-info  {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .home-info .home-pic {
+      order: 2;
+      width: 100vw;
+      margin: 0;
+      margin-top: 5vh;
+    }
+    
+    .home-info p  {
+      display:flex;
+      max-width: 90vw;
+      font-size: 4vw;
+    }
+    .image-wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: right;
+    }
+    .home-img{
+      order: 1;
+      margin-top: 2vh;
+      margin-bottom: 5vh;
+
+    }
+
+    .black-box {
+        position: static;
+        margin-top: 2vw;
+    }
+
+    .overlay-text {
+        position: static;
+        font-size: 6vw;
+        padding: 0;
+        margin-top: 3vh;
+        text-align: right;
+        margin-right: 3vw;
+    }
+
+    .overlay-sub-text {
+        position: static;
+        font-size: 5vw;
+        text-align: right;
+        margin-right: 3vw;
+        margin-bottom: 5vh;
+
+    }
+
+    .button-wrapper {
+        position: static;
+        display: flex;
+        gap: 1.2svw;
+        width: 100%;
+        justify-content: right;
+    }
+
+    .join-btn, .learn-btn, .contact-btn , .pic-btn{
+      margin-right: 3vw;
+      margin-bottom: 2vh;
+      padding: 2vh 1vh;
+      font-size: 2.8vw;
+    }
+
     }
     
   </style>
@@ -143,7 +216,8 @@
   <body>
     <header class="header">
       <div class="logo">
-        <img src="images/mylogo.png" alt="Logo">
+        <img src="images/mylogo.png" class="img1">
+        <img src="images/mylogo2.png" class="img2">
       </div>
       <div class="hamburger-icon">
         <span></span>
@@ -175,7 +249,7 @@
     <div class="home-header-bar"></div>
 
     <div class="image-wrap">
-      <img src="images/joessunset2.png" class="home-img">
+      <img src="images/joessunset.png" class="home-img">
       <div class="black-box"></div>
       <div class="overlay-text">UNIVERSITY OF UTAH</div>
       <div class="overlay-sub-text">CLIMBING TEAM</div>
@@ -186,13 +260,11 @@
         <button class="pic-btn">GALLERY</button>
       </div>
     </div>
-    <div class="home-space"></div>
+
     <div class="home-info">
-      <img src="images/julia.JPG" class="home-pic">
-      <p>Welcome to the University of Utah Climbing Team! We love climbing! We compete and go 
-        on outdoor climbing trips and have fun movie nights and things yahoo 
-        goooo utes. we are also the best to ever do it cu later hehe.
-      </p>
+      <img src="images/hole.JPG" class="home-pic">
+    <p>
+    Welcome to the University of Utah Climbing Team! We are a student-run organization with a goal to connect, challenge, and empower students through climbing. We have both a recreational team and a competitive team. In 2023 and 2024, our competitive team took first place in the USA Climbing Collegiate National Championships. To find out more about our team, click the links above!</p>
     </div>
 
     <footer class="footer">
