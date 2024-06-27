@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>University of Utah Climbing</title>
+        <link rel="stylesheet" href="styles.css">
+        <style>
+   
+    .faq {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        margin: 0 auto; 
+        margin-top: 0;
+        padding: 0;
+        font-size: 1.2rem;
+    }
+
+    .faq-content {
+        display: flex;
+        text-align: left;
+        flex-direction: column;
+        max-width: 100%;
+    }
+    
+    .faq-content h1{
+        font-size: 1.7rem;
+    }
+
+    .faq-content p {
+        margin: 0; 
+    }
+
+    .faq-list li {
+      position: relative;
+      margin: 4vh;
+      padding:0;
+    }
+   
+    .faq-list li strong {
+            display: block;
+            font-weight: 900;
+            margin:0;
+            padding:0;
+    }
+
+    .black-box {
+            background-color: rgba(0, 0, 0, 0.445);
+            padding: 10px;
+            border-radius: 5px;
+            color: white;
+            margin-top: 20px;
+    }
+
+    .black-box ul {
+        list-style: none;
+    }
+
+  </style>
+    </head>
+
+    <body>
+        <header class="header">
+            <div class="logo">
+                <img src="images/mylogo.png" class="img1">
+                <img src="images/mylogo2.png" class="img2">
+            </div>
+            <div class="hamburger-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li class="dropdown">
+                        <span class="about-dropdown">ABOUT</span>
+                        <div class="dropdown-content">
+                            <a href="contact.html">CONTACT</a>
+                            <a href="leadership.html">LEADERSHIP</a>
+                            <a href="sponsors.html">SPONSORS</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <span class="join-dropdown">JOIN</span>
+                        <div class="dropdown-content">
+                            <a href="recteam.html">REC TEAM</a>
+                            <a href="compteam.html">COMP TEAM</a>
+                            <a href="FAQ.html">FAQ</a>
+
+                        </div>
+                    </li>
+                    <li><a href="events.html">EVENTS</a></li>
+                    <li><a href="donate.html">DONATE</a></li>
+
+                </ul>
+            </nav>
+        </header>
+        <div class="home-header-bar"></div>
+
+        <section class="faq">
+            <div class="faq-content">
+                <h1>FREQUENTLY ASKED QUESTIONS</h1>
+                <div class="black-box">
+                    <ul class="faq-list">
+                        <li>
+                            <strong>WHO CAN JOIN?</strong>
+                            <p> &emsp; blah blah blah.
+                            </p>
+                        </li>
+                        <li>
+                            <strong>HOW MUCH DOES IT COST?</strong>
+                            <p> &emsp; $50 in team dues for rec team, $200 in team dues for comp team.  </p>
+                        </li>
+                        <li>
+                            <strong>WHAT ARE THE OUTDOOR TRIPS LIKE?</strong>
+                            <p>
+                                &emsp; Information about outdoor trips can be found on
+                                this <a
+                                    href="https://docs.google.com/document/d/1YVJ5Dw1n9C6tzwtJjsVarQeeGbufINMrHUBqFkH_RqE/edit?usp=sharing"
+                                    style="color: white;">google doc</a>. Also,
+                                check out this video from fall break 2024
+                                that one of our members put together:
+                                https://youtu.be/XH4r0v0oFJQ?si=eIR3iOd4cVQK26C8
+                            </p>
+                        </li>
+                        <li>
+                            <strong>HOW CAN I SUPPORT THE TEAM?</strong>
+                            <p>
+                                &emsp; Donate <a href="donate.html"style="color: white;">here</a>.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <p>U of U Climbing Team 2024 </p>
+            <p>
+                <a
+                    href="https://www.instagram.com/utahclimbingteam/">Instagram</a>
+                |
+                <a href="https://www.facebook.com/Uclimbingteam/">Facebook</a> |
+                <a href="https://usaclimbing.org/">USA Climbing</a>
+            </p>
+        </footer>
+        <script src="app.js"></script>
+    </body>
+
+</html>
