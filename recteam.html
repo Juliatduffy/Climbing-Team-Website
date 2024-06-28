@@ -6,8 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>University of Utah Climbing</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="images/favicon.png" type="image/x-icon">
+
   <style>
-   
   .recteam {
     display: flex;
     flex-direction: column;
@@ -17,93 +18,94 @@
     margin-top: 0;
     padding: 0;
     font-size: 1.2rem;
+    line-height: 1.7rem;
   }
 
   .recteam-content {
     display: flex;
-    text-align: left;
+    text-align: justify;
     flex-direction: column;
     max-width: 100%;
   }
   
   .recteam-content h1 {
       font-size: 1.7rem;
-    }
+  }
   
-  
-/* For aligning images and text in outdoor trips and practices sections */
-.outdoor-trips-content, .practices-content {
-  display: flex;
-  align-items: flex-start;
-}
+  .outdoor-trips-content, .practices-content {
+    display: flex;
+    align-items: flex-start;
+  }
 
-/* For text in outdoor trips section */
-.outdoor-trips-content p {
-  flex: 1;
-  order: 1;
-}
+  .outdoor-trips-content p {
+    flex: 1;
+    order: 1;
+    margin-top: 0;
+  }
 
-/* For the outdoor trips image */
-.outdoor-trip-photo {
-  max-width: 300px;
-  height: auto;
-  margin: 1rem;
-  order: 2; 
-}
+  .outdoor-trip-photo {
+    max-width: 320px;
+    height: auto;
+    margin-left: 3.4rem;
+    order: 2; 
+  }
 
-/* For text in practices section */
-.practices-content p {
-  flex: 1;
-  order: 2; 
-}
-
-/* For the practices image */
-.practices-photo {
-  max-width: 300px;
-  height: auto;
-  order: 1; 
-  margin-right: 2rem;
-}
-
-@media (max-width: 700px) {
-
-    .recteam {
-      display:flex;
-      width: 90%
-    }
-
-    .recteam-content {
-      text-align: left;
-      align-items: center;
-    }
-
-    .outdoor-trips-content {
-      flex-direction: column;
-      align-items: center;
-      width: 100%
-    }
-
-    .practices-content  {
-      flex-direction: column-reverse;
-      align-items: center;
-      width: 100%
-    }
+  .practices-content p {
+    flex: 1;
+    order: 2; 
+    margin-top: 0;
+  }
 
   .practices-photo {
-      width: 80%;
-      height: auto;
-      margin: 0;
-      padding: 0;
-    }
-    
-    .outdoor-trip-photo  {
-      width: 80%;
-      height: auto;
-      margin-left: 0px;
-      margin-right: 0px;
-      align-items: center;
-    }
-}
+    max-width: 350px;
+    height: auto;
+    order: 1; 
+    margin-right: 3rem;
+  }
+
+
+  @media (max-width: 900px) {
+
+      .recteam {
+        display:flex;
+        width: 90%
+      }
+
+      .recteam-content {
+        text-align: left;
+        align-items: center;
+      }
+      .recteam-content h3{
+        width:100%;
+      }
+
+      .outdoor-trips-content {
+        flex-direction: column;
+        align-items: center;
+        width: 100%
+      }
+
+      .practices-content  {
+        flex-direction: column-reverse;
+        align-items: center;
+        width: 100%
+      }
+
+      .practices-photo {
+        width: 80%;
+        height: auto;
+        margin: 20px 0 20px 0;
+        padding: 0;
+      }
+      
+      .outdoor-trip-photo  {
+        width: 80%;
+        height: auto;
+        margin: 20px 0 20px 0;
+
+        align-items: center;
+      }
+  }
 
   </style>
 </head>
@@ -135,7 +137,6 @@
             <a href="recteam.html">REC TEAM</a>
             <a href="compteam.html">COMP TEAM</a>
             <a href="FAQ.html">FAQ</a>
-
           </div>
         </li>
         <li><a href="events.html">EVENTS</a></li>
@@ -161,23 +162,45 @@
           </div>  
             <h3>OVERVIEW</h3>
           <p> &emsp; 
-            The recreational climbing team is for climbers of all skill levels. The purpose of this team is to provide opportunities for University of Utah students to get outside and connect with one another in a meaningful way. Rec team members will have access to weekly team practices, outdoor trips, and special events throughout the school year. Additionally, members of the rec team will have access to big gym membership and gear discounts. The only prerequisite for joining the rec team is enthusiasm about climbing and meeting new people. It is required that all competitive team members are also on the rec team.
+            The recreational climbing team is for climbers of all skill levels, from complete beginners to certified 
+            crushers. Rec team members have access to weekly team practices, team outdoor trips, and special events 
+            throughout the school year. Additionally, members of the rec team will have access to big gym membership 
+            and gear discounts (see the price breakdown below for more details). If you have never tried climbing before 
+            but think you might like it, attending one of our rec team practices is a great place to start. The only 
+            prerequisite for joining the rec team is enthusiasm about climbing and meeting new people. It is required 
+            that all competitive team members are also on the rec team.
           </p>
           <h3>PRACTICES</h3>
           <div class="practices-content">
-          <p> &emsp; Our team holds a weekly practice at the Bouldering Project Salt Lake. All Rec team members are invited, but not required to attend. That said, if you want to improve your climbing skills and make friends on the team, you should probably come! :) We currently have two experienced coaches, <a href="contact.html" style="color: white;">Sophia Hoermann</a> and <a href="contact.html" style="color: white;">Vasko Vassilev</a> working with our team. At practice, feel free to ask them for training plans, workouts, or movement advice- they are really good at what they do! Practice days/times for the 24-25 school year are TBD, but to stay up to date, join our email list and discord. </p>
+          <p> &emsp; Our team holds a weekly practice at the Bouldering Project Salt Lake. All rec team members are invited, 
+            but not required to attend. That said, if you want to improve your climbing skills and make friends on the team, 
+            you should probably come! :) We currently have two experienced coaches, 
+            <a href="leadership.html" style="color:rgb(139, 172, 255);">Sophia Hoermann</a> and 
+            <a href="leadership.html" style="color: rgb(139, 172, 255);">Vasko Vassilev</a> working with our team. At practice, 
+            feel free to ask them for training plans, workouts, or movement advice- they are really good at what they do! Practice 
+            days/times for the 24-25 school year are TBD, but to stay up to date, join our 
+            <a href="contact.html" style="color:rgb(139, 172, 255);">email list</a> and 
+             and <a href="contact.html" style="color:rgb(139, 172, 255);">discord</a>. </p>
           <img src="images/TobiasPracticeBig.png" class="practices-photo">
         </div>
           <h3>OUTDOOR TRIPS</h3>
           <div class="outdoor-trips-content">
             <p>
-              &emsp; Throughout the school year, our team organizes outdoor climbing trips in nearby climbing areas. Utah and its surrounding states have a lot to offer, so whenever the weather is good we try and get after it! During longer breaks, such as fall and spring break, team funding may be used to book housing. During shorter trips, we will typically find a place to camp as a team. We will do our best to ensure that anyone who would like to participate in these trips will be accommodated, whether they need a ride or camping gear, or climbing gear. These trips are subject to last-minute changes, as the weather can be unpredictable. The best way to stay up to date on these changes is through our <a href="contact.html" style="color: white;">team discord</a>. A tentative schedule for this year's outdoor trips can be found on this <a href="https://docs.google.com/document/d/1YVJ5Dw1n9C6tzwtJjsVarQeeGbufINMrHUBqFkH_RqE/edit?usp=sharing" style="color: white;">google doc</a>. 
+              &emsp; Throughout the school year, our team organizes outdoor climbing trips in nearby climbing areas. Utah and its 
+              surrounding states have a lot to offer, so whenever the weather is good we try and get after it! During longer breaks, 
+              such as fall and spring break, team funding may be used to book housing. During shorter trips, we will typically find 
+              a place to camp as a team. We will always do our best to carpool and make sure that everyone has a ride. These trips 
+              are subject to last-minute changes, as the weather can be unpredictable. The best way to stay up to date on these 
+              changes is through our <a href="contact.html" style="color: rgb(139, 172, 255);">team discord</a>. 
             </p>
             <img src="images/JessieMoe.png" class="outdoor-trip-photo">
           </div>
-            <h3>HOW TO JOIN</h3>
+          <p>A tentative schedule for this year's outdoor trips can be found on this 
+            <a href="https://docs.google.com/document/d/1YVJ5Dw1n9C6tzwtJjsVarQeeGbufINMrHUBqFkH_RqE/edit?usp=sharing" style="color:rgb(139, 172, 255);">google doc</a>. 
+          </p>
+            <h3>TEAM DUES</h3>
              <p> &emsp; 
-            Everyone is welcome to join the rec team, but we ask that all team members pay $50 in team dues each year. This money stays within the club and is used to organize team events such as movie nights, park days, and outdoor climbing trips. For outdoor trips, gas money and housing may be provided. If you plan on paying for a gym membership in Salt Lake this year, paying these team dues and joining our roster will save you ~ $300 a year in membership discounts.
+            We ask that all team members pay $50 in team dues each year. This money stays within the club and is used to organize team events such as movie nights, park days, and outdoor climbing trips. If you plan on paying for a gym membership in Salt Lake this year, paying these team dues and joining our roster will save you ~ $300 a year in membership discounts.
           </p>
         </div>
       </div>

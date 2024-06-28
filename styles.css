@@ -7,6 +7,7 @@ body {
   background-color: rgb(28, 28, 28);
   color: #fff;
   overflow-x: hidden; /* Prevent horizontal overflow */
+
 }
 
 .content {
@@ -169,20 +170,21 @@ main {
 
    /* Footer styling */
    .footer {
-    background-color: #333;
+    background-color: #000000;
     color: white;
     text-align: center;
     padding: 1rem 0;
     position: relative;
     bottom: 0;
     width: 100%;
-    margin-top: 2rem;
-  }
+    margin-top: auto;
+  }  
 
   .footer a {
-    color: rgb(181, 40, 40);
+    color: rgb(224, 31, 31);
     text-decoration: none;
     font-family: 'Lucida Sans';
+    font-size: large;
     font-weight: 400;
     margin: 0 0.5rem;
   }

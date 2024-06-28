@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>University of Utah Climbing</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="images/favicon.png" type="image/x-icon">
   <style>
 
   .compteam {
@@ -20,7 +21,7 @@
 
   .compteam-content {
     display: flex;
-    text-align: left;
+    text-align: justify;
     flex-direction: column;
     max-width: 100%;
   }
@@ -29,46 +30,43 @@
     font-size: 1.7rem;
   }
 
+  .compteam-content h3{
+    margin-top: 40px;
+  }
+
   .compteam-content p {
     margin: 0; 
   }
 
-    .bullet-list {
+  .bullet-list li{
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .bullet-list li strong {
+        display: block;
+        font-size: 1.5rem;
+        font-weight: 900;
+        margin-top: 10px;
+        margin-bottom: 10px;
+  }
+
+  .red-box {
+          background-color: rgba(207, 49, 49, 0.4);
+          padding: 10px 30px 10px 30px;
+          border-radius: 5px;
+          color: white;
+          margin-top: 40px;
+  }
+
+  .red-box ul {
+      list-style: none;
       padding: 0;
-    }
-    .bullet-list li {
-      position: relative;
-      padding-left: 20px; 
-      margin-bottom: 10px; 
-    }
-    .bullet-list li::before {
-    list-style: none;
-      position: absolute;
-      left: 0;
-      color: #ffffff; 
-      font-size: 20px; /* Bullet size */
-    }
-    .bullet-list li strong {
-            display: block;
-            font-weight: 900;
-            margin-bottom: 10px;
-        }
-    .red-box {
-            background-color: rgba(207, 49, 49, 0.445);
-            padding: 20px;
-            border-radius: 5px;
-            color: white;
-            margin-top: 20px;
-        }
-        .red-box ul {
-            list-style: none;
-            padding: 0;
-        }
-        .red-box ul li::before {
-            color: white;
-            font-size: 20px;
-            padding-right: 10px;
-        }
+  }
+  .red-box ul li::before {
+      color: white;
+      font-size: 20px;
+      padding-right: 10px;
+  }
   </style>
 </head>
 
@@ -131,39 +129,37 @@
         <h3>THE COMP TEAM</h3>
           <p> &emsp; 
             The competition team is for intermediate-advanced climbers who are interested in competing in 
-            <a href="https://usaclimbing.org/compete/collegiate-series/" style="color: white;">USA Climbing</a> collegiate-level events. 
+            <a href="https://usaclimbing.org/compete/collegiate-series/" style="color: white;">USA Climbing</a> (USAC) Collegiate events. 
             It is strongly encouraged that competitive team members attend team practice every week. Additionally, there will be several comp 
-            team specific events that members are required to attend. This team is for those who aspire to compete at the 
-            <a href=" https://usaclimbing.org/collegiate-national-championships/" style="color: white;">Collegiate National Championships</a> at the end of 
+            team specific events that members are required to attend. This team is for those who aspire to compete at the Collegiate National Championships at the end of 
             the year. Membership in USA Climbing is required, and all comp team members are required to attend at least one local qualifying event.</p>
           <h3>PRICE BREAKDOWN</h3>
-          <p> &emsp; Comp team members must pay an additional $150 in team dues at the beginning of the competition season. In addition 
-            to the $50 Rec Team fee, that is $200 total. While this is a steep price, we have consistently worked as a team to receive 
-            funding from our sponsors and through school organizations. Much of the money we receive each year is reimbursed back to comp 
-            team members directly. In 2024, we were able to provide $150 to everyone who opted into CNQE funding, and $300 to all 
-            athletes who qualified for the World University Championships. In addition to these reimbursements, comp team members will be provided with jerseys 
-            and gear (i.e. harnesses, chalk pots, bags), at no additional cost. Lastly, comp team members who qualify for the National Championships 
-            are guaranteed housing at our team Airbnb.</p>
+          <p> &emsp; Comp team members must pay an additional $150 in team dues at the beginning of the competition season. In addition to the $50 Rec Team fee, that is $200 total. While this is a steep price, we have consistently worked as a team to receive funding from our sponsors and through school organizations. Much of the money we receive is reimbursed back to comp team members to cover competition expenses. In addition to these reimbursements, comp team members will be provided with jerseys and gear (i.e. harnesses, chalk pots, bags) at no additional cost. Comp team members who qualify for the National Championships are guaranteed housing at a team Airbnb. </p>
           <p> &emsp; We understand that competing is expensive, and we strive to make it as accessible as possible. If you are serious about 
             wanting to compete, but cannot do so for financial reasons, reach out to us and we can see what options are available. A further 
             price breakdown of competition registration and USA Climbing membership fees can be found 
             <a href="https://docs.google.com/document/d/e/2PACX-1vRBr4ZiTHgSn27Px-_QoUlQxij6G3vAFJghmYn4_p4tCEtEkNTaOo2OIVSJhUdiaQ/pub" style="color: white;">here</a>. </p>
           </p>
           <h3>EVENT SCHEDULE</h3>
-            <p>&emsp; While exact dates for the 2024-2025 season have yet to be announced, there are three main events/series of events to look forward to:</p>
+            <p>&emsp; While exact dates for the 2024-2025 season have yet to be announced, there are three main events/series of events to look forward to:
+            </p>
           <div class="red-box">
             <ul class="bullet-list">
                 <li>
                     <strong>QE (Qualifying Events)</strong>
-                    <p>From October to March, USA Climbing (USAC) will host a series of local qualifying events that anyone with a USAC membership may attend. Participation in one or more of these qualifying events is enough to qualify for the CNQE series. Athletes can choose to compete in a lead event and/or a bouldering event, will qualify for both disciplines in the CNQE series.</p>
-                </li>
+                    <p>From October to March, USA Climbing will host a series of local qualifying events that anyone with a USAC membership may attend. Participation in one or more of these events is enough to qualify for the CNQE series. Athletes may compete in a lead event or a bouldering event to qualify for both disciplines in the CNQE series. 
+                       <a href="https://docs.google.com/document/d/e/2PACX-1vRzWnF-DMCXnF5Xge1RADRpqUEAxoVIr0WuMSw0G-THw9zAdZQKiSpnNJznahdH-g/pub" style="color:rgb(139, 172, 255);">Collegiate Qualification Event (QE) Guide</a> </p>
+                  </li>
                 <li>
                     <strong>CNQE (Collegiate Nationals Qualifying Event)</strong>
-                    <p>In April, USAC will host 10-15 CNQE events where the top five ranked athletes in each discipline (bouldering and lead) will earn qualification to the national championships in all three disciplines (bouldering, lead, and speed). These events are scattered throughout the country, and competitors may choose which event they would like to attend. All collegiate competitors with an active USAC membership are qualified to compete in the speed discipline at nationals.</p>
+                    <p>In April, USAC will host 10-15 CNQE events where the top five ranked athletes in each discipline (bouldering and lead) will earn qualification to the national championships in all three disciplines (bouldering, lead, and speed). These events are scattered throughout the country, and competitors may choose which event they would like to attend. All collegiate competitors with an active USAC membership are qualified to compete in the speed discipline at nationals.
+                    <a href="https://docs.google.com/document/d/e/2PACX-1vS2RdGQIrGhrLzaJWcMg7E4k_3YRqiUo-3MAI9uGnM1k5RWw_ca8_swyyy5CPcwTA/pub" style="color:rgb(139, 172, 255);">Collegiate Nationals Qualification Event (CNQE) Guide</a> </p>
                 </li>
                 <li>
                     <strong>Collegiate National Championships</strong>
-                    <p>At the end of each season, (in May) the very best collegiate climbers from across the country compete at the National Championships. This is the biggest (and most fun) event of the year. Every other year, the highest-ranked athletes may qualify for the Collegiate World Championships.</p>
+                    <p>At the end of each season, (in May) the very best collegiate climbers from across the country compete at the National Championships. This is the biggest (and most fun) event of the year. The top 5 highest-ranked athletes per category qualify for the Collegiate National Team. Biannually, 
+                      national team athletes will have the opportunity to compete at the Collegiate World Championships.
+                    <a href="https://usaclimbing.org/collegiate-national-championships/" style="color: rgb(139, 172, 255);">Collegiate Nationals Info</a> </p>
                 </li>
             </ul>
           </div>
