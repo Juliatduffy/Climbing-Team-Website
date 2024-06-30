@@ -9,10 +9,106 @@
         <link rel="icon" href="images/favicon.png" type="image/x-icon">
         <style>  
             body {
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh; 
+                display: flex;
+                flex-direction: column;
+                min-height: 100vh; 
             }
+            .sponsors-page {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                max-width: 800px; 
+                margin: 0 auto; 
+                margin-top: 0;
+                padding: 0;
+                font-size: 1.2rem;
+                line-height: 1.7rem;
+            }
+
+            .sponsors-page p{
+                margin: 10px;
+            }
+            .sponsor1-content, .sponsor3-content {
+                display: flex;
+                text-align: justify;
+                flex-direction: column;
+                align-items: center;
+                padding: 3vw;
+                background-color: rgba(0, 0, 0, 0.445);
+                margin-top: 4vh;
+            }
+
+            .sponsor1, .sponsor3 {
+                display: flex;
+                align-items: flex-start;
+            }
+
+            .sponsor1 p, .sponsor3 p{
+                flex: 1;
+                order: 1;
+            }
+
+            .img-wrap1, .img-wrap3{
+                width: 25vw;
+                height: auto;
+                margin-left: 3.4rem;
+                order: 2; 
+            }
+
+            .sponsor-img1, .sponsor-img3 {
+               width:100%;
+               height:auto;
+            }
+
+            .img-link1, .img-link3{
+                height:auto;
+                width:20vw;
+                border:none
+            }
+
+            .sponsor2-content {
+                margin-top: 4vh;
+                display: flex;
+                text-align: justify;
+                flex-direction: column;
+                align-items: center;
+                padding: 3vw;
+                background-color: rgba(0, 0, 0, 0.445);
+            }
+
+            .sponsor2 {
+                display: flex;
+                align-items: flex-start;
+            }
+            .sponsor2 p {
+                flex: 1;
+                order: 2;
+            }
+            .img-wrap2{
+                width: 25vw;
+                height: auto;
+                margin-right: 3.4rem;
+                order: 1; 
+            }
+            .sponsor-img2 {
+                width:100%;
+                height:auto;
+            }
+            .img-link2{
+                height:auto;
+                width:20vw;
+                border:none
+            }
+
+            .sponsor-img1:hover, .sponsor-img2:hover, .sponsor-img3 {
+                transform: scale(1.05);
+                box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+            }
+
+    @media (max-width: 900px) {
+       
+    }
         </style>
     </head>
 
@@ -43,7 +139,7 @@
                         <div class="dropdown-content">
                             <a href="recteam.html">REC TEAM</a>
                             <a href="compteam.html">COMP TEAM</a>
-                            <a href="faq.html">FAQ</a>
+                            <a href="sponsor.html">FAQ</a>
                         </div>
                     </li>
                     <li><a href="events.html">EVENTS</a></li>
@@ -52,10 +148,48 @@
             </nav>
         </header>
         <div class="home-header-bar"></div>
-        
+
         <main>
+            <section class="sponsors-page">
+                <h1>OUR SPONSORS</h1>
+                <p>Listed below are the brands that continuously support the University of Utah Climbing Team. Their contributions 
+                    have created many opportunities for our team, and for that, we are very thankful. Brands interested in supporting our team are welcome to email utahclimbingteam@gmail.com.
+                </p>
+                <div class="sponsor1-content">
+                    <div class="sponsor1">
+                        <div class="img-wrap1"><a href="https://boulderingproject.com/market/salt-lake-city-utah/" class="img-link1"><img src="images/bp-logo-orange.png" class="sponsor-img1"></a> </div>
+                        <p><strong>THE BOULDERING PROJECT SLC</strong>
+                            <br><br>
+                             The bouldering project is where we hold team
+                            practices each week. This
+                            gym gives us a space to train and reduced membership
+                            and day pass rates.
+                            Also, the boards are awesome!
+                        </p>
+                    </div>
+                </div>
 
+                <div class="sponsor2-content">
+                    <div class="sponsor2">
+                        <div class="img-wrap2"><a href="https://arcteryx.com/nl/en" class="img-link2"><img src="images/arcteryx-logo.png" class="sponsor-img2"></a> </div>
+                        <p><strong>ARC'TERYX</strong>
+                            <br><br>
+                            Arc'teryx has the best clothes and fanny packs. The utah school of climb is basically solely 
+                            supported by this amazing company muah we love you arc'teryx.
+                        </p>
+                    </div>
+                </div>
 
+                <div class="sponsor3-content">
+                    <div class="sponsor3">
+                        <div class="img-wrap3"><a href="" class="img-link3"><img src="images/favicon1.png" class="sponsor-img3"></a> </div>
+                        <p><strong>REDBULL</strong>
+                            <br><br>                            Idek if we are sponsored by redbull anymore but I am putting this here anyway because
+                            drinking redbull makes me feel like im on crack.
+                        </p>
+                    </div>
+                </div>
+            </section>
         </main>
 
         <footer class="footer">
