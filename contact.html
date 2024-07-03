@@ -13,6 +13,7 @@
             flex-direction: column;
             min-height: 100vh; 
             }
+
             .contact {
                 display: flex;
                 flex-direction: column;
@@ -20,13 +21,13 @@
                 width: 80%;
                 margin: auto; 
                 font-size: 1.5rem;
-                line-height: 2rem;
             }
 
             .contact-content {
                 display: flex;
                 text-align: left;
                 flex-direction: column;
+                justify-content: center;
             }
             
             .contact-content h1{
@@ -34,24 +35,22 @@
                 font-size: 1.7rem;
             }
 
-            .contact-content p {
-                margin: 0 0 5vh 0;
-            }
-
             .black-box {
                 background-color: rgba(0, 0, 0, 0.445);
+                display: flex;
                 margin-bottom: 5vh;   
-                padding: 2vh 2vw 0 2vw;   
-                border: none;
+                padding: 0;
             }
 
             .black-box ul {
                 list-style: none;
+                padding: 0px 30px;
             }
 
             .black-box li {
                 display: flex;
                 flex-direction: row;
+                align-items: center;
             }
 
             .black-box p {
@@ -66,14 +65,17 @@
                 order: 1;
                 width: 35px;
                 height: 35px;
-                justify-content: center;
-                align-items: center;
             }
             @media (max-width: 800px){
                 .contact {
                     font-size: 4vw;
-
                 }
+                .black-box {
+                background-color: rgba(0, 0, 0, 0.445);
+                margin-bottom: 5vh;   
+                padding: 3px;   
+                border: none;
+            }
             }
 
 
@@ -149,7 +151,7 @@
 
         <footer class="footer">
            
-                <p>@ 2024 by U of U Climbing Team</p>
+                <p>@ 2024 Utah Climbing Team</p>
            
             <p>
                 <a href="https://www.instagram.com/utahclimbingteam/">Instagram</a> |

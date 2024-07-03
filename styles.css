@@ -168,7 +168,7 @@ main {
   }
 
    .footer {
-    background-color: #343434;
+    background-color: #000000;
     color: white;
     text-align: center;
     font-size: large;
@@ -180,7 +180,7 @@ main {
   }  
 
   .footer a {
-    color: rgb(224, 31, 31);
+    color: rgb(209, 17, 17);
     text-decoration: none;
     font-family: 'Lucida Sans';
     font-weight: 400;
@@ -198,8 +198,6 @@ main {
   .footer a:hover {
     text-decoration: underline;
   }
-
-  
 
 /* Resizing Stuff */
 @media (max-width: 800px) {
