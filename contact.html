@@ -13,6 +13,70 @@
             flex-direction: column;
             min-height: 100vh; 
             }
+            .contact {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 80%;
+                margin: auto; 
+                font-size: 1.5rem;
+                line-height: 2rem;
+            }
+
+            .contact-content {
+                display: flex;
+                text-align: left;
+                flex-direction: column;
+            }
+            
+            .contact-content h1{
+                margin: 5vh 0vh 5vh 0vh;
+                font-size: 1.7rem;
+            }
+
+            .contact-content p {
+                margin: 0 0 5vh 0;
+            }
+
+            .black-box {
+                background-color: rgba(0, 0, 0, 0.445);
+                margin-bottom: 5vh;   
+                padding: 2vh 2vw 0 2vw;   
+                border: none;
+            }
+
+            .black-box ul {
+                list-style: none;
+            }
+
+            .black-box li {
+                display: flex;
+                flex-direction: row;
+            }
+
+            .black-box p {
+                display: flex;
+                order:2;
+                margin-left: 2vw;
+                justify-content: center;
+                align-items: center;
+            }
+            .black-box img {
+                display: flex;
+                order: 1;
+                width: 35px;
+                height: 35px;
+                justify-content: center;
+                align-items: center;
+            }
+            @media (max-width: 800px){
+                .contact {
+                    font-size: 4vw;
+
+                }
+            }
+
+
         </style>
     </head>
 
@@ -54,16 +118,41 @@
         <div class="home-header-bar"></div>
         
         <main>
-
+            <div class="contact"> 
+                <div class="contact-content">
+                <h1>CONTACT US</h1>
+                <div class="black-box">
+                <ul class="faq-list">
+                    <li>
+                        <img src="images/mail-icon.png" style="border-radius: 20%;">
+                        <p><a href="mailto:utahclimbingteam@gmail.com" style="color: white;">utahclimbingteam@gmail.com</a></p>
+                    </li>
+                    <li>
+                        <img src="images/discord-icon.png">
+                        <p><a href="https://discord.gg/CqxRbtKZ" style="color: white;">@uclimbingteam</a></p>
+                    </li>
+                    <li>
+                        <img src="images/insta-icon.png">
+                        <p><a href="https://www.instagram.com/utahclimbingteam/" style="color: white;">@utahclimbingteam</a></p>
+                    </li>
+                    <li>
+                        <img src="images/fb-icon.png">
+                        <p><a href="https://www.facebook.com/Uclimbingteam/" style="color: white;">@uclimbingteam</a></p>
+                    </li>
+                    
+                </ul>
+                </div>
+            </div>
+            </div>
 
         </main>
 
         <footer class="footer">
-            <p>U of U Climbing Team 2024 </p>
+           
+                <p>@ 2024 by U of U Climbing Team</p>
+           
             <p>
-                <a
-                    href="https://www.instagram.com/utahclimbingteam/">Instagram</a>
-                |
+                <a href="https://www.instagram.com/utahclimbingteam/">Instagram</a> |
                 <a href="https://www.facebook.com/Uclimbingteam/">Facebook</a> |
                 <a href="https://usaclimbing.org/">USA Climbing</a>
             </p>

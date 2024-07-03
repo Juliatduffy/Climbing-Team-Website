@@ -166,13 +166,12 @@ main {
     transform: scale(1.4);
     color: white;
   }
-  
 
-   /* Footer styling */
    .footer {
-    background-color: #000000;
+    background-color: #343434;
     color: white;
     text-align: center;
+    font-size: large;
     padding: 1rem 0;
     position: relative;
     bottom: 0;
@@ -184,16 +183,23 @@ main {
     color: rgb(224, 31, 31);
     text-decoration: none;
     font-family: 'Lucida Sans';
-    font-size: large;
     font-weight: 400;
-    margin: 0 0.5rem;
+    margin: 0 0.2rem;
+  }
+  .footer p {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: 'Lucida Sans';
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+    margin-top: 0.3rem;
   }
 
   .footer a:hover {
     text-decoration: underline;
   }
 
-
+  
 
 /* Resizing Stuff */
 @media (max-width: 800px) {

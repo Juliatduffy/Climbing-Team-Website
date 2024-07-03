@@ -25,7 +25,10 @@
                 font-size: 1.2rem;
                 line-height: 1.7rem;
             }
-
+            .sponsors-page h1{
+                width: 100%;
+                text-align: left;
+            }
             .sponsors-page p{
                 margin: 10px;
             }
@@ -100,13 +103,58 @@
                 width:20vw;
                 border:none
             }
-
+            .sponsor1 strong, .sponsor2 strong, .sponsor3 strong{
+                text-decoration-line: underline;
+            }
             .sponsor-img1:hover, .sponsor-img2:hover, .sponsor-img3 {
                 transform: scale(1.05);
                 box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
             }
 
     @media (max-width: 900px) {
+            .sponsors-page{
+                text-align: center;
+            }
+            .sponsors-page h1 {
+                text-align: center;
+            }
+            .sponsor1-content, .sponsor2-content, .sponsor3-content {
+                text-align: center;
+                margin-top: 7vh;
+            }
+
+            .sponsor1, .sponsor2, .sponsor3 {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            
+            
+
+            .sponsor1 p, .sponsor2 p, .sponsor3 p{
+                flex: 1;
+                order: 1;
+                margin-bottom: 30px;
+            }
+
+            .img-wrap1, .img-wrap2, .img-wrap3{
+                width: 70%;
+                height: auto;
+                margin: auto;
+                order: 2; 
+            }
+
+            .sponsor-img1, .sponsor-img3 {
+               width:100%;
+               height:auto;
+            }
+
+            .img-link1, .img-link3{
+                height:auto;
+                width:20vw;
+                border:none
+            }
+
        
     }
         </style>
@@ -139,7 +187,7 @@
                         <div class="dropdown-content">
                             <a href="recteam.html">REC TEAM</a>
                             <a href="compteam.html">COMP TEAM</a>
-                            <a href="sponsor.html">FAQ</a>
+                            <a href="faq.html">FAQ</a>
                         </div>
                     </li>
                     <li><a href="events.html">EVENTS</a></li>
