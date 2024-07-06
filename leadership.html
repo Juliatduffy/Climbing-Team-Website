@@ -1,93 +1,208 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>University of Utah Climbing</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="images/favicon.png" type="image/x-icon">
-    <style>
-   
-  .constitution {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    align-items: center;
-    max-width: 800px; 
-    margin: 0 auto; 
-    margin-top: 0;
-    font-size: 27;
-  }
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Utah Climbing Team - Meet the Board</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="images/favicon.png" type="image/x-icon">
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      font-family: 'Lucida Sans';
+    }
 
-  .constitution h3 {
-    font-size: 1.5rem;
-  }
-  
-  .constitution-pic{
-    height: auto;
-    width: 100%;
-    padding: 40px;
-    align-items: center;
-  }
+    .meet-the-board {
+      max-width: 800px;
+      width:90%;
+      margin: 0 auto;
+      margin-top: 20px;
+      font-size: 1.2rem;
+    }
 
+    .meet-the-board h1 {
+      width:100%;
+      text-align: left;
+      font-size: 2rem;
+      margin-bottom: 5vh;
+      margin-top:  5vh;
+
+    }
+
+    .board-member {
+      display: flex;
+      align-items: center;
+      text-align: left;
+    }
+
+    .board-member:not(:last-child) {
+      margin: 3vh 0 20vh 0;
+    }
+
+    .board-member img {
+      border-radius: 5px;
+      width: 22vw;
+      height: 22vw;
+      object-fit: cover;
+      margin-right: 5vw;
+    }
+    .board-member-section {
+      background-color: rgba(0, 0, 0, 0.453);
+      padding: 30px;
+      border-radius: 5px;
+      line-height: 1;
+    }
+
+    .board-member-details {
+      flex: 1;
+    }
+
+    .board-member h2 {
+      color:rgb(255, 255, 255);
+      font-size: 1.5rem;
+      margin-top: 0px;
+    }
+
+    .board-member h3 {
+      font-size: 1.3rem;
+      margin-bottom: 0px;
+      color:rgb(212, 46, 46);
+    }
+
+    .board-member p {
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+    .footer{
+      margin-top:30px;
+    }
   </style>
-  </head>
+</head>
 
-  <body>
-    <header class="header">
-      <div class="logo">
-        <img src="images/mylogo.png" class="img1">
-        <img src="images/mylogo2.png" class="img2">
-      </div>
-      <div class="hamburger-icon">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-      <nav class="navbar">
-        <ul>
-          <li><a href="home.html">HOME</a></li>
-          <li class="dropdown">
-            <span class="about-dropdown">ABOUT</span>
-            <div class="dropdown-content">
-              <a href="contact.html">CONTACT</a>
-              <a href="leadership.html">LEADERSHIP</a>
-              <a href="sponsors.html">SPONSORS</a>
-            </div>
-          </li>
-          <li class="dropdown">
-            <span class="join-dropdown">JOIN</span>
-            <div class="dropdown-content">
-              <a href="recteam.html">REC TEAM</a>
-              <a href="compteam.html">COMP TEAM</a>
-              <a href="FAQ.html">FAQ</a>
-            </div>
-          </li>
-          <li><a href="events.html">EVENTS</a></li>
-          <li><a href="donate.html">DONATE</a></li>
-        </ul>
-      </nav>
-    </header>
-    <div class="home-header-bar"></div>
+<body>
+  <header class="header">
+    <div class="logo">
+      <img src="images/mylogo.png" class="img1" alt="Logo">
+      <img src="images/mylogo2.png" class="img2" alt="Logo">
+    </div>
+    <div class="hamburger-icon">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <nav class="navbar">
+      <ul>
+        <li><a href="home.html">HOME</a></li>
+        <li class="dropdown">
+          <span class="about-dropdown">ABOUT</span>
+          <div class="dropdown-content">
+            <a href="contact.html">CONTACT</a>
+            <a href="leadership.html">LEADERSHIP</a>
+            <a href="sponsors.html">SPONSORS</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <span class="join-dropdown">JOIN</span>
+          <div class="dropdown-content">
+            <a href="recteam.html">REC TEAM</a>
+            <a href="compteam.html">COMP TEAM</a>
+            <a href="FAQ.html">FAQ</a>
+          </div>
+        </li>
+        <li><a href="events.html">EVENTS</a></li>
+        <li><a href="donate.html">DONATE</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="home-header-bar"></div>
 
-    <main>
-      <div class="constitution">
-        <img src="images/23nats.JPG" class="constitution-pic">
-        <h3>Click <a
-            href="https://docs.google.com/document/d/1DUIm2VnFmVngJJkPn20vjvZqKQguFvtRNMqZv5XZA5I/edit?usp=sharing"
-            style="color: white;">here</a> to read our team constitution.</h3>
-      </div>
-    </main>
+  <main>
+    <div class="meet-the-board">
+      <h1>Meet the Board</h1>
+      <div class="board-member-section">
 
-    <footer class="footer">
-      <p>U of U Climbing Team 2024 </p>
-      <p>
-        <a href="https://www.instagram.com/utahclimbingteam/">Instagram</a> |
-        <a href="https://www.facebook.com/Uclimbingteam/">Facebook</a> |
-        <a href="https://usaclimbing.org/">USA Climbing</a>
-      </p>
-    </footer>
-    <script src="app.js"></script>
-  </body>
+      <div class="board-member">
+        <img src="images/favicon1.png" >
+        <div class="board-member-details">
+          <h2>Person 1</h2>
+          <h3>President</h3>
+          <p>Description of the board member can go here.</p>
+        </div>
+      </div>
+
+      <div class="board-member">
+        <img src="images/favicon1.png">
+        <div class="board-member-details">
+          <h2>Person 2</h2>
+          <h3>Vice President</h3>
+          <p>Description of the board member can go here.</p>
+        </div>
+      </div>
+
+      <div class="board-member">
+        <img src="images/favicon1.png" >
+        <div class="board-member-details">
+          <h2>Campbell Sarinopolous</h3>
+          <h3>Treasurer</h2>
+          <p>Description of the board member can go here.</p>
+        </div>
+      </div>
+
+      <div class="board-member">
+        <img src="images/favicon1.png" >
+        <div class="board-member-details">
+          <h2>Vasko Vassilev</h2>
+          <h3>Coach</h3>
+          <p>Description of the board member can go here.</p>
+        </div>
+      </div>
+
+      <div class="board-member">
+        <img src="images/favicon1.png" >
+        <div class="board-member-details">
+          <h2>Sophia Hoermann</h2>
+          <h3>Coach</h3>
+          <p>Description of the board member can go here.</p>
+        </div>
+      </div>
+
+      <div class="board-member">
+        <img src="images/favicon1.png" >
+        <div class="board-member-details">
+          <h2>Person 3</h2>
+          <h3>Outdoor Trips Manager</h3>
+          <p>Description of the board member can go here.</p>
+        </div>
+      </div>
+
+      <div class="board-member">
+        <img src="images/favicon1.png" >
+        <div class="board-member-details">
+          <h2>Person 4</h2>
+          <h3>Social Media Manager</h3>
+          <p>Description of the board member can go here.</p>
+        </div>
+      </div>
+      </div> 
+      <h1>Constitution</h1> 
+    </div>
+     
+
+  </main>
+
+  <footer class="footer">
+    <p>@ 2024 Utah School of Climb</p>
+    <p>
+      <a href="https://www.instagram.com/utahclimbingteam/">Instagram</a> |
+      <a href="https://www.facebook.com/Uclimbingteam/">Facebook</a> |
+      <a href="https://usaclimbing.org/">USA Climbing</a>
+    </p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+
 </html>
