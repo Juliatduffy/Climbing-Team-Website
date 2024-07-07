@@ -27,8 +27,8 @@
       width:100%;
       text-align: left;
       font-size: 2rem;
-      margin-bottom: 5vh;
-      margin-top:  5vh;
+      margin-bottom: 3vh;
+      margin-top:  3vh;
 
     }
 
@@ -80,6 +80,27 @@
     .footer{
       margin-top:30px;
     }
+
+    @media (max-width: 800px) {
+      .board-member {
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .board-member img {
+        margin: 0 0 20px 0;
+        width: 100%;
+        height: auto;
+      }
+
+      .board-member h2,
+      .board-member h3,
+      .board-member p {
+        text-align: left;
+        margin-left: 0;
+      }
+    }
   </style>
 </head>
 
@@ -122,11 +143,11 @@
 
   <main>
     <div class="meet-the-board">
-      <h1>Meet the Board</h1>
+      <h1>Meet the Board!</h1>
       <div class="board-member-section">
 
       <div class="board-member">
-        <img src="images/favicon1.png" >
+        <img src="images/sophia.png" >
         <div class="board-member-details">
           <h2>Sophia Terrill</h2>
           <h3>President</h3>
@@ -141,7 +162,7 @@
           <h3>Vice President</h3>
           <p>Hey everyone! My name is Julia, and I am a junior studying computer science at the U. I am originally from 
             Charlotte North Carolina. My favorite places to climb are the New River Gorge in West Virginia and Maple Canyon 
-            in Utah. I love mountain biking, drinking coffee, and competing in climbing comps. 
+            in Utah. I love mountain biking, scrabble, and competing in climbing comps. 
           </p>
         </div>
       </div>
@@ -149,7 +170,7 @@
       <div class="board-member">
         <img src="images/favicon1.png" >
         <div class="board-member-details">
-          <h2>Campbell Sarinopolous</h3>
+          <h2>Campbell Sarinopoulos</h3>
           <h3>Treasurer</h2>
           <p>Description of the board member can go here.</p>
         </div>
@@ -186,15 +207,23 @@
         <img src="images/favicon1.png" >
         <div class="board-member-details">
           <h2>Jack Felix</h2>
-          <h3>Gear</h3>
+          <h3>Gear/ Outreach</h3>
           <p>Description of the board member can go here.</p>
         </div>
       </div>
-      </div> 
-      <h1>Constitution</h1> 
-    </div>
-     
 
+      <h1>Our Constitution</h1> 
+      
+      <div class="board-member">
+        <img src="images/holy-constitution.png" style="width:30vw; height:auto;">
+        <div class="board-member-details">
+          <p style="font-size: larger;">Each year, club officers update the constitution to reflect
+             their current goals and procedures. Click <a href="https://docs.google.com/document/d/1DUIm2VnFmVngJJkPn20vjvZqKQguFvtRNMqZv5XZA5I/edit?usp=sharing" style= "color: rgb(139, 172, 255);">here</a> to read it.</p>
+        </div>
+      </div>
+      
+      </div> 
+    </div>
   </main>
 
   <footer class="footer">
