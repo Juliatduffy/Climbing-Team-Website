@@ -17,6 +17,9 @@
       margin: 0;
     }
 
+    .home h1 {
+      font-size: 1.35rem;
+    }
     .home-img {
       display: flex;
       padding:0;
@@ -130,7 +133,7 @@
       }
     }
 
-    @media (max-width: 800px) {
+    @media (max-width: 760px) {
 
       .overlay-text {
         font-size: 4vw;
@@ -233,22 +236,26 @@
             <span class="about-dropdown">ABOUT</span>
             <div class="dropdown-content">
               <a href="contact.html">CONTACT</a>
-              <a href="leadership.html">LEADERSHIP</a>
+              <a href="leadership.html">LEADERS</a>
               <a href="sponsors.html">SPONSORS</a>
             </div>
           </li>
           <li class="dropdown">
-            <span class="join-dropdown">JOIN</span>
+            <span class="join-dropdown"><a href="signup.html" style="list-style: none;">JOIN</a></span>
             <div class="dropdown-content">
               <a href="recteam.html">REC TEAM</a>
               <a href="compteam.html">COMP TEAM</a>
-              <a href="faq.html">FAQ</a>
-
             </div>
           </li>
-          <li><a href="events.html">EVENTS</a></li>
+          <li class="dropdown">
+            <span class="info-dropdown">INFO</span>
+            <div class="dropdown-content">
+              <a href="events.html">EVENTS</a>
+              <a href="files.html">FILES</a>
+              <a href="faq.html">FAQ</a>
+            </div>
+          </li>
           <li><a href="donate.html">DONATE</a></li>
-
         </ul>
       </nav>
     </header>

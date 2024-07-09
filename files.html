@@ -9,10 +9,30 @@
         <link rel="icon" href="images/favicon.png" type="image/x-icon">
         <style>  
             body {
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh; 
+                display: flex;
+                flex-direction: column;
+                min-height: 100vh; 
             }
+
+            .files{
+              width: 100%;
+              display: flex;
+              align-items: center;
+              margin: 0 auto;
+              flex-direction: column;
+            }
+
+            .files-content {
+              display: flex;
+              text-align: left;
+              width: 80%;
+              max-width: 800px;
+            }
+          
+            .files .files-content h1{
+              font-size: 1.5rem;
+            }
+
         </style>
     </head>
 
@@ -58,14 +78,17 @@
             </nav>
           </header>
           <div class="home-header-bar"></div>
-        
+
         <main>
-
-
+            <div class="files">
+              <div class="files-content">
+                <h1>Club Documents</h1>
+              </div>
+            </div>
         </main>
 
         <footer class="footer">
-            <p>@ 2024 Utah School of Climb</p>
+            <p>@ 2024 Utah Climbing Team</p>
             <p>
                 <a
                     href="https://www.instagram.com/utahclimbingteam/">Instagram</a>

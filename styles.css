@@ -72,6 +72,7 @@ header {
   padding: 0;
   margin: 0;
   list-style-type: none;
+  font-size: 1.2rem;
 }
 
 .navbar li {
@@ -88,6 +89,7 @@ header {
 .navbar li a:hover {
   color:rgb(170, 20, 20);
 }
+
 .dropdown {
   position: relative;
 }
@@ -96,7 +98,7 @@ header {
   display: none;
   position: absolute;
   background-color: #161515;
-  min-width: 160px;
+  white-space: nowrap;
   z-index: 1000;
 }
 
@@ -114,11 +116,6 @@ header {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-
-main {
-  padding: 10px;
-    color: #fff;
-  }
 
   .carousel {
     position: relative;
@@ -200,7 +197,7 @@ main {
   }
 
 /* Resizing Stuff */
-@media (max-width: 800px) {
+@media (max-width: 760px) {
     .hamburger-icon {
         display: flex;
     }
@@ -214,7 +211,6 @@ main {
         background-color: #000;
         transform: translateY(-2vh);
         z-index: 1000;
-
     }
 
     .home-header-bar {
@@ -238,7 +234,6 @@ main {
 
     .navbar ul {
         flex-direction: column;
-        
     }
 
     .navbar.active {
@@ -251,28 +246,11 @@ main {
         font-size: 1em;
     }
 
-    .compteam h1 {
-      font-size: 1.35rem;
-    }
-
-    .home h1 {
-      font-size: 1.35rem;
-    }
-
     .carousel{
       width: 100%;
       z-index: 1;
     }
-    
-
-    .compteam{
-      width: 90%;
-    }
-
-    .compteam-content p {
-      text-align: left;
-    }
-
+  
 }
 
 
