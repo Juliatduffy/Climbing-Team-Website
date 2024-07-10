@@ -166,28 +166,25 @@ header {
 
    .footer {
     background-color: #000000;
-    color: white;
     text-align: center;
-    font-size: large;
     padding: 1rem 0;
     position: relative;
+    font-weight: 400;
     bottom: 0;
     width: 100%;
-    margin-top: auto;
+    margin-top: 10vh;
   }  
 
   .footer a {
     color: rgb(209, 17, 17);
     text-decoration: none;
     font-family: 'Lucida Sans';
-    font-weight: 400;
     margin: 0 0.2rem;
   }
   .footer p {
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-family: 'Lucida Sans';
-    font-weight: 400;
     margin-bottom: 0.5rem;
     margin-top: 0.3rem;
   }

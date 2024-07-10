@@ -1,105 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Utah Climbing Team</title>
-        <link rel="stylesheet" href="styles.css">
-        <link rel="icon" href="images/favicon.png" type="image/x-icon">
-        <style>  
-            body {
-                display: flex;
-                flex-direction: column;
-                min-height: 100vh; 
-            }
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utah Climbing Team</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+    <style>  
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; 
+            background-image: url('images/yosem.jpg'); 
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            /* background-attachment: fixed;  */
+        }
 
-            .files{
-              width: 100%;
-              display: flex;
-              align-items: center;
-              margin: 0 auto;
-              flex-direction: column;
-            }
+        .files {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            margin: 0 auto;
+            flex-direction: column;
+            padding: 2rem 0;
+        }
 
-            .files-content {
-              display: flex;
-              text-align: left;
-              width: 80%;
-              max-width: 800px;
-            }
-          
-            .files .files-content h1{
-              font-size: 1.5rem;
-            }
+        .files-content {
+          margin-top: 10vh;
+            text-align: left;
+            background-color:rgb(16, 16, 16);
+            border-radius: 5px;
+            width: 80%;
+            max-width: 800px;
+        }
 
-        </style>
-    </head>
+        .files h1 {
+            font-size: 1.5rem;
+            margin-left: 1.7rem;
+            margin-top: 1.4rem;
 
-    <body>
-        <header class="header">
-            <div class="logo">
-              <img src="images/mylogo.png" class="img1">
-              <img src="images/mylogo2.png" class="img2">
-            </div>
-            <div class="hamburger-icon">
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-            <nav class="navbar">
-              <ul>
+        }
+
+        .files-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.5rem;
+            padding: 30px;
+            padding-top:0;
+        }
+
+        .file-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .file-icon:hover {
+          filter: brightness(0) invert(23%) sepia(100%) saturate(2500%) hue-rotate(-10deg) opacity(90%);
+        }
+
+        .file-icon {
+            width: 3vw;
+            height: 3vw;
+            padding: 4vw 4vw 1vw 4vw;
+            margin-bottom: 0.5rem;
+        }
+
+        .file-link {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="images/mylogo.png" class="img1">
+            <img src="images/mylogo2.png" class="img2">
+        </div>
+        <div class="hamburger-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav class="navbar">
+            <ul>
                 <li><a href="home.html">HOME</a></li>
                 <li class="dropdown">
-                  <span class="about-dropdown">ABOUT</span>
-                  <div class="dropdown-content">
-                    <a href="contact.html">CONTACT</a>
-                    <a href="leadership.html">LEADERS</a>
-                    <a href="sponsors.html">SPONSORS</a>
-                  </div>
+                    <span class="about-dropdown">ABOUT</span>
+                    <div class="dropdown-content">
+                        <a href="contact.html">CONTACT</a>
+                        <a href="leadership.html">LEADERS</a>
+                        <a href="sponsors.html">SPONSORS</a>
+                    </div>
                 </li>
                 <li class="dropdown">
-                  <span class="join-dropdown"><a href="signup.html" style="list-style: none;">JOIN</a></span>
-                  <div class="dropdown-content">
-                    <a href="recteam.html">REC TEAM</a>
-                    <a href="compteam.html">COMP TEAM</a>
-                  </div>
+                    <span class="join-dropdown"><a href="signup.html" style="list-style: none;">JOIN</a></span>
+                    <div class="dropdown-content">
+                        <a href="recteam.html">REC TEAM</a>
+                        <a href="compteam.html">COMP TEAM</a>
+                    </div>
                 </li>
                 <li class="dropdown">
-                  <span class="info-dropdown">INFO</span>
-                  <div class="dropdown-content">
-                    <a href="events.html">EVENTS</a>
-                    <a href="files.html">FILES</a>
-                    <a href="faq.html">FAQ</a>
-                  </div>
+                    <span class="info-dropdown">INFO</span>
+                    <div class="dropdown-content">
+                        <a href="events.html">EVENTS</a>
+                        <a href="files.html">FILES</a>
+                        <a href="faq.html">FAQ</a>
+                    </div>
                 </li>
                 <li><a href="donate.html">DONATE</a></li>
-              </ul>
-            </nav>
-          </header>
-          <div class="home-header-bar"></div>
+            </ul>
+        </nav>
+    </header>
+    <div class="home-header-bar"></div>
 
-        <main>
-            <div class="files">
-              <div class="files-content">
-                <h1>Club Documents</h1>
-              </div>
+    <main>
+      <div class="files">
+        <div class="files-content">
+            <h1>Club Documents</h1>
+            <div class="files-grid">
+                <div class="file-item">
+                    <a href="documents/file1.pdf" class="file-link" download>
+                        <img src="images/file-img.png" alt="File Icon" class="file-icon">
+                        <div>Team Roster</div>
+                    </a>
+                </div>
+                <div class="file-item">
+                    <a href="documents/file2.pdf" class="file-link" download>
+                        <img src="images/file-img.png" alt="File Icon" class="file-icon">
+                        <div>Outdoor Trip <br> Info Sheet</div>
+                    </a>
+                </div>
+                <div class="file-item">
+                    <a href="documents/file3.pdf" class="file-link" download>
+                        <img src="images/file-img.png" alt="File Icon" class="file-icon">
+                        <div>USAC Info Sheet <br>(Comp team only)</div>
+                    </a>
+                </div>
+                <div class="file-item">
+                    <a href="documents/file4.pdf" class="file-link" download>
+                        <img src="images/file-img.png" alt="File Icon" class="file-icon">
+                        <div>ASUU Funding Guide</div>
+                    </a>
+                </div>
+                <div class="file-item">
+                    <a href="documents/file5.pdf" class="file-link" download>
+                        <img src="images/file-img.png" alt="File Icon" class="file-icon">
+                        <div>Team Constitution</div>
+                    </a>
+                </div>
             </div>
-        </main>
+        </div>
+    </div>
+    </main>
 
-        <footer class="footer">
-            <p>@ 2024 Utah Climbing Team</p>
-            <p>
-                <a
-                    href="https://www.instagram.com/utahclimbingteam/">Instagram</a>
-                |
-                <a href="https://www.facebook.com/Uclimbingteam/">Facebook</a> |
-                <a href="https://usaclimbing.org/">USA Climbing</a>
-            </p>
-        </footer>
+    <footer class="footer">
+        <p>@ 2024 Utah Climbing Team</p>
+        <p>
+            <a href="https://www.instagram.com/utahclimbingteam/">Instagram</a> |
+            <a href="https://www.facebook.com/Uclimbingteam/">Facebook</a> |
+            <a href="https://usaclimbing.org/">USA Climbing</a>
+        </p>
+    </footer>
 
-        <script src="app.js"></script>
-
-    </body>
+    <script src="app.js"></script>
+</body>
 
 </html>
