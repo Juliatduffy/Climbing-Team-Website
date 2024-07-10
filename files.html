@@ -29,7 +29,7 @@
         }
 
         .files-content {
-          margin-top: 10vh;
+            margin-top: 5vh;
             text-align: left;
             background-color:rgb(16, 16, 16);
             border-radius: 5px;
@@ -57,19 +57,26 @@
             flex-direction: column;
             align-items: center;
             text-align: center;
+            border: 2px solid white; /* Add this line */
+            padding: 1rem; /* Optional for better spacing */
+            border-radius: 5px; /* Optional for rounded corners */
+            margin:15px;
+            text-decoration: none;
         }
-        .file-icon:hover {
-          filter: brightness(0) invert(23%) sepia(100%) saturate(2500%) hue-rotate(-10deg) opacity(90%);
+        .file-item:hover {
+          /* filter: brightness(0) invert(23%) sepia(100%) saturate(2500%) hue-rotate(-10deg) opacity(90%); */
+          border: 2px solid rgb(227, 18, 18); /* Add this line */
+
         }
 
         .file-icon {
             width: 3vw;
             height: 3vw;
-            padding: 4vw 4vw 1vw 4vw;
+            padding: 2vw 3vw 2vw 3vw;
             margin-bottom: 0.5rem;
         }
 
-        .file-link {
+        .file-item div {
             color: #fff;
             text-decoration: none;
             font-size: 1rem;
@@ -122,43 +129,33 @@
     <div class="home-header-bar"></div>
 
     <main>
-      <div class="files">
-        <div class="files-content">
-            <h1>Club Documents</h1>
-            <div class="files-grid">
-                <div class="file-item">
-                    <a href="documents/file1.pdf" class="file-link" download>
+        <div class="files">
+            <div class="files-content">
+                <h1>Club Documents</h1>
+                <div class="files-grid">
+                    <a href="documents/file1.pdf" class="file-item" download>
                         <img src="images/file-img.png" alt="File Icon" class="file-icon">
                         <div>Team Roster</div>
                     </a>
-                </div>
-                <div class="file-item">
-                    <a href="documents/file2.pdf" class="file-link" download>
+                    <a href="documents/file2.pdf" class="file-item" download>
                         <img src="images/file-img.png" alt="File Icon" class="file-icon">
                         <div>Outdoor Trip <br> Info Sheet</div>
                     </a>
-                </div>
-                <div class="file-item">
-                    <a href="documents/file3.pdf" class="file-link" download>
+                    <a href="documents/file3.pdf" class="file-item" download>
                         <img src="images/file-img.png" alt="File Icon" class="file-icon">
                         <div>USAC Info Sheet <br>(Comp team only)</div>
                     </a>
-                </div>
-                <div class="file-item">
-                    <a href="documents/file4.pdf" class="file-link" download>
+                    <a href="documents/file4.pdf" class="file-item" download>
                         <img src="images/file-img.png" alt="File Icon" class="file-icon">
-                        <div>ASUU Funding Guide</div>
+                        <div>ASUU Funding  <br> Info Sheet</div>
                     </a>
-                </div>
-                <div class="file-item">
-                    <a href="documents/file5.pdf" class="file-link" download>
+                    <a href="documents/file5.pdf" class="file-item" download>
                         <img src="images/file-img.png" alt="File Icon" class="file-icon">
-                        <div>Team Constitution</div>
+                        <div>Team <br> Constitution</div>
                     </a>
                 </div>
             </div>
         </div>
-    </div>
     </main>
 
     <footer class="footer">
