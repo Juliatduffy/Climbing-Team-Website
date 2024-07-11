@@ -7,7 +7,10 @@ body {
   background-color: rgb(28, 28, 28);
   color: #fff;
   overflow-x: hidden; /* Prevent horizontal overflow */
+}
 
+main {
+  flex-grow: 1;
 }
 
 .content {
@@ -170,7 +173,7 @@ header {
     padding: 1rem 0;
     position: relative;
     font-weight: 400;
-    bottom: 0;
+    bottom: -3;
     width: 100%;
     margin-top: 10vh;
   }  

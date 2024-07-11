@@ -11,14 +11,12 @@
             body {
             display: flex;
             flex-direction: column;
-            min-height: 100vh; 
-            background-image: url('images/josh.jpg');
+            background-image: url('images/lcc.jpg');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
             }
   
-
             .contact {
                 display: flex;
                 flex-direction: column;
@@ -48,7 +46,7 @@
                 border-radius: 5px;
                 display: flex;
                 margin: 0; 
-                padding: 0px 40px 0px 0px;
+                padding: 10px 50px 20px 10px;
             }
 
             .black-box ul {
@@ -76,15 +74,19 @@
                 height: 35px;
             }
             @media (max-width: 800px){
-                .contact {
-                    font-size: 4vw;
-                }
-                
+        
                 .black-box {
-                    margin-bottom: 5vh;   
-                    padding: 3px;   
+                    font-size: 4.5vw;
+                    margin-bottom: 5px;
+                    padding: 5px;   
                     border: none;
                 }
+
+                .black-box ul {
+                list-style: none;
+                padding: 5px; 
+                }
+                
             }
 
 
@@ -92,48 +94,8 @@
     </head>
 
     <body>
-        <header class="header">
-            <div class="logo">
-              <img src="images/mylogo.png" class="img1">
-              <img src="images/mylogo2.png" class="img2">
-            </div>
-            <div class="hamburger-icon">
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-            <nav class="navbar">
-              <ul>
-                <li><a href="home.html">HOME</a></li>
-                <li class="dropdown">
-                  <span class="about-dropdown">ABOUT</span>
-                  <div class="dropdown-content">
-                    <a href="contact.html">CONTACT</a>
-                    <a href="leadership.html">LEADERS</a>
-                    <a href="sponsors.html">SPONSORS</a>
-                  </div>
-                </li>
-                <li class="dropdown">
-                  <span class="join-dropdown"><a href="signup.html" style="list-style: none;">JOIN</a></span>
-                  <div class="dropdown-content">
-                    <a href="recteam.html">REC TEAM</a>
-                    <a href="compteam.html">COMP TEAM</a>
-                  </div>
-                </li>
-                <li class="dropdown">
-                  <span class="info-dropdown">INFO</span>
-                  <div class="dropdown-content">
-                    <a href="events.html">EVENTS</a>
-                    <a href="files.html">FILES</a>
-                    <a href="faq.html">FAQ</a>
-                  </div>
-                </li>
-                <li><a href="donate.html">DONATE</a></li>
-              </ul>
-            </nav>
-          </header>
-          <div class="home-header-bar"></div>
-        
+        <div id="header-placeholder"></div> 
+    
         <main>
             <div class="contact"> 
                 <div class="contact-content">
