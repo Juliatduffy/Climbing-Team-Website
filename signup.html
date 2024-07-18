@@ -16,9 +16,9 @@
                 background-position: center;
                 background-repeat: no-repeat;
             }
-            
-            main {
-            flex-grow: 1;
+
+            .footer {
+                margin-top: 15vh;
             }
             
             .join-page {
@@ -29,33 +29,45 @@
             }
 
             .join-content {
-                width: 90%;
-                max-width: 800px;
+                width: 75%;
+                max-width: 900px;
                 background-color: rgba(16, 16, 16, .95);
                 border-radius: 5px;
                 margin: 0 auto; 
-                margin-top: 10vh;
+                margin-top: 15vh;
+                justify-content: center;
                 font-size: 1.2rem;
             }
             
-            .join-page h1 {
+            .join-content h1 {
                 font-size: 1.7rem;
                 text-align: left;
                 align-items: left;
                 margin-left: 3vw;
             }
             
-            .join-page ul {
+            .join-content ul {
                 display: flex;
                 flex-direction: column;
                 align-items: left;
                 text-align: left;
                 list-style: none;
+                padding-right: 7px;
             }
-            .join-page li {
+            .join-content li {
                 margin-bottom: 30px;
             }
-                
+               
+            @media (max-width: 760px) {
+                .join-content h1{
+                    font-size: 1.6rem;
+                    align-items: center;               
+                }
+    
+                .join-content {
+                    width: 90%;
+                }
+        }
         </style>
     </head>
 
@@ -65,13 +77,12 @@
         <main>
             <div class="join-page">
                 <div class="join-content">
-                  <h1>HOW TO JOIN</h1>
+                  <h1>HOW TO JOIN (REC TEAM)</h1>
                     <ul>
                         <li>
                             <strong>STEP 1:</strong>
                             <br> 
-                            Venmo $50 to @CampbellSarinopolous. If you are looking to join the Competition Team, 
-                            you will be asked to Venmo an additional $100 at the beginning of the competition season.
+                            Venmo $50 to @Campbell_Sarinopoulos. 
                         </li>
                         <li>
                             <strong>STEP 2:</strong> 

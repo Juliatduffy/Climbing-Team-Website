@@ -11,12 +11,10 @@
         body {
             display: flex;
             flex-direction: column;
-            min-height: 100vh; 
             background-image: url('images/yosem.jpg'); 
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
-            /* background-attachment: fixed;  */
         }
 
         .files {
@@ -29,12 +27,12 @@
         }
 
         .files-content {
-            margin-top: 5vh;
+            margin-top: 10vh;
             text-align: left;
             background-color:rgb(16, 16, 16);
             border-radius: 5px;
             width: 80%;
-            max-width: 800px;
+            max-width: 900px;
         }
 
         .files h1 {
@@ -57,15 +55,14 @@
             flex-direction: column;
             align-items: center;
             text-align: center;
-            border: 2px solid white; /* Add this line */
-            padding: 1rem; /* Optional for better spacing */
-            border-radius: 5px; /* Optional for rounded corners */
+            border: 2px solid white;
+            padding: 1rem; 
+            border-radius: 5px; 
             margin:15px;
             text-decoration: none;
         }
         .file-item:hover {
-          /* filter: brightness(0) invert(23%) sepia(100%) saturate(2500%) hue-rotate(-10deg) opacity(90%); */
-          border: 2px solid rgb(227, 18, 18); /* Add this line */
+          border: 2px solid rgb(227, 18, 18);
 
         }
 
@@ -86,8 +83,6 @@
             
             .files-grid {
             grid-template-columns: repeat(1, 1fr);
-            /* align-items: center;
-            margin: auto; */
             }
 
             .file-item {
