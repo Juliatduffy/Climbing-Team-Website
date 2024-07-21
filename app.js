@@ -1,7 +1,11 @@
+// "DOMContentLoaded" ensures that the JavaScript code inside the function is executed 
+// only after the entire HTML document has been fully loaded and parsed.
 document.addEventListener('DOMContentLoaded', function () {
-  // Load the header
-  fetch('header.html')
+// "fetch" loads header.html 
+    fetch('header.html')
+    // asynchronously load the text
       .then(response => response.text())
+    // asynchronously stores the text in the "header-placeholder" tag
       .then(data => {
           document.getElementById('header-placeholder').innerHTML = data;
 
@@ -40,27 +44,22 @@ document.addEventListener('DOMContentLoaded', function () {
               });
           });
       })
+      // Catch potential errors that occur while loading the header
       .catch(error => console.error('Error loading the header:', error));
 
-  // Carousel setup
+  // Carousel Stuff
   const images = document.getElementsByClassName('carousel-image');
   const prevButton = document.getElementById('prevButton');
   const nextButton = document.getElementById('nextButton');
-  let currImage = 0; // Initialize currImage
+  let currImage = 0; 
 
-  // Initially show the first image
   if (images.length > 0) {
       images[currImage].classList.add('active');
   }
 
   function showImage(index) {
-      // Remove the active class from the current image
       images[currImage].classList.remove('active');
-
-      // Update currImage to the new index using modulus for wrap-around
       currImage = (index + images.length) % images.length;
-
-      // Add the active class to the new image
       images[currImage].classList.add('active');
   }
 

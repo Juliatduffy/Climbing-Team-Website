@@ -36,70 +36,96 @@
                 flex-direction: column;
                 justify-content: center;
                 margin: 13vh 0vh 0vh 0vh;
-                background-color: rgb(16, 16, 16);
-                border-radius: 5px;
+                background-color: rgba(16, 16, 16, 0.963);
+                border-radius: 8px;
             }
             
             .contact-content h1{
-                font-size: 1.7rem;
-                margin-left: 1.5rem;
+                font-size: 1.8rem;
+                margin: auto;
+                padding: 20px;
+                text-align: center;
             }
 
             .black-box {
-                font-size: 1.4rem;
-                border-radius: 5px;
                 display: flex;
-                margin: 0; 
-                padding: 10px 50px 20px 10px;
+                justify-content: space-between; /* Distribute space between items */
+                align-items: center; /* Align items vertically */
+                font-size: 1.2rem;
+                border-radius: 5px;
+                margin: 0;
+                padding: 20px 30px 20px 30px;
             }
 
             .black-box ul {
                 list-style: none;
-                margin: 0; 
+                margin: 0;
+                margin-bottom: 20px;
+                padding: 0;
+                display: flex;
+                flex-direction: column;
             }
 
             .black-box li {
                 display: flex;
-                flex-direction: row;
                 align-items: center;
+                margin: 0;
+                padding: 0;
             }
 
             .black-box p {
-                display: flex;
-                order:2;
-                margin-left: 2vw;
-                justify-content: center;
-                align-items: center;
+                margin-left: 20px;
             }
+
             .black-box img {
-                display: flex;
-                order: 1;
                 width: 35px;
                 height: 35px;
+                border-radius: 20%;
             }
+
+            .ml-embedded {
+                margin-left: auto; /* Push the email sign-up to the far right */
+                padding-left: 40px;
+            }
+
             @media (max-width: 800px){
-        
                 .black-box {
+                    flex-direction: column; /* Stack items vertically on small screens */
                     font-size: 4.5vw;
                     margin-bottom: 5px;
-                    padding: 5px;   
+                    padding: 20px;   
                     border: none;
                 }
 
-                .black-box ul {
-                list-style: none;
-                padding: 5px; 
-                }
+               
                 
+                .ml-embedded {
+                    margin:0;
+                    padding:0;
+                }
             }
-
-
+            
         </style>
+        <!-- MailerLite Universal -->
+        <script>
+            (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
+            .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
+            n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
+            (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
+            ml('account', '1032769');
+        </script>
+        <!-- End MailerLite Universal -->
     </head>
 
     <body>
         <div id="header-placeholder"></div> 
-    
+        
+        <noscript>
+            For full functionality of this site it is necessary to enable JavaScript.
+            Here are the <a href="https://www.enable-javascript.com/">
+            instructions how to enable JavaScript in your web browser</a>.
+        </noscript>
+
         <main>
             <div class="contact"> 
                 <div class="contact-content">
@@ -123,9 +149,9 @@
                         <p><a href="https://www.facebook.com/Uclimbingteam/" style="color: white;">@uclimbingteam</a></p>
                     </li>
                      -->
-                </ul>
+                    </ul>
+                    <div class="ml-embedded" data-form="LBW6zp"></div>
                 </div>
-            </div>
             </div>
 
         </main>
