@@ -1,4 +1,9 @@
 /* Common across on all pages*/
+html {
+  overflow: hidden;
+  height: 100%;
+}
+
 body {
   margin: 0;
   padding:0;
@@ -7,7 +12,8 @@ body {
   background-color: rgb(18, 18, 18);
   color: #fff;
   overflow-x: hidden;
-  min-height: 100vh;
+  height:100%;
+  overflow: auto;
 }
 h1 {
   font-size: 1.7rem;
@@ -29,7 +35,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 1rem 1rem 1rem;
+  padding: 1.5rem 1rem 1.5rem 1rem;
   height: 10vh;
 }
 
@@ -247,6 +253,9 @@ header {
         font-size: 1em;
     }
 
+    .navbar li:last-child {
+      padding-bottom: 10px;
+    }
     .carousel{
       width: 100%;
       z-index: 1;
