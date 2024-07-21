@@ -13,6 +13,7 @@ on the link will take you to that section of the website. When the the "Join" an
 3. User-friendly Design: This website is designed so users will have an easy time navigating all of the information on the site. Many of the pages include download links to important file. The home page is inviting, and aimed to direct users to the most important information on the site as soon as they load the page.
 4. Error-handling: This code includes 'noscript' tags and try/catches to handle errors gracefully.
 5. Code Maintainability:  This website will hopefully be used for years to come, so I was diligent about writing clean code and including inline comments in the more complicated sections of code.
+6. Email-list: Users can enter their email on the 'contact' page into an embedded form to join the team newsletter.
 
 **Sources**
 1. Fully responsive website tutorial: https://youtu.be/FazgJVnrVuI?si=PPeIccPg9HAzWN1c
@@ -24,4 +25,5 @@ on the link will take you to that section of the website. When the the "Join" an
 - I used the stack overflow posts in 3 and 4 for guidance on how to include my menu bar HTML code on all pages of my website. This proved to be a challenge for me as I was unfamiliar with the fetch api before this project.
 4. ChatGPT: https://chatgpt.com/ 
 - I used code from ChatGPT when trying to get the menu bar to function properly. This was the hardest part of building this website for me. I also used ChatGPT while making the carousel because I was having issues with cycling through the images.
+5. Mailerlite (email list host): https://www.mailerlite.com/
 
