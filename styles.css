@@ -8,8 +8,11 @@ body {
   color: #fff;
   overflow-x: hidden; /* Prevent horizontal overflow */
   min-height: 100vh;
-
+  font-family: 'Lucida Sans';
 }
+h1 {
+  font-size: 1.7rem;
+}   
 
 main {
   flex-grow: 1;
