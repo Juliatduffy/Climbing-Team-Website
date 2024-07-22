@@ -235,7 +235,8 @@ header {
       justify-content: center;
     }
     .header {
-      position: relative;
+        position: -webkit-sticky;
+        position: sticky;
         height: 8vh;
         padding-right: 6vw;
     }
