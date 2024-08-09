@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Utah Climbing Team</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,300" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,300"
+      rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="images/favicon.png" type="image/x-icon">
     <style>
@@ -21,6 +22,7 @@
     .home h1 {
       font-size: 1.35rem;
     }
+
     .home-img {
       display: flex;
       padding:0;
@@ -55,8 +57,7 @@
       font-size: 4vw;
       text-align: left;
       z-index: 100;
-      font-weight: bold;
-      
+      font-weight: bold;   
     }
 
     .overlay-sub-text {
@@ -95,6 +96,7 @@
       transition: all 0.3s ease;
       font-weight: 550;
     }
+
     .join-btn:hover, .learn-btn:hover, .contact-btn:hover, .pic-btn:hover {
       background-color: rgb(221, 66, 66);
       transform: scale(1.05);
@@ -124,11 +126,12 @@
       margin: 4vw 5vw 4vw 2vw;
       max-width: 50vw;
     }
-    
+
+
     @media (max-width: 1200px) {
 
       .home-pic{
-        margin: 8vw 4vw;
+        margin: 8vw 4vw 0vw 4vw;
       }
     }
 
@@ -168,20 +171,11 @@
         flex-direction: column;
         align-items: right;
     }
-    .home-img{
-      order: 1;
-      margin-top: 2vh;
-      margin-bottom: 5vh;
-     
-    }
+    
     .home-pic {
       width:100vw;
       max-width: 100vw;
       margin-bottom: 0vh;
-    }
-
-    .footer {
-      margin-top: 5vh;
     }
 
     .black-box {
@@ -228,38 +222,43 @@
   </head>
 
   <body>
-    <div id="header-placeholder"></div> 
-     
+    <div id="header-placeholder"></div>
+
     <noscript>
       For full functionality of this site it is necessary to enable JavaScript.
       Here are the <a href="https://www.enable-javascript.com/">
-      instructions how to enable JavaScript in your web browser</a>.
-     </noscript>
+        instructions how to enable JavaScript in your web browser</a>.
+    </noscript>
+    <div class="grey-back">
+      <div class="image-wrap">
+        <img src="images/joessunset.png" class="home-img">
+        <div class="black-box"></div>
+        <div class="overlay-text">CLIMBING TEAM</div>
+        <div class="overlay-sub-text">AT THE UNIVERSITY OF UTAH</div>
+        <div class=" button-wrapper">
+          <a href="faq.html" class="learn-btn">ABOUT</a>
+          <a href="signup.html" class="join-btn">JOIN NOW</a>
+          <a href="contact.html" class="join-btn">CONTACT</a>
+          <a href="sponsors.html" class="pic-btn">SPONSORS</a>
+        </div>
+      </div>
 
-    <div class="image-wrap">
-      <img src="images/joessunset.png" class="home-img">
-      <div class="black-box"></div>
-      <div class="overlay-text">CLIMBING TEAM</div>
-      <div class="overlay-sub-text">AT THE UNIVERSITY OF UTAH</div>
-      <div class=" button-wrapper">
-        <a  href="faq.html" class="learn-btn">ABOUT</a>
-        <a  href="signup.html" class="join-btn">JOIN NOW</a>
-        <a  href="contact.html" class="join-btn">CONTACT</a>
-        <a  href="sponsors.html" class="pic-btn">SPONSORS</a>
+      <div class="home-info">
+        <img src="images/hole.JPG" class="home-pic">
+        <p>
+          Welcome to the Climbing Team at the University of Utah! We are a
+          student-run organization with a goal to connect, challenge, and
+          inspire students through climbing. We have both a recreational team
+          and a competitive team. In 2023 and 2024, our competitive team took
+          first place in the USA Climbing Collegiate National Championships. To
+          find out more about our team click the links above!</p>
       </div>
     </div>
-
-    <div class="home-info">
-      <img src="images/hole.JPG" class="home-pic">
-    <p>
-    Welcome to the Climbing Team at the University of Utah! We are a student-run organization with a goal to connect, challenge, and inspire students through climbing. We have both a recreational team and a competitive team. In 2023 and 2024, our competitive team took first place in the USA Climbing Collegiate National Championships. To find out more about our team click the links above!</p>
-    </div>
-
     <footer class="footer">
       <p>@ 2024 Utah School of Climb</p>
       <p>
-          <a href="https://www.instagram.com/utahclimbingteam/">Instagram</a> |
-          <a href="https://usaclimbing.org/">USA Climbing</a>
+        <a href="https://www.instagram.com/utahclimbingteam/">Instagram</a> |
+        <a href="https://usaclimbing.org/">USA Climbing</a>
       </p>
     </footer>
 
