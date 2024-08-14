@@ -26,10 +26,10 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 1rem 1rem 1rem;
+  padding: 1rem 2rem;
   height: 10vh;
 }
-.home-header-bar {
+.home-header-bar { /* Decorative */
   display:flex;
   background-color: rgb(170, 20, 20);
   justify-content: center;
@@ -37,6 +37,7 @@ header {
   height: 3vh;
   width: 100%;
 }
+
 /* University of Utah Climbing Team Logo on all pages*/
 .logo .img1 {
   height: auto;
