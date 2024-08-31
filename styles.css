@@ -41,8 +41,7 @@ header {
 /* University of Utah Climbing Team Logo on all pages*/
 .logo .img1 {
   height: auto;
-  width: 35vw;
-  padding-left: 1vw;
+  width: 32vw;
   justify-content: center;
 }
 .logo .img2 {
