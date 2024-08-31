@@ -71,10 +71,10 @@ header {
   padding: 0;
   margin: 0;
   list-style-type: none;
-  font-size: 1.2rem;
+  font-size: 1.05rem;
 }
 .navbar li {
-  margin: 0 1.2vw;
+  margin: 0 0 0 1.8vw;
 }
 .navbar li a {
   color: #fff;
