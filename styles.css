@@ -80,7 +80,7 @@ header {
   text-decoration: none;
   letter-spacing: 3;
 }
-.navbar li a:hover {
+.navbar li a:hover, .dropdown:hover {
   color:rgb(170, 20, 20);
 }
 .dropdown {
