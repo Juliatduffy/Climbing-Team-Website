@@ -28,10 +28,10 @@
                 flex-direction: column;
                 align-items: center;
                 justify-content: center;
-                max-width: 900px; 
+                max-width: 1000px; 
                 border-radius: 5px;
-                width: 80%;
-                background-color: rgba(0, 0, 0, 0.911);
+                width: 90%;
+                background-color: rgba(17, 17, 17, 0.911);
                 margin: 5vh auto; 
                 font-size: 1.2rem;
                 color: white;
@@ -40,7 +40,7 @@
             
             .event-item {
                 margin: 0vh auto 3vh auto; 
-                padding: 20px 30px;
+                width: 90%;
             }
 
             .event-wrap {
@@ -51,7 +51,8 @@
             .events-page h1 {
                 font-size: 1.7rem;
                 width: 100%;
-                margin: 1vh auto; 
+                margin: 2vh auto; 
+                padding-top: 3vh;
                 text-align: center;
             }
 
@@ -65,7 +66,7 @@
             }
 
             .event-img {
-                border-radius: 8px;
+                border-radius: 8px; /* Keeps the rounded corners */
                 font-size: 1.2rem;
                 width: 30vw;
                 max-width: 300px;
@@ -73,10 +74,10 @@
                 height: auto;
                 text-align: left;
                 order: 2;
-                border-radius: 8px;
-                margin: auto 15px auto 10px; 
-                order: 2;
-            }            
+                border: 2px solid white; /* Adds a white border */
+                margin: auto 15px auto 10px;
+            }
+           
 
             .event-item h2 {
                 display: flex;
@@ -92,6 +93,26 @@
                 margin: .5vh 0;
                 font-size: 1.2rem;
             }
+
+            .event-img {
+                border-radius: 8px;
+                width: 30vw;
+                max-width: 300px;
+                height: 250px; /* Set a consistent height */
+                object-fit: cover; /* Ensures the image is cropped rather than squished */
+                text-align: left;
+                order: 2;
+                margin: auto 15px auto 10px;
+            }
+
+            hr {
+                height: 2px; /* Slightly increase thickness */
+                background-color: white; /* Make the line fully white */
+                margin: 20px 0; /* Adds spacing above and below the line */
+                opacity: 0.5; /* Ensure full visibility */
+                width: 90%;
+        }
+
 
             @media (max-width: 900px) {
                 .event-wrap{
@@ -124,8 +145,9 @@
                 <div class="event-item">
                     <h1>UPCOMING EVENTS</h1>
                     <p>Check out our upcoming events! More specifics about each
-                        event will be posted on our team Discord.</p>
+                        event can be found on our team Discord.</p>
                 </div>
+                <hr>
                 <div class="event-item">
                     <h2>Weekly Rec Team Practice</h2>
                     <div class="event-wrap">
@@ -134,9 +156,10 @@
                             &#9679; Momentum Millcreek <br><br>
                             Rec team practice is a place for all of us to climb
                             and train together and have a good
-                            time. The workouts are optional and scalable. Comp 
+                            time. The workouts are optional and scalable. Comp
                             team members are encouraged to attend.
-                            Those who don't have a Momentum membership can sign up
+                            Those who don't have a Momentum membership can sign
+                            up
                             for a free practice day pass <a
                                 style="color:rgb(139, 172, 255);"
                                 href="https://www.signupgenius.com/go/8050549A9A92CA7F94-50984486-practice#/">here</a>.
@@ -144,15 +167,15 @@
                         <img src="images/practicepic.png" class="event-img">
                     </div>
                 </div>
-
+                <hr>
                 <div class="event-item">
                     <h2>Weekly Comp Team Practice</h2>
                     <div class="event-wrap">
                         <p>&#9679; Thursdays from 8:00 PM - 10:00 PM <br>
                             &#9679; 1/8/25 - 4/30/25<br>
                             &#9679; Momentum Millcreek <a
-                            style="color:rgb(203, 22, 19); font-style: italic; font-weight: bold;">(subject
-                            to change)</a>
+                                style="color:rgb(203, 22, 19); font-style: italic; font-weight: bold;">(subject
+                                to change)</a>
                             <br><br>
                             This spring, we will have a weekly comp team
                             practice on
@@ -160,15 +183,17 @@
                             practices will be
                             facilitated by <a style="color:rgb(139, 172, 255);"
                                 href="leadership.html">Gavin Albright</a> ,
-                             <a style="color:rgb(139, 172, 255);"
+                            <a style="color:rgb(139, 172, 255);"
                                 href="leadership.html">Sophia Hoermann</a> and
                             <a style="color:rgb(139, 172, 255);"
-                                href="leadership.html">Soren Callo</a>. These practices will be smaller and more focused than the rec team practices. 
+                                href="leadership.html">Soren Callo</a>. These
+                            practices will be smaller and more focused than the
+                            rec team practices.
                         </p>
                         <img src="images/isaac.jpg" class="event-img">
                     </div>
                 </div>
-
+                <hr>
                 <div class="event-item">
                     <h2>Spring Get Involved Fair</h2>
                     <div class="event-wrap">
@@ -183,7 +208,7 @@
                         <img src="images/andycrushing.jpg" class="event-img">
                     </div>
                 </div>
-
+                <hr>
                 <div class="event-item">
                     <h2>Info Meeting / Movie Night</h2>
                     <div class="event-wrap">
@@ -191,7 +216,7 @@
                             &#9679; 7:00 PM - 9:00 PM<br>
                             &#9679; Union Theater <br><br>
                             To kick off the Spring semester, we are holding an
-                            on campus info session/ movie night. We will be
+                            on-campus info session/ movie night. We will be
                             watching some sick climbing films and talking about
                             our plans for this Spring. If you are new to the
                             club, or think you might be interested in joining,
@@ -200,15 +225,17 @@
                         <img src="images/actiond.jpg" class="event-img">
                     </div>
                 </div>
-
+                <hr>
                 <div class="event-item">
                     <h2>Front Membership Registration Windows</h2>
                     <div class="event-wrap">
                         <p>
                             Our membership deals with the Front climbing club
-                            are only avaliable during the following registration
+                            are only available during the following registration
                             windows:
-                            <a style="font-style: italic;">January 13th - 20th,
+                            <a
+                                style="font-style: italic; font-weight: bold;">January
+                                13th - 20th,
                                 March 17th - 23rd, August 25th
                                 - September 1st, and October 13th - 20th. </a>
                             To set up
@@ -216,7 +243,7 @@
                             register online at this website: <a
                                 style="color:rgb(139, 172, 255);"
                                 href="https://thefrontclimbingclub.com/prodeal/">https://thefrontclimbingclub.com/prodeal/</a>
-                            <br>
+                            <br><br>
                             Under "SLC" and under the "Corporate"
                             option, select "New Member" and then fill in your
                             information. Then, next time you go to the gym, you
@@ -228,8 +255,46 @@
                                 style="color:rgb(139, 172, 255);">rec team</a>
                             page.
                         </p>
+
                     </div>
                 </div>
+                <hr>
+                <div class="event-item">
+                    <h2>MLK Weekend Outdoor Trip</h2>
+                    <div class="event-wrap">
+                        <p>&#9679; January 17th - 20th<br>
+                            &#9679; St. George, UT<br><br>
+                            Our first outdoor trip of the spring semester will
+                            be in sunny St. George! We booked an
+                            Airbnb between Hurricave and Moe’s Valley. Team
+                            members can stay for $5 per night, and non-team
+                            member pricing will be determined based on
+                            availability.
+                        </p>
+                        <img src="images/hole.JPG" class="event-img"
+                            alt="St. George Outdoor Climbing">
+                    </div>
+                </div>
+                <hr>
+                <div class="event-item">
+                    <h2>January Speed Clinic</h2>
+                    <div class="event-wrap">
+                        <p>&#9679; Monday, January 15th: Speed Clinic <br>
+                            &#9679; Monday, January 22nd: Open Speed Wall Day
+                            <br>
+                            &#9679; Momentum Millcreek
+                            <br><br>
+                            Olympic-level coach Albert Ok is going to lead a free speed
+                            climbing clinic for our team. One week after the clinic, 
+                            participants will be able to practice what they've learned 
+                            during an open speed wall session. There will be 15 available 
+                            spots for this clinic. Sign-ups will open and more details will be released soon.
+                        </p>
+                        <img src="images/speed.jpg" class="event-img"
+                            alt="Speed Climbing Session">
+                    </div>
+                </div>
+
                 <!-- 
 
 
