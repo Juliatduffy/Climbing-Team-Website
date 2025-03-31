@@ -71,4 +71,19 @@ document.addEventListener('DOMContentLoaded', function () {
   nextButton.addEventListener('click', () => {
       showImage(currImage + 1);
   });
+
+   
+
 });
+
+const popup = document.getElementById('popup');
+   if (popup) {
+       popup.style.display = 'block';
+   }
+   
+  function closePopup() {
+    const popup = document.getElementById('popup');
+    if (popup) {
+        popup.style.display = 'none';
+    }
+}

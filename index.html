@@ -125,15 +125,53 @@
     .grey-back {
       padding-bottom: 0vh;  
     }
+
+    .popup {
+      display: none; 
+      position: fixed;
+      top: 30%;
+      left: 10%;
+      background-color: #ff98e6;
+      padding: 20px;
+      border-radius: 25px;
+      border: 2px solid black;
+      width: 280px;
+      font-size: 28px;
+      z-index: 9999;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      color: black;
+    }
+
+    .popup a {
+      color: black;
+      font-weight: bold;
+      text-decoration: underline;
+    }
+
+    .popup .close-btn {
+      position: absolute;
+      top: 10px;
+      right: 15px;
+      font-size: 24px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
     @media (max-width: 1200px) {
 
       .home-pic{
         margin: 8vw 4vw 0vw 4vw;
       }
+      
+
     }
 
     @media (max-width: 760px) {
-
+    .popup {
+      position: fixed;
+      top: 10%;
+      left: 10%;
+    }
       .overlay-text {
         font-size: 4vw;
       }
@@ -200,7 +238,6 @@
       padding: 1vh .5vh;
       font-size: 3.6vw;
     }
-
     }
     
   </style>
@@ -229,6 +266,14 @@
         </div>
       </div>
 
+      <div id="popup" class="popup">
+        <span class="close-btn" onclick="closePopup()">×</span>
+        <p>
+          Learn more about our Spring Training Camp 
+          <a href="/events.html">here</a>!
+        </p>
+      </div>
+      
       <div class="home-info">
         <p>
           Welcome to the Climbing Team at the University of Utah! We are a
