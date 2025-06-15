@@ -8,182 +8,10 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,300"
       rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/recteam.css">
     <link rel="icon" href="images/favicon.png" type="image/x-icon">
-    <style>
-
-  .recteam {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 800px; 
-    margin: 0 auto; 
-    padding: 0;
-    font-size: 1.2rem;
-    line-height: 1.9rem;
-  }
- 
-  a {
-    text-decoration: none; 
-    color: rgb(139, 172, 255);
-  }
-   
-  a:hover {
-  text-decoration: underline;
-  }
-  
-  .footer{
-    margin-top: 5vh;
-  }
-  .recteam-content {
-    display: flex;
-    text-align: justify;
-    flex-direction: column;
-    max-width: 100%;
-  }
-
-  .recteam-content h1 {
-      margin-top: 5vh;
-      font-size: 1.7rem;
-  }
-
-  .recteam-content h3 {
-    margin: 20px 0px;
-    width:100%;
-  }
-  
-  .outdoor-trips-content, .practices-content {
-    display: flex;
-    align-items: flex-start;
-    margin-bottom: 2vh;
-  }
-
-  .outdoor-trips-content p {
-    flex: 1;
-    order: 1;
-    margin-top: 0;
-  }
-
-  .outdoor-trip-photo {
-    max-width: 320px;
-    height: auto;
-    margin-left: 3.4rem;
-    order: 2; 
-  }
-
-  .practices-content p {
-    flex: 1;
-    order: 2; 
-    margin-top: 0;
-  }
-
-  .practices-photo {
-    max-width: 350px;
-    height: auto;
-    order: 1; 
-    margin-right: 3rem;
-  }
-  .team-pic {
-    margin-top: 2vh;
-    width:100%;
-  }
-
-  .info-box {
-  background-color: rgba(207, 49, 49, 0.265); 
-  color: white;
-  padding: 20px 30px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border-radius: 8px;
-  line-height: 1.8;
-}
-
-.info-box ul {
-  list-style: none; 
-  padding: 0;
-  margin: 0;
-}
-
-.info-box li {
-  font-size: 1.1rem;
-  margin: 10px 0px;
-}
-
-.info-box li strong {
-  font-size: 1.3rem;
-  display: block;
-  font-weight: bold;
-  margin-bottom: 5px;
-}
-
-.info-box li em {
-  display: block;
-  font-style: italic;
-  margin-top: 5px;
-}
-
-table {
-  width: 90%;
-  border-collapse: collapse;
-  color: white;
-}
-
-th, td {
-  padding: 10px;
-  text-align: left;
-}
-
-th {
-  border-bottom: 2px solid white;
-  font-size: 1.3rem;
-}
-
-td {
-  font-size: 1.1rem;
-}
-
-
-  @media (max-width: 760px) {
-
-      .recteam {
-        display:flex;
-        width: 90%
-      }
-
-      .recteam-content {
-        text-align: left;
-        align-items: center;
-      }
-
-      .outdoor-trips-content {
-        flex-direction: column;
-        align-items: center;
-        width: 100%
-      }
-
-      .practices-content  {
-        flex-direction: column-reverse;
-        align-items: center;
-        width: 100%
-      }
-
-      .practices-photo {
-        width: 80%;
-        height: auto;
-        margin: 20px 0 20px 0;
-        padding: 0;
-      }
-      
-      .outdoor-trip-photo  {
-        width: 80%;
-        height: auto;
-        margin: 20px 0 20px 0;
-
-        align-items: center;
-      }
-  }
-
-  </style>
   </head>
+
   <body>
     <div id="header-placeholder"></div>
 
@@ -236,9 +64,12 @@ td {
                 your climbing skills and make friends on the team,
                 you should probably come! :) We have three experienced
                 coaches,
-                <a href="leadership.html">Sophia Hoermann</a>,
-                <a href="leadership.html">Gavin Albright</a>, and
-                <a href="leadership.html">Soren Callo</a> who
+                <a class="purple-link" href="leadership.html">Sophia
+                  Hoermann</a>,
+                <a class="purple-link" href="leadership.html">Gavin
+                  Albright</a>, and
+                <a class="purple-link" href="leadership.html">Soren Callo</a>
+                who
                 organize structured
                 practices each week. If you don't want
                 to do the workouts that the coaches have planned, you do not
@@ -252,12 +83,15 @@ td {
               Wednesdays at Momentum Millcreek from 8:00 PM - 10:00 PM. Those
               who don't have
               a Momentum membership can sign up
-              for a free practice day pass <a
+              for a free practice day pass <a class="purple-link"
                 href="https://www.signupgenius.com/go/8050549A9A92CA7F94-50984486-practice#/">here</a>.
               This form opens at 9:00 AM on the Thursday before each
               practice.</p>
 
-            <h3>ADDITIONAL COACHING</h3>
+            <!-- Commented out additional coaching bc I don't think we are doing these things anymore 
+               but we could totally fill in this paragraph with other information -->
+
+            <!-- <h3>ADDITIONAL COACHING</h3>
 
             <p><a
                 style="font-weight: bold; color:rgb(156, 224, 255); text-decoration: none;">New
@@ -266,20 +100,19 @@ td {
               one-on-one coaching opportunities for those who are serious about
               improving their climbing. Starting this spring, we will be opening
               up a training plan application form where team members will have
-              access to custom training plans. <a
+              access to custom training plans. <a class="purple-link"
                 href="leadership.html">Sophia Terrill,</a> club president, will
               writing these plans. If you want to see an example training plan
               of hers, we will have some
               stock training plans posted on the files page of our website. Feel
               free to follow these plans as they are or modify them to suit your
-              needs. We also have an open, <a
+              needs. We also have an open, <a class="purple-link"
                 href="https://docs.google.com/forms/d/e/1FAIpQLScPoq80z-IvVHF6jbqix4pZOzg41t-JEWFQr_aDi_Io3MxdhA/viewform?usp=sharing">coaching
                 consultation form</a> where you can ask climbing/ training
               questions. One of the coaches will get back to you within a week.
               You can choose to connect over text, a phone call, in person or on
               Zoom.
-
-            </p>
+            </p> -->
 
             <h3>OUTDOOR TRIPS</h3>
             <div class="outdoor-trips-content">
@@ -296,21 +129,25 @@ td {
                 unpredictable. The best way to stay up to date on these
                 changes is through our team Discord. A tentative schedule for
                 this year's outdoor trips can be found on this
-                <a href="images/Outdoor-Trips.pdf">google doc</a>.
+                <a class="purple-link" href="images/Outdoor-Trips.pdf">google
+                  doc</a>.
               </p>
               <img src="images/JessieMoe.png" class="outdoor-trip-photo">
             </div>
 
             <p>This year, the board members in charge of coordinating and
-              running outdoor trips are <a href="leadership.html">Eli
-                Budzinski</a>, <a href="leadership.html">Ayrie Dutt</a>, and <a
+              running outdoor trips are <a class="purple-link"
+                href="leadership.html">Eli
+                Budzinski</a>, <a class="purple-link"
+                href="leadership.html">Ayrie Dutt</a>, and <a
+                class="purple-link"
                 href="leadership.html">Aidan Cooley</a>. Don't be afraid to
               reach out them if you have any questions!</p>
             <h3>LOCAL OUTDOOR DAYS</h3>
             <p>
-              <a
+              <!-- <a
                 style="font-weight: bold; color:rgb(156, 224, 255); text-decoration: none;">New
-                in Spring 2025: </a>
+                in Spring 2025: </a> -->
               In addition to our longer outdoor trips we host monthly
               local outdoor days. During these local days, we will be exploring
               areas within an hour from campus such as Little Cottonwood Canyon,
@@ -395,8 +232,8 @@ td {
                       - September 1st, and October 13th - 20th. </a> To sign up,
                     you must register online
                     first at
-                    <a href="https://thefrontclimbingclub.com/prodeal/"
-                      style="font-weight: bold;">Prodeal
+                    <a class="purple-link"
+                      href="https://thefrontclimbingclub.com/prodeal/">Prodeal
                       Membership Rates
                       & Perks</a>. They will ask you for a password which is
                     pinned in our team Discord channel.
@@ -408,12 +245,13 @@ td {
               </div>
 
               <h3>HOW TO JOIN</h3>
-              <p> The steps to join rec team can be found <a
+              <p> The steps to join rec team can be found <a class="purple-link"
                   href="signup.html">here</a>. Once you join our
                 roster, don't forget
                 to follow us on our socials to stay up to date! If you have
                 questions about this process,
-                feel free to <a href="contact.html">contact us.</a>
+                feel free to <a class="purple-link" href="contact.html">contact
+                  us.</a>
               </p>
               <img src="images/harry.png" class="team-pic">
             </div>

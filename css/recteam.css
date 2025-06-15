@@ -1,0 +1,161 @@
+.recteam {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0;
+  font-size: 1.2rem;
+  line-height: 1.9rem;
+}
+
+.footer {
+  margin-top: 5vh;
+}
+.recteam-content {
+  display: flex;
+  text-align: justify;
+  flex-direction: column;
+  max-width: 100%;
+}
+
+.recteam-content h1 {
+  margin-top: 5vh;
+  font-size: 1.7rem;
+}
+
+.recteam-content h3 {
+  margin: 20px 0px;
+  width: 100%;
+}
+
+.outdoor-trips-content,
+.practices-content {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 2vh;
+}
+
+.outdoor-trips-content p {
+  flex: 1;
+  order: 1;
+  margin-top: 0;
+}
+
+.outdoor-trip-photo {
+  max-width: 320px;
+  height: auto;
+  margin-left: 3.4rem;
+  order: 2;
+}
+
+.practices-content p {
+  flex: 1;
+  order: 2;
+  margin-top: 0;
+}
+
+.practices-photo {
+  max-width: 350px;
+  height: auto;
+  order: 1;
+  margin-right: 3rem;
+}
+.team-pic {
+  margin-top: 2vh;
+  width: 100%;
+}
+
+.info-box {
+  background-color: rgba(207, 49, 49, 0.265);
+  color: white;
+  padding: 20px 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  line-height: 1.8;
+}
+
+.info-box ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.info-box li {
+  font-size: 1.1rem;
+  margin: 10px 0px;
+}
+
+.info-box li strong {
+  font-size: 1.3rem;
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.info-box li em {
+  display: block;
+  font-style: italic;
+  margin-top: 5px;
+}
+
+table {
+  width: 90%;
+  border-collapse: collapse;
+  color: white;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  border-bottom: 2px solid white;
+  font-size: 1.3rem;
+}
+
+td {
+  font-size: 1.1rem;
+}
+
+@media (max-width: 760px) {
+  .recteam {
+    display: flex;
+    width: 90%;
+  }
+
+  .recteam-content {
+    text-align: left;
+    align-items: center;
+  }
+
+  .outdoor-trips-content {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .practices-content {
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 100%;
+  }
+
+  .practices-photo {
+    width: 80%;
+    height: auto;
+    margin: 20px 0 20px 0;
+    padding: 0;
+  }
+
+  .outdoor-trip-photo {
+    width: 80%;
+    height: auto;
+    margin: 20px 0 20px 0;
+
+    align-items: center;
+  }
+}
