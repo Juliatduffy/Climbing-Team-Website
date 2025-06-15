@@ -1,6 +1,10 @@
+
+
+<!-- NOTE: This page is no longer active but if you want to add it back, you
+will need to add it to the menubar again (uncomment it in header.html) -->
+
 <!DOCTYPE html>
 <html lang="en">
-
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,191 +13,8 @@
             href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,300"
             rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/events.css">
         <link rel="icon" href="images/favicon.png" type="image/x-icon">
-        <style>  
-            body {
-                min-height: 100vh; 
-                background-image: url('images/angler.jpg'); 
-                background-size: cover;
-                background-position: center;
-                background-repeat: no-repeat;
-                display: flex;
-                flex-direction: column;
-                margin:0;
-                min-height: 100vh; 
-                
-            }
-            .frontlink {
-                word-wrap: break-word; 
-                word-break: break-word; 
-                white-space: normal; 
-            }
-            .events-page {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: center;
-                max-width: 1000px; 
-                border-radius: 5px;
-                width: 90%;
-                background-color: rgba(17, 17, 17, 0.911);
-                margin: 5vh auto; 
-                padding-bottom: 5vh;
-                font-size: 1.2rem;
-                color: white;
-                list-style: none;
-            }
-            
-            .event-item {
-                margin: 0vh auto 1vh auto; 
-                width: 90%;
-            }
-
-            .event-wrap {
-                display:flex;
-                align-items: flex-start;
-            }
-
-            .events-page h1 {
-                font-size: 1.7rem;
-                width: 100%;
-                margin: 2vh auto; 
-                padding-top: 3vh;
-                text-align: center;
-            }
-
-            .event-item p {
-                font-size: 1.2rem;
-                width: 100%;
-                text-align: left;
-                flex: 1;
-                order: 1;
-                padding-right: 15px;
-            }
-
-          
-
-            .event-img {
-                border-radius: 8px; 
-                justify-content: center;
-                text-align: left;
-                max-width: 400px;
-                order: 2;
-                border: 2px solid white;
-                margin: auto 15px auto 10px;
-            }
-           
-
-            .event-item h2 {
-                display: flex;
-                align-items: flex-start;
-                border-radius: 5px;
-                color: white;
-                list-style: none;
-                font-size: 1.4rem;
-                margin: 0;
-            }
-
-            .event-item h3 {
-                margin: .5vh 0;
-                font-size: 1.2rem;
-            }
-
-            hr {
-                height: 2px; 
-                background-color: white;
-                margin: 20px 0; 
-                opacity: 0.5;
-                width: 90%;
-            }
-
-            .info-box {
-                background-color: rgba(17, 92, 107, 0.664);;
-                color: white;
-                padding: 20px 30px;
-                margin-top: 20px;
-                margin-bottom: 20px;
-                border-radius: 8px;
-                line-height: 1.8;
-                width: 80%;
-            }
-
-            .info-box .em {
-                font-weight: 700;
-            }
-
-            .info-box ul {
-            list-style: none; 
-            padding: 0;
-            margin: 0;
-            }
-
-            .info-box li {
-            font-size: 1.2rem;
-            margin: 10px 0px;
-            }
-
-            .info-box li strong {
-            font-size: 1.3rem;
-            display: block;
-            font-weight: bold;
-            margin-bottom: 5px;
-            }
-
-            .info-box li em {
-            display: inline-block;
-            font-style: italic;
-            margin-right: 5px;
-            font-weight: 700;
-            }
-
-
-            @media (max-width: 1000px) {
-              .events-page {
-                width: 90%;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: center;
-              }
-
-            .event-item {
-                display: flex; 
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-            }
-            .event-item h2 {
-                text-align: left; 
-                margin: 10px auto; 
-                width: 95%; 
-            }
-            .event-wrap {
-                display: flex; 
-                flex-direction: column; 
-                align-items: center;
-                width: 100%; 
-            }
-            .event-item p {
-                text-align: left; 
-                margin: 10px auto; 
-                padding: 10px 0; 
-                width: 95%; 
-            }
-            .event-img {
-                height: auto;
-                min-width: 90%;
-                margin: 15px 0; 
-                padding: 0;
-            }
-            @media (max-width: 500px) {
-                .event-img {
-                max-width: 95%;
-                }
-            }
-}
-            
-      </style>
     </head>
 
     <body>
@@ -210,11 +31,13 @@
             <div class="events-page">
                 <div class="event-item">
                     <h1>UPCOMING EVENTS</h1>
-                    <p>Check out our upcoming events! More specifics about each
-                        event can be found on our team Discord.</p>
+                    <!-- <p>Check out our upcoming events! More specifics about each
+                        event can be found on our team Discord.</p> -->
                 </div>
                 
                 <hr>
+                <div><p style="margin: 30px; text-align: center;">Whoops! This page is no longer active. <br><br>Visit our Instagram and Discord for information about our upcoming events.</p></div>
+                <!--
                 <div class="event-item">
                     <h2>Spring Training Camp<strong style="font-style: italic; color: rgb(20, 210, 248); text-indent:1em;">  &rarr; Sign Ups Open Now! &larr; </strong></h2>
                     <div class="event-wrap">
@@ -311,7 +134,7 @@
                         </p>
                     </div>
                 </div> -->
-                <hr>
+                <!-- <hr>
                 <div class="event-item">
                     <h2>Weekly Rec Team Practice</h2>
                     <div class="event-wrap">
@@ -351,8 +174,8 @@
                             rec team practices.
                         </p>
                         <img src="images/isaac.jpg" class="event-img">
-                    </div>
-                </div>
+                    </div> -->
+                </div> -->
                 <!-- <hr>
                 <div class="event-item">
                     <h2>March Speed Clinic With Albert Ok</h2>
