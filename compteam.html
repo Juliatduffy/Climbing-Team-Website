@@ -1,225 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
+  <!-- Page Setup -->
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utah Climbing Team</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,300" rel="stylesheet" type="text/css">
+    <!-- Website Styling -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Page-Specific Styling -->
+    <link rel="stylesheet" href="css/compteam.css">
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Utah Climbing Team</title>
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,300" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="styles.css">
-  <link rel="icon" href="images/favicon.png" type="image/x-icon">
-  <style>
+  <body>
+    <!-- Header -->
+    <div id="header-placeholder"></div> 
 
-  .compteam {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 800px; 
-    margin: 0 auto;
-    padding: 0; 
-    font-size: 1.2rem;
-    line-height: 1.9rem;
-  }
-  a {
-    text-decoration: none; 
-    color: rgb(139, 172, 255);
-  }
-   
-  a:hover {
-    text-decoration: underline;
-  }
+    <!-- JS Error Message -->
+    <noscript>
+      For full functionality of this site it is necessary to enable JavaScript.
+      Here are the <a class="purple-link" href="https://www.enable-javascript.com/">
+      instructions how to enable JavaScript in your web browser</a>.
+    </noscript>
 
-  .footer{
-    margin-top: 5vh;
-  }
+    <!-- Main structure of the page -->
+    <div class="grey-back">
+      <main>
+        <section class="compteam"> 
+          <div class="compteam-content">
+            <h1>COMPETITION TEAM</h1>
+            <!-- Image carousel -->
+            <div class="carousel">
+              <!-- NOTE: All of these images should be 5x4 (or a consistent size)! -->
+              <img src="images/boyssweep.jpg" class="carousel-image">
+              <img src="images/nina.jpg" class="carousel-image">
+              <img src="images/julia.JPG" class="carousel-image">
+              <img src="images/sophsport.jpg" class="carousel-image">
+              <img src="images/levi.jpg" class="carousel-image">
+              <div class="carousel-buttons">
+                  <button class="prev-button" id="prevButton">&lt;</button>
+                  <button class="next-button"id="nextButton">&gt;</button>
+              </div>
+            </div> 
 
-  .compteam-content {
-    display: flex;
-    text-align: justify;
-    flex-direction: column;
-    max-width: 100%;
-  }
-  
-  .compteam-content h1{
-    margin-top: 5vh;
-    font-size: 1.7rem;  }
-
-  .compteam-content h3{
-    margin: 20px 0px;
-    width:100%;
-  }
-
-
-
-  .bullet-list li{
-    margin-bottom: 20px;
-    margin-top: 20px;
-  }
-  .bullet-list li strong {
-        display: block;
-        text-align: left;
-        font-size: 1.5rem;
-        font-weight: 900;
-        margin-top: 10px;
-        margin-bottom: 10px;
-  }
-
-  .red-box {
-          background-color: rgba(207, 49, 49, 0.265);
-          padding: 10px 30px 10px 30px;
-          border-radius: 5px;
-          color: white;
-          margin: 40px 0px;
-  }
-
-  .red-box ul {
-      list-style: none;
-      padding: 0;
-  }
-
-
-  .team-pic {
-    margin-top: 1.5vh;
-    width:100%;
-  }
-
-  @media (max-width: 760px) {
-    .compteam h1 {
-      font-size: 1.35rem;
-    }
-    
-    .compteam{
-      width: 90%;
-    }
-
-    .compteam-content{
-      padding: 0px;
-
-    }
-
-    .compteam-content p {
-      text-align: left;
-    }
-  }
-
-
-  </style>
-</head>
-
-<body>
-  <div id="header-placeholder"></div> 
-  
-  <noscript>
-    For full functionality of this site it is necessary to enable JavaScript.
-    Here are the <a href="https://www.enable-javascript.com/">
-    instructions how to enable JavaScript in your web browser</a>.
-   </noscript>
-   <div class="grey-back">
-  <main>
-    <section class="compteam"> 
-      <div class="compteam-content">
-        <h1>COMPETITION TEAM</h1>
-        <div class="carousel">
-          <img src="images/boyssweep.jpg" class="carousel-image">
-          <img src="images/nina.jpg" class="carousel-image">
-          <img src="images/julia.JPG" class="carousel-image">
-          <img src="images/sophsport.jpg" class="carousel-image">
-          <img src="images/levi.jpg" class="carousel-image">
-          <div class="carousel-buttons">
-            <button class="prev-button" id="prevButton">&lt;</button>
-            <button class="next-button"id="nextButton">&gt;</button>
-          </div>
-        </div>  
-
-        <h3>THE COMP TEAM</h3>
-          <p>  
-            The competition (comp) team is for intermediate-advanced climbers who are interested in competing in 
-            <a href="https://usaclimbing.org/compete/collegiate-series/" >USA Climbing</a> (USAC) Collegiate events. 
+            <h3>THE COMP TEAM</h3>
+            <p> The competition (comp) team is for intermediate-advanced climbers who are interested in competing in 
+            <a class="purple-link" href="https://usaclimbing.org/compete/collegiate-series/" >USA Climbing</a> (USAC) Collegiate events. 
             It is strongly encouraged that comp team members attend team practice every week. Additionally, there will be several comp 
             team specific events that members are required to attend. This team is for those who aspire to compete at the Collegiate National Championships at the end of 
             the year. Membership in USA Climbing is required, and all comp team members are required to attend at least one local qualifying event. For more 
-          information about the comp team, check out our comp team <a href="https://docs.google.com/document/d/1RaEXotJZsiK4A4vtXlS2hmiW5otbcVkSrX_Q1NXLf4w/edit?usp=sharing"  >info sheet</a>.</p>
+            information about the comp team, check out our comp team <a class="purple-link" href="https://docs.google.com/document/d/1RaEXotJZsiK4A4vtXlS2hmiW5otbcVkSrX_Q1NXLf4w/edit?usp=sharing">info sheet</a>.</p>
           
-          <h3>PRICE BREAKDOWN</h3>
-          <p>Comp team members must pay $150 total in team dues. Members must also have an active USAC 
-          membership ($65/ year) to be eligible to compete. Each year, we give reimbursements 
-          back to comp team members to help cover membership costs as well as some competition travel and housing expenses. 
-          This money comes from our sponsors and team fundraising efforts, so the amount we can provide may 
-          vary annually. A further price breakdown of competition registration and USAC membership fees can be found 
-          <a href="https://docs.google.com/document/d/e/2PACX-1vRS4XU2PpbYK2EL5dSBS6YNrrqmBcWPRqW0n3UQy2TxGZ_my8fbo2Bg2ntYrhcc4w/pub" 
-          >here</a>. If you are interested in joining the comp team but have financial concerns, please reach out to us, and
-            we can discuss available options.
-          </p>
-            
+            <h3>PRICE BREAKDOWN</h3>
+            <p>Comp team members must pay $150 total in team dues. Members must also have an active USAC 
+            membership ($65/ year) to be eligible to compete. Each year, we give reimbursements 
+            back to comp team members to help cover membership costs as well as some competition travel and housing expenses. 
+            This money comes from our sponsors and team fundraising efforts, so the amount we can provide may 
+            vary annually. A further price breakdown of competition registration and USAC membership fees can be found 
+            <a class="purple-link" href="https://docs.google.com/document/d/e/2PACX-1vRS4XU2PpbYK2EL5dSBS6YNrrqmBcWPRqW0n3UQy2TxGZ_my8fbo2Bg2ntYrhcc4w/pub" 
+            >here</a>. If you are interested in joining the comp team but have financial concerns, please reach out to us, and
+            we can discuss available options.</p>
+                
             <h3>WEEKLY COMP TEAM PRACTICE</h3>
-            <p>Our team has a weekly practice that is exclusive to competition team members. Though this practice is not mandatory, attendance is strongly encouraged. These practices will be facilitated by <a href="leadership.html">Gavin Albright</a>, with help from coaches  
-            <a href="leadership.html">Sophia Hoermann</a>, and <a href="leadership.html">Soren Callo</a>. There will also be guest coaches helping out with practice on occassion. This Spring, comp team practice will be held every Thursday night and alternate between Momentum Millcreek from 8:00 PM - 10:00 PM and the Bouldering Project Salt Lake from 6:00 - 8:00 PM.
-            
-            </p>
+            <p>Our team has a weekly practice that is exclusive to competition team members. Though this practice is not mandatory, attendance is strongly encouraged. These practices will be facilitated by <a class="purple-link" href="leadership.html">Gavin Albright</a>, with help from coaches  
+            <a class="purple-link" href="leadership.html">Sophia Hoermann</a>, and <a class="purple-link" href="leadership.html">Soren Callo</a>. There will also be guest coaches helping out with practice on occassion. This Spring, comp team practice will be held every Thursday night and alternate between Momentum Millcreek from 8:00 PM - 10:00 PM and the Bouldering Project Salt Lake from 6:00 - 8:00 PM.</p>
+
             <h3>ADDITIONAL COACHING</h3>
-            <p><a style="font-weight: bolder; font-style: italic; color: white; text-decoration: underline;">Extra Training Sessions:</a> In addition to our weekly competition team practices, team members are also encouraged to attend our rec team practices (see the <a href="recteam.html">rec team page</a> for more details). 
-               This Spring, we will also hold a monthly "TC day" where everyone on the comp team is invited to train at the USA 
-               Climbing National Team Training Center.  Access to the TC costs $20/person per session. These sessions will be a great oppurtunity to train on competition style boulders similar to what you will see at competitions. In addition to these TC days, we also hold one larger comp team training camp per semester. This Spring, in April, we will be holding a two-day event at the Training Center. 
-            </p>
+            <p><a style="font-weight: bolder; font-style: italic; color: white; text-decoration: underline;">Extra Training Sessions:</a> In addition to our weekly competition team practices, team members are also encouraged to attend our rec team practices (see the <a class="purple-link" href="recteam.html">rec team page</a> for more details). 
+            This Spring, we will also hold a monthly "TC day" where everyone on the comp team is invited to train at the USA 
+            Climbing National Team Training Center.  Access to the TC costs $20/person per session. These sessions will be a great oppurtunity to train on competition style boulders similar to what you will see at competitions. In addition to these TC days, we also hold one larger comp team training camp per semester. This Spring, in April, we will be holding a two-day event at the Training Center. </p> 
             <p><a style="font-weight: bolder; font-style: italic; color: white; text-decoration: underline;">Personalized Coaching/ Training Plans:</a> 
-              Starting this spring, we will be opening up a training plan application form where team members will have access to custom training plans. <a
-              href="leadership.html">Sophia Terrill,</a> club president, will writing these plans. If you want to see an example training plan of hers, we will have some
-              stock training plans posted on the files page of our website. Feel free to follow these plans as they are or modify them to suit your needs. We also have an open, <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLScPoq80z-IvVHF6jbqix4pZOzg41t-JEWFQr_aDi_Io3MxdhA/viewform?usp=sharing">coaching
-              consultation form</a> where you can ask climbing/ training questions. One of the coaches will get back to you within a week. You can choose to connect over text, a phone call, in person or on Zoom.
-           </p>
-          <h3>MEMBERSHIP BENEFITS</h3>
-          <p>
-          Comp team members will have access to all of the benefits (gym discounts, merch, practices, events, etc.) that are avaiable to those on the rec team. Additionally, comp team members will have access to special training events throughout the school year. Additionally, members will be provided with 
-          jerseys and gear for competitions. Comp team members who qualify for the National Championships are guaranteed housing for the competition at a team Airbnb. Also, as stated above, 
-          members will be eligible for competition travel/housing reimbursements throughout the season.
-          In addition to all of these benefits, comp team members will also receive the bragging rights of being on the best collegiate climbing team in the country (Collegiate National Champions 2022, 2023 and 2024).</p>
-          
-          <h3>COMPETITION EVENT SCHEDULE</h3>
-            <p> While some dates for the 2024-2025 season have yet to be announced, there are three main events/series of events to look forward to:
+            Starting this spring, we will be opening up a training plan application form where team members will have access to custom training plans. <a
+            class="purple-link" href="leadership.html">Sophia Terrill,</a> club president, will writing these plans. If you want to see an example training plan of hers, we will have some
+            stock training plans posted on the files page of our website. Feel free to follow these plans as they are or modify them to suit your needs. We also have an open, <a
+            class="purple-link" href="https://docs.google.com/forms/d/e/1FAIpQLScPoq80z-IvVHF6jbqix4pZOzg41t-JEWFQr_aDi_Io3MxdhA/viewform?usp=sharing">coaching
+            consultation form</a> where you can ask climbing/ training questions. One of the coaches will get back to you within a week. You can choose to connect over text, a phone call, in person or on Zoom.
             </p>
-          <div class="red-box">
-            <ul class="bullet-list">
-                <li>
-                    <strong>QE (Qualifying Events)</strong>
-                    <p>From October to March, USA Climbing will host a series of local qualifying events that anyone with a USAC membership may attend. Participation in one or more of these events is enough to qualify for the CNQE series. Athletes may compete in a lead event or a bouldering event to qualify for both disciplines in the CNQE series. 
-                       <a  style="font-weight: bold;" href="https://docs.google.com/document/d/e/2PACX-1vSEXqx9JruffV3mJX6L67dF6Ii25k_1HcMXASZyYBeHM6Q-TEmwNnmgQXJUqHmIgw/pub" >Collegiate Qualification Event (QE) Guide</a> </p>
+
+            <h3>MEMBERSHIP BENEFITS</h3>
+            <p> Comp team members will have access to all of the benefits (gym discounts, merch, practices, events, etc.) that are avaiable to those on the rec team. Additionally, comp team members will have access to special training events throughout the school year. Additionally, members will be provided with 
+            jerseys and gear for competitions. Comp team members who qualify for the National Championships are guaranteed housing for the competition at a team Airbnb. Also, as stated above, 
+            members will be eligible for competition travel/housing reimbursements throughout the season.
+            In addition to all of these benefits, comp team members will also receive the bragging rights of being on the best collegiate climbing team in the country (Collegiate National Champions 2022, 2023 and 2024).</p>
+            
+            <h3>COMPETITION EVENT SCHEDULE</h3>
+            <p> While some dates for the 2024-2025 season have yet to be announced, there are three main events/series of events to look forward to: </p>
+       
+            <!-- Competition schedule box -->
+            <div class="red-box">
+              <ul class="bullet-list">
+                  <li>
+                      <strong>QE (Qualifying Events)</strong>
+                      <p>From October to March, USA Climbing will host a series of local qualifying events that anyone with a USAC membership may attend. Participation in one or more of these events is enough to qualify for the CNQE series. Athletes may compete in a lead event or a bouldering event to qualify for both disciplines in the CNQE series. 
+                          <a class="purple-link" href="https://docs.google.com/document/d/e/2PACX-1vSEXqx9JruffV3mJX6L67dF6Ii25k_1HcMXASZyYBeHM6Q-TEmwNnmgQXJUqHmIgw/pub" >Collegiate Qualification Event (QE) Guide</a> </p>
+                    </li>
+                  <li>
+                      <strong>CNQE (Collegiate Nationals Qualifying Event)</strong>
+                      <p>On March 29-30, and April 5-6, USAC will host CNQE events nationwide, with at least one event per division, where the top eight advanced and top five intermediate athletes in each discipline (bouldering and lead/top rope) will qualify for the Collegiate National Championships in May. Competitors may attend any CNQE, but registration is limited to one event per athlete. We encourage all of you to attend the event that is the most convenient for you (this could be a good excuse to visit home), but we will only guarantee travel/housing funding to athletes who compete in the CNQE within our division (the Rocky Mountain Division). Placing in a qualifying spot at a CNQE secures eligibility for all disciplines, including speed, which has open registration for Nationals.
+                      <a class="purple-link" href="https://docs.google.com/document/d/e/2PACX-1vRyYTJ6DhwflyCdXuuE6xY5cFcUUxXE9m4UBefFntmNddaOtJjOVwXqnDYxIUqOHQ/pub" >Collegiate Nationals Qualification Event (CNQE) Guide</a> </p>
                   </li>
-                <li>
-                    <strong>CNQE (Collegiate Nationals Qualifying Event)</strong>
-                    <p>On March 29-30, and April 5-6, USAC will host CNQE events nationwide, with at least one event per division, where the top eight advanced and top five intermediate athletes in each discipline (bouldering and lead/top rope) will qualify for the Collegiate National Championships in May. Competitors may attend any CNQE, but registration is limited to one event per athlete. We encourage all of you to attend the event that is the most convenient for you (this could be a good excuse to visit home), but we will only guarantee travel/housing funding to athletes who compete in the CNQE within our division (the Rocky Mountain Division). Placing in a qualifying spot at a CNQE secures eligibility for all disciplines, including speed, which has open registration for Nationals.
-                    <a  style="font-weight: bold;" href="https://docs.google.com/document/d/e/2PACX-1vRyYTJ6DhwflyCdXuuE6xY5cFcUUxXE9m4UBefFntmNddaOtJjOVwXqnDYxIUqOHQ/pub" >Collegiate Nationals Qualification Event (CNQE) Guide</a> </p>
-                </li>
-                <li>
-                    <strong>Collegiate National Championships</strong>
-                    <p>At the end of each season in May, the very best collegiate climbers from across the country compete at the National Championships. This is the biggest (and most fun) event of the year. The top 5 highest-ranked athletes per category qualify for the Collegiate National Team. Biannually, 
-                      national team athletes will have the opportunity to compete at the Collegiate World Championships.
-                    <a href="https://usaclimbing.org/collegiate-national-championships/" style="font-weight: bold;" >Collegiate Nationals Info 2025</a> </p>
-                </li>
-            </ul>
+                  <li>
+                      <strong>Collegiate National Championships</strong>
+                      <p>At the end of each season in May, the very best collegiate climbers from across the country compete at the National Championships. This is the biggest (and most fun) event of the year. The top 5 highest-ranked athletes per category qualify for the Collegiate National Team. Biannually, 
+                        national team athletes will have the opportunity to compete at the Collegiate World Championships.
+                      <a class="purple-link" href="https://usaclimbing.org/collegiate-national-championships/" >Collegiate Nationals Info 2025</a> </p>
+                  </li>
+              </ul>
+            </div>
+              <h3>HOW TO JOIN</h3>
+              <p>Everyone interested in joining the comp team should first read through the comp team <a class="purple-link" href="https://docs.google.com/document/d/1RaEXotJZsiK4A4vtXlS2hmiW5otbcVkSrX_Q1NXLf4w/edit?usp=sharing">info sheet</a>.
+              The steps on how to join the team are outlined on the first page of that document. Take note of the competition season schedule outlined in that document. </p>
+              <img src="images/23nats.JPG" class="team-pic">
+            </div>
           </div>
-            <h3>HOW TO JOIN</h3>
-             <p>Everyone interested in joining the comp team should first read through the comp team <a  style="font-weight: bold;" href="https://docs.google.com/document/d/1RaEXotJZsiK4A4vtXlS2hmiW5otbcVkSrX_Q1NXLf4w/edit?usp=sharing">info sheet</a>.
-              The steps on how to join the team are outlined on the first page of that document. Take note of the competition season schedule outlined in that document. 
-             </p>
-              </a>
-          </p>
-          <img src="images/23nats.JPG" class="team-pic">
+        </section>
+      </main>
+    </div>
 
-        </div>
-      </div>
-    </section>
-  </main>
-</div>
-  <footer class="footer">
-    <p>@ 2024 Utah School of Climb</p>
-    <p>
-        <a href="https://www.instagram.com/utahclimbingteam/">Instagram</a> |
-        <a href="https://usaclimbing.org/">USA Climbing</a>
-    </p>
-  </footer>
+    <!-- Footer -->
+    <footer class="footer">
+      <p>@ 2024 Utah School of Climb</p>
+      <p><a href="https://www.instagram.com/utahclimbingteam/">Instagram</a> | <a href="https://usaclimbing.org/">USA Climbing</a></p>
+    </footer>
 
-  <script src="app.js"></script>
-</body>
-
+    <!-- JS for the carousel and menubar -->
+    <script src="app.js"></script>
+  </body>
 </html>
