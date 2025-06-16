@@ -5,11 +5,11 @@
 
 ## Overview
 
-This is the official website for the University of Utah Climbing Team. This website is designed to provide students with information about the club and serve as a place to post club resources (sign up forms, team constitution, etc.) The website is built using HTML, CSS, and JavaScript, with a focus on responsive design and clarity.
+This is the official website for the University of Utah Climbing Team. This website is designed to provide students with information about the club and serve as a place to post club resources (sign-up forms, team constitution, etc). The website is built using HTML, CSS, and JavaScript, with a focus on responsive design and clarity.
 
 ## Developer Handoff
 
-This website was built to be easy to maintain and update by future climbing team board members. A complete breakdown of the website’s structure, how to edit pages, update content, and deploy changes is provided here:
+This website was built to be easy to maintain and update by future climbing team board members. A guide for future maintainers can be found here:
 
 > Developer Guide: https://docs.google.com/document/d/1uixyDznXhdAYeMwqLKP8yw4AI99kk6MEJ7Yr-KSwGQQ/edit?tab=t.0
 
@@ -45,7 +45,7 @@ The guide covers:
 ### Popups
 
 - Optional popup feature on the home page to display important information.
-- Popups are centered, styled with custom CSS, and optionally dismissable.
+- Popups are optionally dismissible and may link to other pages when clicked.
 
 ### Error Handling
 
