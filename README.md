@@ -1,29 +1,78 @@
-- Author:     Julia Duffy
-- GitHub ID:  juliatduffy
+# University of Utah Climbing Team Website
+
+- Authors: Julia Duffy, Ethan Laynor
 - Start Date: 6/15/24
-- Commit Date:  7/20/24  
 
-**University of Utah Climbing Team Website**
-Welcome to the University of Utah Climbing Team website! This website is designed to provide students with information about our climbing team. It includes a home page, meet the board page, donate page, files page, and more. This was my first ever website, so I learned a lot in the process of building it. I used HTML and CSS, to style the website, and Java to implement the interactive menu bar at the top of each page as well as the image carousels on some of the pages.
+## Overview
 
-**Features**
-1. Interactive Menu Bar:  When any link on the menu bar is hovered over, it is highlighted red. Clicking
-on the link will take you to that section of the website. When the the "Join" and "About Us" links are hovered over, a second, submenu appears with  more links to pages on the site.
-2. Responsive design: Many aspects of this website change when the screen size is reduced. The menu bar collapses on mobile, and is hidden behind a hamburger icon to save screen space. Some of the image aspect ratios and paragraph formats also change when screen size is reduced. These accommodations ensure that this website can be accessed by all devices, and looks good regardless of screen size. To test this, I used a live server and Google Chrome's device view feature. 
-3. User-friendly Design: This website is designed so users will have an easy time navigating all of the information on the site. Many of the pages include download links to important file. The home page is inviting, and aimed to direct users to the most important information on the site as soon as they load the page.
-4. Error-handling: This code includes 'noscript' tags and try/catches to handle errors gracefully.
-5. Code Maintainability:  This website will hopefully be used for years to come, so I was diligent about writing clean code and including inline comments in the more complicated sections of code.
-6. Email-list: Users can enter their email on the 'contact' page into an embedded form to join the team newsletter.
+This is the official website for the University of Utah Climbing Team. This website is designed to provide students with information about the club and serve as a place to post club resources (sign up forms, team constitution, etc.) The website is built using HTML, CSS, and JavaScript, with a focus on responsive design and clarity.
 
-**Sources**
-1. Fully responsive website tutorial: https://youtu.be/FazgJVnrVuI?si=PPeIccPg9HAzWN1c
-- I used this tutorial for inspiration while making the menu bar. Code referenced in this video is cited within my code.
-2. CS50 lecture 8: https://youtu.be/ciz2UaifaNM?si=JW3cJmmhoUul2I5A
-- This video helped me gain a more holistic understanding of using HTML, CSS, and Java in tandem.
-3. Stack overflow post about including HTML on all pages of a website: https://stackoverflow.com/questions/33322508/include-html-navigation-bar-in-all-pages 
+## Developer Handoff
+
+This website was built to be easy to maintain and update by future climbing team board members. A complete breakdown of the website’s structure, how to edit pages, update content, and deploy changes is provided here:
+
+> Developer Guide: https://docs.google.com/document/d/1uixyDznXhdAYeMwqLKP8yw4AI99kk6MEJ7Yr-KSwGQQ/edit?tab=t.0
+
+The guide covers:
+
+- Installing VS Code and Git
+- How the site is structured (HTML/CSS/JS overview)
+- Updating content and pushing changes to the GitHub repo
+- GitHub Pages overview
+- How to run the site locally using LiveServer
+- How our custom domain is managed (utahclimbingteam.com)
+- How to test responsive design
+
+## Features
+
+### Interactive Menu Bar
+
+- Hover effects highlight active links in red.
+- Dropdown menus reveal subpages under “About” and “Contact.”
+- The header is dynamically injected into each page using JavaScript.
+
+### Responsive Design
+
+- The site adapts to mobile and desktop screens.
+- On small screens, the navbar collapses into a hamburger menu.
+- Images and paragraph layouts adjust with screen size.
+
+### Image Carousel
+
+- Pages like `compteam.html` feature image carousels to showcase team photos.
+- Navigation buttons allow users to cycle through featured images.
+
+### Popups
+
+- Optional popup feature on the home page to display important information.
+- Popups are centered, styled with custom CSS, and optionally dismissable.
+
+### Error Handling
+
+- `<noscript>` fallback messaging for users without JavaScript.
+
+### Maintainable Structure
+
+- The header is stored in `header.html` and injected via `app.js`.
+- Global styles are in `styles.css`.
+- Pages use consistent class naming and modular structure.
+
+### Email Signup
+
+- Embedded MailerLite form on the Contact page for newsletter signups. (No longer active)
+
+## Sources
+
+1. CS50 lecture 8: https://youtu.be/ciz2UaifaNM?si=JW3cJmmhoUul2I5A
+
+2. Fully responsive website tutorial: https://youtu.be/FazgJVnrVuI?si=PPeIccPg9HAzWN1c
+
+3. Stack overflow post about including HTML on all pages of a website: https://stackoverflow.com/questions/33322508/include-html-navigation-bar-in-all-pages
+
 4. Stack overflow post about including HTML on all pages using fetch api: https://stackoverflow.com/questions/57987543/how-do-i-use-the-fetch-api-to-load-html-page-with-its-javascript
-- I used the stack overflow posts in 3 and 4 for guidance on how to include my menu bar HTML code on all pages of my website. This proved to be a challenge for me as I was unfamiliar with the fetch api before this project.
-4. ChatGPT: https://chatgpt.com/ 
-- I used code from ChatGPT when trying to get the menu bar to function properly. This was the hardest part of building this website for me. I also used ChatGPT while making the carousel because I was having issues with cycling through the images.
+
 5. Mailerlite (email list host): https://www.mailerlite.com/
 
+6. Pop-Up Tutorial: https://www.w3schools.com/howto/howto_css_modals.asp?
+
+7. Image Carousel Tutorial: https://blog.logrocket.com/build-image-carousel-scratch-vanilla-javascript

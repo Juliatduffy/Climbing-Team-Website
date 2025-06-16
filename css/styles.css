@@ -186,7 +186,7 @@ a.purple-link:hover {
   text-decoration: underline;
 }
 
-/* Navbar esizing Stuff */
+/* Navbar Resizing Stuff */
 @media (max-width: 760px) {
   .hamburger-icon {
     display: flex;

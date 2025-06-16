@@ -118,38 +118,37 @@
   padding-bottom: 0vh;
 }
 
-/* UNCOMMENT FOR POPUP :)
-
+/* Pop-Up Stuff */
 .popup {
-    display: none; 
-    position: fixed;
-    top: 30%;
-    left: 10%;
-    background-color: #ffffff;
-    padding: 0px 20px;
-    border-radius: 20px;
-    border: 2px solid black;
-    width: 280px;
-    font-size: 28px;
-    z-index: 9999;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-    color: black;
+  display: none;
+  position: fixed;
+  top: 30%;
+  left: 10%;
+  background-color: #ffffff;
+  padding: 0px 20px;
+  border-radius: 20px;
+  border: 2px solid black;
+  width: 280px;
+  font-size: 28px;
+  z-index: 9999;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  color: black;
 }
 
 .popup a {
-    color: black;
-    font-weight: bold;
-    text-decoration: underline;
+  color: black;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 .popup .close-btn {
-    position: absolute;
-    top: 10px;
-    right: 15px;
-    font-size: 30px;
-    font-weight: bold;
-    cursor: pointer;
-} */
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
 
 @media (max-width: 1200px) {
   .home-pic {
@@ -158,11 +157,11 @@
 }
 
 @media (max-width: 760px) {
-  /* .popup {
+  .popup {
     position: fixed;
-    top: 10%; 
+    top: 10%;
     left: 10%;
-} */
+  }
   .overlay-text {
     font-size: 4vw;
   }
