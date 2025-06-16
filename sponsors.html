@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+    <!-- Page Setup -->
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,173 +8,26 @@
         <link
             href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,300"
             rel="stylesheet" type="text/css">
+        <!-- Website Styling -->
         <link rel="stylesheet" href="css/styles.css">
+        <!-- Page-Specific Styling -->
+        <link rel="stylesheet" href="css/sponsors.css">
         <link rel="icon" href="images/favicon.png" type="image/x-icon">
-        <style>  
-            body {
-                display: flex;
-                flex-direction: column;
-            }
-            .sponsors-page {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: center;
-                width: 75%;
-                margin: 30px auto; 
-                margin-bottom: 0;
-                padding: 0;
-                font-size: 1.3rem;
-                line-height: 1.7rem;
-            }
-            .sponsors-page h1{
-                width: 100%;
-                text-align: left;
-                font-size: 2rem;
-            }
-            
-            .sponsor1-content {
-                display: flex;
-                text-align: left;
-                flex-direction: column;
-                align-items: center;
-                padding: 3vw;
-                background-color: rgba(0, 0, 0, 0.445);
-                margin-top: 4vh;
-            }
-
-            .sponsor1 {
-                display: flex;
-                align-items: flex-start;
-            }
-
-            .sponsor1 p {
-                flex: 1;
-                order: 1;
-            }
-
-            .img-wrap1 {
-                width: 25vw;
-                height: auto;
-                justify-content: center;
-                margin: auto 1.5rem;
-                order: 2; 
-            }
-
-            .sponsor-img1 {
-               width:100%;
-               height:auto;
-            }
-
-            .img-link1{
-                height:auto;
-                width:20vw;
-                border:none
-            }
-
-            .sponsor2-content {
-                margin-top: 4vh;
-                display: flex;
-                text-align: left;
-                flex-direction: column;
-                align-items: center;
-                padding: 3vw;
-                background-color: rgba(0, 0, 0, 0.445);
-            }
-
-            .sponsor2 {
-                display: flex;
-                align-items: flex-start;
-            }
-            .sponsor2 p {
-                flex: 1;
-                order: 2;
-                font-size: 1.2rem;
-                margin: 20px;
-            }
-            .img-wrap2{
-                width: 25vw;
-                height: auto;
-                justify-content: center;
-                margin: auto;
-                margin-right: 2rem;
-                order: 1; 
-            }
-            .sponsor-img2 {
-                width:100%;
-                height:auto;
-            }
-            .img-link2{
-                height:auto;
-                width:20vw;
-                border:none
-            }
-            .sponsor1 strong, .sponsor2 strong {
-                text-decoration-line: underline;
-            }
-            .sponsor-img1:hover, .sponsor-img2:hover {
-                transform: scale(1.05);
-                box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
-            }
-
-    @media (max-width: 760px) {
-            .sponsors-page{
-                text-align: center;
-            }
-            
-            .sponsors-page h1 {
-                text-align: center;
-                font-size: 2rem;
-            }
-            .sponsor1-content, .sponsor2-content{
-                text-align: center;
-                margin-top: 7vh;
-            }
-
-            .sponsor1, .sponsor2 {
-                display: flex;
-                flex-direction: column;
-                align-items: flex-start;
-            }
-            
-            .sponsor1 p, .sponsor2 p{
-                flex: 1;
-                order: 1;
-                margin-bottom: 30px;
-            }
-
-            .img-wrap1, .img-wrap2{
-                width: 70%;
-                height: auto;
-                margin: auto;
-                order: 2; 
-            }
-
-            .sponsor-img1 {
-               width:100%;
-               height:auto;
-            }
-
-            .img-link1 {
-                height:auto;
-                width:20vw;
-                border:none
-            }
-
-       
-    }
-        </style>
     </head>
 
     <body>
+        <!-- Header -->
         <div id="header-placeholder"></div>
 
+        <!-- JS Error Message -->
         <noscript>
             For full functionality of this site it is necessary to enable
             JavaScript.
             Here are the <a href="https://www.enable-javascript.com/">
                 instructions how to enable JavaScript in your web browser</a>.
         </noscript>
+
+        <!-- Page Content -->
         <div class="grey-back">
             <main>
                 <section class="sponsors-page">
@@ -186,7 +39,7 @@
                         supporting
                         our team are welcome to email us <a
                             href="mailto:utahclimbingteam@gmail.com"
-                            style="color:rgb(139, 172, 255);">utahclimbingteam@gmail.com</a>.
+                            class="purple-link">utahclimbingteam@gmail.com</a>.
                     </p>
                     <!-- <div class="sponsor1-content">
                         <div class="sponsor1">
@@ -235,7 +88,7 @@
                                 us to hold practices at their HQ and
                                 by helping print our team jerseys and merch.
                                 Check out their website to learn more! <a
-                                    style="color:rgb(139, 172, 255);"
+                                    class="purple-link"
                                     href="https://pusher.world/">https://pusher.world/</a>
                             </p>
                         </div>

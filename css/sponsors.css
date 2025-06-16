@@ -1,0 +1,156 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+.sponsors-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 75%;
+  margin: 30px auto;
+  margin-bottom: 0;
+  padding: 0;
+  font-size: 1.3rem;
+  line-height: 1.7rem;
+}
+.sponsors-page h1 {
+  width: 100%;
+  text-align: left;
+  font-size: 2rem;
+}
+
+.sponsor1-content {
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  align-items: center;
+  padding: 3vw;
+  background-color: rgba(0, 0, 0, 0.445);
+  margin-top: 4vh;
+}
+
+.sponsor1 {
+  display: flex;
+  align-items: flex-start;
+}
+
+.sponsor1 p {
+  flex: 1;
+  order: 1;
+}
+
+.img-wrap1 {
+  width: 25vw;
+  height: auto;
+  justify-content: center;
+  margin: auto 1.5rem;
+  order: 2;
+}
+
+.sponsor-img1 {
+  width: 100%;
+  height: auto;
+}
+
+.img-link1 {
+  height: auto;
+  width: 20vw;
+  border: none;
+}
+
+.sponsor2-content {
+  margin-top: 4vh;
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  align-items: center;
+  padding: 3vw;
+  background-color: rgba(0, 0, 0, 0.445);
+}
+
+.sponsor2 {
+  display: flex;
+  align-items: flex-start;
+}
+.sponsor2 p {
+  flex: 1;
+  order: 2;
+  font-size: 1.2rem;
+  margin: 20px;
+}
+.img-wrap2 {
+  width: 25vw;
+  height: auto;
+  justify-content: center;
+  margin: auto;
+  margin-right: 2rem;
+  order: 1;
+}
+.sponsor-img2 {
+  width: 100%;
+  height: auto;
+}
+.img-link2 {
+  height: auto;
+  width: 20vw;
+  border: none;
+}
+.sponsor1 strong,
+.sponsor2 strong {
+  text-decoration-line: underline;
+}
+.sponsor-img1:hover,
+.sponsor-img2:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 760px) {
+  .sponsors-page {
+    text-align: center;
+  }
+
+  .sponsors-page h1 {
+    text-align: center;
+    font-size: 2rem;
+  }
+  .sponsor1-content,
+  .sponsor2-content {
+    text-align: center;
+    margin-top: 7vh;
+  }
+
+  .sponsor1,
+  .sponsor2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .sponsor1 p,
+  .sponsor2 p {
+    flex: 1;
+    order: 1;
+    margin-bottom: 30px;
+  }
+
+  .img-wrap1,
+  .img-wrap2 {
+    width: 70%;
+    height: auto;
+    margin: auto;
+    order: 2;
+  }
+
+  .sponsor-img1 {
+    width: 100%;
+    height: auto;
+  }
+
+  .img-link1 {
+    height: auto;
+    width: 20vw;
+    border: none;
+  }
+}
