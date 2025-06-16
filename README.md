@@ -5,10 +5,8 @@
 
 ## Overview
 
-This is the official website for the University of Utah Climbing Team. This website is designed to provide students with information about the club and serve as a place to post club resources (sign-up forms, team constitution, etc). The website is built using HTML, CSS, and JavaScript, with a focus on responsive design and clarity.
-
-This website is hosted on GitHub Pages at this link:
-> https://utahclimbingteam.com
+This is the official website for the University of Utah Climbing Team. The website is designed to provide students with information about the club and serve as a place to post club resources (sign-up forms, team constitution, etc). The website is built using HTML, CSS, and JavaScript, and is hosted on GitHub Pages at this link:
+> Link to the Site: https://utahclimbingteam.com
 
 ## Developer Handoff
 
@@ -18,13 +16,14 @@ This website was built to be easy to maintain and update by future climbing team
 
 The guide covers:
 
+- Project File Structure
 - Installing VS Code and Git
 - How the site is structured (HTML/CSS/JS overview)
 - Updating content and pushing changes to the GitHub repo
 - GitHub Pages overview
 - How to run the site locally using LiveServer
 - How our custom domain is managed (utahclimbingteam.com)
-- How to test responsive design
+- How to test responsive design using Inspect and Google Chrome
 
 ## Features
 
