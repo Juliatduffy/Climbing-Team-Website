@@ -47,9 +47,10 @@ a:hover {
   object-fit: cover;
   margin-right: 5vw;
 }
-.board-member-section {
+
+/* .board-member-section {
   line-height: 0.4;
-}
+} */
 
 .board-member-details {
   flex: 1;
@@ -80,6 +81,18 @@ a:hover {
   margin-top: 30px;
 }
 
+.board-member h2,
+.board-member h3,
+.board-member h4 {
+  line-height: 1.25;
+  word-break: break-word; /* allow breaking long words/titles */
+  white-space: normal; /* make sure wrapping is allowed */
+}
+
+.mobile-break {
+  display: none; /* default: no break on desktop */
+}
+
 @media (max-width: 800px) {
   .board-member {
     align-items: center;
@@ -99,5 +112,9 @@ a:hover {
   .board-member p {
     text-align: left;
     margin-left: 0;
+  }
+
+  .mobile-break {
+    display: inline; /* only force break on mobile */
   }
 }
