@@ -1,0 +1,249 @@
+/* ------------------------------------------------------------
+   GLOBAL PAGE BACKGROUND
+   - Sets climbing image as background for the entire page
+   ------------------------------------------------------------ */
+body {
+  background-image: url("/images/angler.jpg");
+  background-size: cover; /* Fill screen */
+  background-position: center; /* Keep subject centered */
+  background-repeat: no-repeat; /* Don’t tile image */
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  min-height: 100vh; /* Full screen height */
+  display: flex;
+  flex-direction: column;
+}
+
+/* ------------------------------------------------------------
+   MAIN CONTAINER: "Events Page"
+   - The box that holds everything (title + calendar)
+   ------------------------------------------------------------ */
+.events-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1000px;
+  width: 90%; /* Shrinks for small screens */
+  margin: 5vh auto; /* Center with vertical spacing */
+  padding-bottom: 5vh;
+  color: #fff;
+  background-color: rgba(17, 17, 17, 0.9); /* Transparent dark bg */
+  border-radius: 6px; /* Rounded corners */
+}
+
+.events-page h1 {
+  font-size: 1.7rem;
+  margin: 2vh auto;
+  padding-top: 3vh;
+  text-align: center;
+}
+
+.events-page h5 {
+  font-size: 0.9rem;
+  margin: 2vh auto;
+  padding-top: 3vh;
+  text-align: center;
+}
+
+/* Decorative horizontal line under "UPCOMING EVENTS" */
+hr {
+  height: 2px;
+  background-color: white;
+  margin: 20px 0;
+  opacity: 0.5;
+  width: 90%;
+  border: 0;
+}
+
+/* ------------------------------------------------------------
+   CALENDAR HEADER (month title + arrows)
+   ------------------------------------------------------------ */
+.cal-header {
+  display: grid;
+  grid-template-columns: 48px 1fr 48px; /* left arrow | month | right arrow */
+  align-items: center;
+  gap: 10px;
+  width: 90%;
+  max-width: 900px;
+  margin: 10px auto;
+  color: #fff;
+}
+
+/* The month name (e.g., "March 2025") */
+.cal-title {
+  justify-self: center;
+  margin: 0;
+  font-size: clamp(1.1rem, 2vw, 1.4rem);
+}
+
+/* Navigation arrows (◀ ▶) */
+.cal-nav {
+  background: none;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  color: #fff;
+  border-radius: 6px;
+  padding: 6px 8px;
+  cursor: pointer;
+}
+.cal-nav:hover {
+  border-color: #4a90e2; /* Blue highlight */
+}
+
+/* ------------------------------------------------------------
+   CALENDAR WRAPPER (groups weekdays + day grid)
+   ------------------------------------------------------------ */
+.calendar-wrapper {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto 24px;
+  padding: 8px; /* Creates space so calendar isn’t touching border */
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  overflow-x: auto; /* Allows horizontal scroll if too narrow */
+  -webkit-overflow-scrolling: touch;
+}
+
+/* ------------------------------------------------------------
+   WEEKDAY LABELS (Sun, Mon, Tue…)
+   - Styled to align perfectly with the calendar grid
+   ------------------------------------------------------------ */
+.weekday-row {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 600;
+  font-size: clamp(0.75rem, 1.6vw, 0.9rem);
+  margin-bottom: 6px;
+}
+
+.weekday-row > div {
+  padding: 6px 0;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 6px;
+}
+
+/* ------------------------------------------------------------
+   CALENDAR GRID (the actual days of the month)
+   - 7 equal columns (Sun → Sat)
+   - Each square grows/shrinks together
+   ------------------------------------------------------------ */
+.weekday-row,
+.cal-grid {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(100px, 1fr));
+  gap: 6px;
+  min-width: 700px; /* Ensures scrolling on small screens */
+}
+
+.cal-grid {
+  grid-auto-rows: minmax(88px, auto); /* Default height for each day */
+}
+
+/* ------------------------------------------------------------
+   INDIVIDUAL DAY CELLS
+   ------------------------------------------------------------ */
+.day {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  border-radius: 6px;
+  color: #fff;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.day--empty {
+  /* Blank slots before month starts */
+  background: transparent;
+  border: none;
+}
+
+/* Day number (big number in corner) */
+.day h4 {
+  margin: 0 0 6px;
+  font-size: clamp(0.9rem, 1.6vw, 1rem);
+  font-weight: 700;
+  opacity: 0.95;
+}
+
+/* Special highlight for TODAY */
+.day--today {
+  outline: 2px solid #4a90e2;
+  outline-offset: -2px;
+  background: rgba(74, 144, 226, 0.12);
+}
+
+/* ------------------------------------------------------------
+   EVENTS (little clickable "chips" inside day squares)
+   ------------------------------------------------------------ */
+.event {
+  background: #4a90e2;
+  color: #fff;
+  border: none;
+  text-align: left;
+  padding: 4px 6px;
+  margin-top: 4px;
+  border-radius: 4px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: clamp(0.7rem, 1.4vw, 0.85rem);
+  cursor: pointer;
+  white-space: normal; /* Wrap text if too long */
+  overflow-wrap: break-word;
+}
+.event:hover {
+  filter: brightness(1.1); /* Slight glow */
+}
+
+/* ------------------------------------------------------------
+   EVENT MODAL (popup when clicking an event)
+   ------------------------------------------------------------ */
+.modal {
+  display: none; /* Hidden until opened */
+  position: fixed;
+  inset: 0; /* Covers full screen */
+  background: rgba(0, 0, 0, 0.6);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* On top of everything */
+}
+
+.modal-content {
+  background: #fff;
+  color: #000;
+  padding: 20px;
+  max-width: 520px;
+  width: 70%;
+  border-radius: 10px;
+  position: relative;
+}
+
+.modal-content img {
+  max-width: 100%;
+  border-radius: 25px;
+  display: block;
+  margin: 0 auto -10px auto;
+}
+
+.close {
+  position: absolute;
+  top: 5px;
+  right: 14px;
+  font-size: 22px;
+  cursor: pointer;
+  color: #666;
+}
+.close:hover {
+  color: #000;
+}
+
+/* ------------------------------------------------------------
+   RESPONSIVE ADJUSTMENTS (phones, <520px wide)
+   ------------------------------------------------------------ */
+@media (max-width: 520px) {
+  .cal-grid {
+    grid-auto-rows: minmax(80px, auto); /* Slightly smaller days */
+  }
+  .event {
+    padding: 3px 5px; /* Smaller event chips */
+  }
+}

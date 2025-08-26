@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Utah Climbing Team</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,300"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/calendar.css" />
+    <link rel="icon" href="images/favicon.png" type="image/x-icon" />
+  </head>
+
+  <body>
+    <div id="header-placeholder"></div>
+
+    <noscript>
+      For full functionality of this site it is necessary to enable JavaScript.
+      Here are the
+      <a href="https://www.enable-javascript.com/">
+        instructions how to enable JavaScript in your web browser.</a
+      >
+    </noscript>
+
+    <main>
+      <div class="events-page">
+        <div class="event-item">
+          <h1>Utah Climbing Team Calendar</h1>
+        </div>
+        <h5>Some events on this calendar are tentative and may be adjusted.</h5>
+
+        <hr />
+
+        <!-- Calendar Header (Month + Arrows) -->
+        <div class="cal-header" aria-live="polite">
+          <button id="calPrev" class="cal-nav" aria-label="Previous month">
+            ◀
+          </button>
+          <h2 id="calMonthYear" class="cal-title"></h2>
+          <button id="calNext" class="cal-nav" aria-label="Next month">
+            ▶
+          </button>
+        </div>
+
+        <!-- Calendar Wrapper: weekdays + grid scroll together -->
+        <div class="calendar-wrapper">
+          <!-- Weekday Row -->
+          <div class="weekday-row">
+            <div>Sun</div>
+            <div>Mon</div>
+            <div>Tue</div>
+            <div>Wed</div>
+            <div>Thu</div>
+            <div>Fri</div>
+            <div>Sat</div>
+          </div>
+
+          <!-- Calendar Grid -->
+          <div id="calGrid" class="cal-grid" role="grid"></div>
+        </div>
+
+        <!-- Calendar Grid: JS will fill blanks + days -->
+        <div id="calGrid" class="cal-grid" role="grid"></div>
+      </div>
+    </main>
+
+    <!-- EVENT POPUP MODAL (reuses the existing styles/structure) -->
+    <div
+      class="modal"
+      id="eventModal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="modalTitle"
+    >
+      <div class="modal-content">
+        <span class="close" role="button" aria-label="Close">&times;</span>
+        <img id="modalImg" src="" alt="Event image" />
+        <h2 id="modalTitle"></h2>
+        <p><strong>Time:</strong> <span id="modalTime"></span></p>
+        <p><strong>Location:</strong> <span id="modalLocation"></span></p>
+        <p id="modalAbout"></p>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <p>@ 2025 Utah School of Climb</p>
+      <p>
+        <a href="https://www.instagram.com/utahclimbingteam/">Instagram</a> |
+        <a href="https://usaclimbing.org/">USA Climbing</a>
+      </p>
+    </footer>
+
+    <!-- Global site JS (keeps header/navigation working) -->
+    <script src="js/calendar.js"></script>
+
+    <!-- Calendar logic for this page -->
+    <script src="app.js"></script>
+
+    <script src="calendar.js" defer></script>
+  </body>
+</html>
