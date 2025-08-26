@@ -1,79 +1,88 @@
 {
+  "2025-08-25": [
+    {
+      "title": "Reduced Front Membership!",
+      "time": "August 25 - August 29 ",
+      "location": "Read the About > Rec Team > 'How to Set Up Your Membership'",
+      "about": "The Front is giving our members this week (August 25–29) to sign up for their reduced membership rate. More information can be found on Discord and in the 'How to Set Up Your Membership' section on the About > Rec Team page.",
+      "img": "images/TheFrontClimbingClubOutside.webp",
+      "color": "#11c21d"
+    }
+  ],
+  "2025-08-26": [
+    {
+      "title": "Reduced Front Membership!",
+      "time": "August 25 - August 29 ",
+      "location": "Read the About > Rec Team > 'How to Set Up Your Membership'",
+      "about": "The Front is giving our members this week (August 25–29) to sign up for their reduced membership rate. More information can be found on Discord and in the 'How to Set Up Your Membership' section on the About > Rec Team page.",
+      "img": "images/TheFrontClimbingClubInside1.webp",
+      "color": "#11c21d"
+    }
+  ],
   "2025-08-27": [
+    {
+      "title": "Reduced Front Membership!",
+      "time": "August 25 - August 29 ",
+      "location": "Read the About > Rec Team > 'How to Set Up Your Membership'",
+      "about": "The Front is giving our members this week (August 25–29) to sign up for their reduced membership rate. More information can be found on Discord and in the 'How to Set Up Your Membership' section on the About > Rec Team page.",
+      "img": "images/TheFrontClimbingClubInside2.webp",
+      "color": "#11c21d"
+    },
     {
       "title": "Info Session",
       "time": "4:00 PM - 5:00 PM",
       "location": "Union Theatre",
       "about": "Join us for an info session where we’ll answer your questions and introduce you to the team. This is a great opportunity to learn more, connect with others, and get involved. Pizza will be provided at the end of the event!",
       "img": "images/eventsbkg.jpg",
-      "color": "#f45c42"
+      "color": "#42b6f4"
     }
   ],
-  "2025-08-11": [
+  "2025-08-28": [
     {
-      "title": "Bouldering Night",
-      "time": "6:00 PM - 9:00 PM",
-      "location": "Momentum Millcreek",
-      "about": "Join us for a fun bouldering session, training tips, and team community.",
-      "img": "images/events/bouldering.jpg",
-      "color": "#f45c42"
-    }
-  ],
-  "2025-08-12": [
-    {
-      "title": "Bouldering Night",
-      "time": "6:00 PM - 9:00 PM",
-      "location": "Momentum Millcreek",
-      "about": "Join us for a fun bouldering session, training tips, and team community.",
-      "img": "images/events/bouldering.jpg",
-      "color": "#f45c42"
-    }
-  ],
-  "2025-08-13": [
-    {
-      "title": "Bouldering Night",
-      "time": "6:00 PM - 9:00 PM",
-      "location": "Momentum Millcreek",
-      "about": "Join us for a fun bouldering session, training tips, and team community.",
-      "img": "images/events/bouldering.jpg",
-      "color": "#f45c42"
-    }
-  ],
-  "2025-08-14": [
-    {
-      "title": "Bouldering Night",
-      "time": "6:00 PM - 9:00 PM",
-      "location": "Momentum Millcreek",
-      "about": "Join us for a fun bouldering session, training tips, and team community.",
-      "img": "images/events/bouldering.jpg",
-      "color": "#f45c42"
-    }
-  ],
-  "2025-08-15": [
-    {
-      "title": "Outdoor Crag Day",
-      "time": "9:00 AM - 3:00 PM",
-      "location": "Little Cottonwood Canyon",
-      "about": "Meet at the parking lot to carpool! Bring harness, helmet, and stoke.",
-      "img": "images/events/cragday.jpg",
-      "color": "#42f4c4"
+      "title": "Reduced Front Membership!",
+      "time": "August 25 - August 29 ",
+      "location": "Read the About > Rec Team > 'How to Set Up Your Membership'",
+      "about": "The Front is giving our members this week (August 25–29) to sign up for their reduced membership rate. More information can be found on Discord and in the 'How to Set Up Your Membership' section on the About > Rec Team page.",
+      "img": "images/TheFrontClimbingClubInside3.webp",
+      "color": "#11c21d"
     },
     {
-      "title": "Optional Gear Check",
-      "time": "3:30 PM - 4:00 PM",
-      "location": "Parking Lot",
-      "about": "Quick gear audit after the session.",
-      "img": "images/events/gear.jpg"
+      "title": "First Practice @ The Front",
+      "time": "6:00 PM - 8:00 PM",
+      "location": "The Front Climbing Club",
+      "about": "Come join us for our FIRST fall practice! This event is FREE for all Utah Climbing Team members. Sign up and find more details on our Discord!",
+      "img": "images/TheFrontClimbingClubLogoRed.png",
+      "color": "#f45c42"
     }
   ],
-  "2025-08-16": [
+  "2025-08-29": [
     {
-      "title": "Bouldering Night",
-      "time": "6:00 PM - 9:00 PM",
-      "location": "Momentum Millcreek",
-      "about": "Join us for a fun bouldering session, training tips, and team community.",
-      "img": "images/events/bouldering.jpg",
+      "title": "Reduced Front Membership!",
+      "time": "August 25 - August 29 ",
+      "location": "Read the About > Rec Team > 'How to Set Up Your Membership'",
+      "about": "The Front is giving our members this week (August 25–29) to sign up for their reduced membership rate. More information can be found on Discord and in the 'How to Set Up Your Membership' section on the About > Rec Team page.",
+      "img": "images/TheFrontClimbingClubInside4.webp",
+      "color": "#11c21d"
+    }
+  ],
+  "2025-09-03": [
+    {
+      "title": "Second Practice @ BP",
+      "time": "6:00 PM - 8:00 PM",
+      "location": "Bouldering Project - The Granary",
+      "about": "Come join us for our SECOND fall practice! Find more details on our Discord!",
+      "img": "images/BoulderingProjectInside.webp",
       "color": "#f45c42"
+    }
+  ],
+  "2025-09-07": [
+    {
+      "title": "LAST DAY TO SIGN UP!",
+      "time": "11:59 PM",
+      "location": "Check Sign Up Page!",
+      "about": "Sign-up forms must be completed by the 7th to be added to the Utah Climbing Team roster and receive industry membership rates at Momentum, The Front, and Bouldering Project. You can still join after the 7th and participate in practices, events, and trips, but you will NOT receive the reduced membership rates.",
+      "img": "images/mylogo-os.png",
+      "color": "#42b6f4"
     }
   ]
 }
