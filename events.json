@@ -1,0 +1,79 @@
+{
+  "2025-08-27": [
+    {
+      "title": "Info Session",
+      "time": "4:00 PM - 5:00 PM",
+      "location": "Union Theatre",
+      "about": "Join us for an info session where we’ll answer your questions and introduce you to the team. This is a great opportunity to learn more, connect with others, and get involved. Pizza will be provided at the end of the event!",
+      "img": "images/eventsbkg.jpg",
+      "color": "#f45c42"
+    }
+  ],
+  "2025-08-11": [
+    {
+      "title": "Bouldering Night",
+      "time": "6:00 PM - 9:00 PM",
+      "location": "Momentum Millcreek",
+      "about": "Join us for a fun bouldering session, training tips, and team community.",
+      "img": "images/events/bouldering.jpg",
+      "color": "#f45c42"
+    }
+  ],
+  "2025-08-12": [
+    {
+      "title": "Bouldering Night",
+      "time": "6:00 PM - 9:00 PM",
+      "location": "Momentum Millcreek",
+      "about": "Join us for a fun bouldering session, training tips, and team community.",
+      "img": "images/events/bouldering.jpg",
+      "color": "#f45c42"
+    }
+  ],
+  "2025-08-13": [
+    {
+      "title": "Bouldering Night",
+      "time": "6:00 PM - 9:00 PM",
+      "location": "Momentum Millcreek",
+      "about": "Join us for a fun bouldering session, training tips, and team community.",
+      "img": "images/events/bouldering.jpg",
+      "color": "#f45c42"
+    }
+  ],
+  "2025-08-14": [
+    {
+      "title": "Bouldering Night",
+      "time": "6:00 PM - 9:00 PM",
+      "location": "Momentum Millcreek",
+      "about": "Join us for a fun bouldering session, training tips, and team community.",
+      "img": "images/events/bouldering.jpg",
+      "color": "#f45c42"
+    }
+  ],
+  "2025-08-15": [
+    {
+      "title": "Outdoor Crag Day",
+      "time": "9:00 AM - 3:00 PM",
+      "location": "Little Cottonwood Canyon",
+      "about": "Meet at the parking lot to carpool! Bring harness, helmet, and stoke.",
+      "img": "images/events/cragday.jpg",
+      "color": "#42f4c4"
+    },
+    {
+      "title": "Optional Gear Check",
+      "time": "3:30 PM - 4:00 PM",
+      "location": "Parking Lot",
+      "about": "Quick gear audit after the session.",
+      "img": "images/events/gear.jpg"
+    }
+  ],
+  "2025-08-16": [
+    {
+      "title": "Bouldering Night",
+      "time": "6:00 PM - 9:00 PM",
+      "location": "Momentum Millcreek",
+      "about": "Join us for a fun bouldering session, training tips, and team community.",
+      "img": "images/events/bouldering.jpg",
+      "color": "#f45c42"
+    }
+  ]
+}
