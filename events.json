@@ -105,14 +105,14 @@
       "color": "#f45c42"
     }
   ],
-  "2025-09-18": [
+  "2025-09-20": [
     {
-      "title": "LAST DAY TO UPGRADE FROM REC TEAM TO COMP TEAM",
-      "time": "All Day",
-      "location": "Sign Up Page",
-      "about": "Thursday is the LAST day to upgrade from the Rec Team to the Comp Team. Don't miss your chance to compete this semester!",
-      "img": "images/2025CollegiateAllAroundWinners.png",
-      "color": "#42b6f4"
+      "title": "LCC Day",
+      "time": "TBD",
+      "location": "Little Cottonwood Canyon",
+      "about": "Our first outdoor day trip to LCC! Bring your climbing gear and stoke. More details on Discord coming soon!",
+      "img": "images/TheSlipsPic.JPG",
+      "color": "#11c21d"
     }
   ],
   "2025-09-24": [
@@ -125,14 +125,53 @@
       "color": "#f45c42"
     }
   ],
-
+  "2025-09-21": [
+    {
+      "title": "LAST DAY TO UPGRADE FROM REC TEAM TO COMP TEAM",
+      "time": "All Day",
+      "location": "Sign Up Page",
+      "about": "Thursday is the LAST day to upgrade from the Rec Team to the Comp Team. Don't miss your chance to compete this semester!",
+      "img": "images/2025CollegiateAllAroundWinners.png",
+      "color": "#f4a142"
+    }
+  ],
+  "2025-10-01": [
+    {
+      "title": "Weekly Momentum Practice",
+      "time": "8:00 PM - 10:00 PM",
+      "location": "Momentum Indoor Climbing Millcreek",
+      "about": "Weekly Practice at Momentum! ",
+      "img": "images/MomentumClimbingGymInside.webp",
+      "color": "#f45c42"
+    }
+  ],
   "2025-10-04": [
     {
       "title": "Fall Break Trip to Joe’s Valley",
       "time": "October 4 - October 12",
       "location": "Joe’s Valley",
       "about": "Join us for our Fall Break climbing trip to Joe’s Valley! Come for a day or stay the whole week — camping and bouldering with the team! More info on time, dates, location, etc. will be posted soon!",
-      "img": "images/JoesValleyPic1.jpg",
+      "img": "XXXX",
+      "color": "#11c21d"
+    }
+  ],
+  "2025-10-08": [
+    {
+      "title": "Weekly Momentum Practice",
+      "time": "8:00 PM - 10:00 PM",
+      "location": "Momentum Indoor Climbing Millcreek",
+      "about": "Weekly Practice at Momentum! ",
+      "img": "images/MomentumClimbingGymInside.webp",
+      "color": "#f45c42"
+    }
+  ],
+  "2025-10-15": [
+    {
+      "title": "Weekly Momentum Practice",
+      "time": "8:00 PM - 10:00 PM",
+      "location": "Momentum Indoor Climbing Millcreek",
+      "about": "Weekly Practice at Momentum! ",
+      "img": "images/MomentumClimbingGymInside.webp",
       "color": "#f45c42"
     }
   ],
@@ -144,6 +183,26 @@
       "about": "Team dinner for Comp Team members to hang out, eat, and celebrate the season!",
       "img": "XXXX",
       "color": "#f4a142"
+    }
+  ],
+  "2025-10-22": [
+    {
+      "title": "Weekly Momentum Practice",
+      "time": "8:00 PM - 10:00 PM",
+      "location": "Momentum Indoor Climbing Millcreek",
+      "about": "Weekly Practice at Momentum! ",
+      "img": "images/MomentumClimbingGymInside.webp",
+      "color": "#f45c42"
+    }
+  ],
+  "2025-10-29": [
+    {
+      "title": "Weekly Momentum Practice",
+      "time": "8:00 PM - 10:00 PM",
+      "location": "Momentum Indoor Climbing Millcreek",
+      "about": "Weekly Practice at Momentum! ",
+      "img": "images/MomentumClimbingGymInside.webp",
+      "color": "#f45c42"
     }
   ]
 }
