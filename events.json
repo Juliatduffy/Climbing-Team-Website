@@ -105,6 +105,16 @@
       "color": "#f45c42"
     }
   ],
+  "2025-09-18": [
+    {
+      "title": "LAST DAY TO UPGRADE FROM REC TEAM TO COMP TEAM",
+      "time": "All Day",
+      "location": "Sign Up Page",
+      "about": "Thursday is the LAST day to upgrade from the Rec Team to the Comp Team. Don't miss your chance to compete this semester!",
+      "img": "images/2025CollegiateAllAroundWinners.png",
+      "color": "#42b6f4"
+    }
+  ],
   "2025-09-24": [
     {
       "title": "Weekly Momentum Practice",
@@ -113,6 +123,27 @@
       "about": "Weekly Practice at Momentum! ",
       "img": "images/MomentumClimbingGymInside.webp",
       "color": "#f45c42"
+    }
+  ],
+
+  "2025-10-04": [
+    {
+      "title": "Fall Break Trip to Joe’s Valley",
+      "time": "October 4 - October 12",
+      "location": "Joe’s Valley",
+      "about": "Join us for our Fall Break climbing trip to Joe’s Valley! Come for a day or stay the whole week — camping and bouldering with the team! More info on time, dates, location, etc. will be posted soon!",
+      "img": "images/JoesValleyPic1.jpg",
+      "color": "#f45c42"
+    }
+  ],
+  "2025-10-16": [
+    {
+      "title": "Comp Team Dinner",
+      "time": "TBD",
+      "location": "TBD",
+      "about": "Team dinner for Comp Team members to hang out, eat, and celebrate the season!",
+      "img": "XXXX",
+      "color": "#f4a142"
     }
   ]
 }
