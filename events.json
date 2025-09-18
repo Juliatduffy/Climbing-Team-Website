@@ -125,16 +125,6 @@
       "color": "#11c21d"
     }
   ],
-  "2025-09-24": [
-    {
-      "title": "Weekly Momentum Practice",
-      "time": "8:00 PM - 10:00 PM",
-      "location": "Momentum Indoor Climbing Millcreek",
-      "about": "Weekly Practice at Momentum! ",
-      "img": "images/MomentumClimbingGymInside.webp",
-      "color": "#f45c42"
-    }
-  ],
   "2025-09-21": [
     {
       "title": "LAST DAY TO UPGRADE FROM REC TEAM TO COMP TEAM",
@@ -143,6 +133,26 @@
       "about": "Sunday is the LAST day to upgrade from the Rec Team to the Comp Team. Don't miss your chance to compete this semester!",
       "img": "images/2025CollegiateAllAroundWinners.png",
       "color": "#f4a142"
+    }
+  ],
+  "2025-09-22": [
+    {
+      "title": "Summit Sesh!",
+      "time": "7:30 PM - 9:30 PM",
+      "location": "Momentum Indoor Climbing Millcreek",
+      "about": "Come climb with us! The Utah Climbing Team is teaming up with the Freeskiers and Outdoor Industry Club for a fun community climbing session right here on campus. Whether you’re new to climbing or a seasoned crusher, this is a great chance to meet new people, try some routes, and share the stoke. More details in the discord coming soon!",
+      "img": "images/TheSummitWall.jpg",
+      "color": "#A268BD"
+    }
+  ],
+  "2025-09-24": [
+    {
+      "title": "Weekly Momentum Practice",
+      "time": "8:00 PM - 10:00 PM",
+      "location": "Momentum Indoor Climbing Millcreek",
+      "about": "Weekly Practice at Momentum! ",
+      "img": "images/MomentumClimbingGymInside.webp",
+      "color": "#f45c42"
     }
   ],
   "2025-10-01": [
