@@ -168,10 +168,10 @@
   "2025-10-04": [
     {
       "title": "Fall Break Trip to Joe’s Valley",
-      "time": "October 4 - October 12 (TBD)",
+      "time": "October 4 - October 12",
       "location": "Joe’s Valley",
       "about": "Join us for our Fall Break climbing trip to Joe’s Valley! Come for a day or stay the whole week. Camping and bouldering with the team! More info on time, dates, location, etc. will be posted soon!",
-      "img": "XXXX",
+      "img": "images/Joe'sValley.jpg",
       "color": "#11c21d"
     }
   ],
@@ -188,10 +188,10 @@
   "2025-10-16": [
     {
       "title": "Comp Team Dinner",
-      "time": "TBD",
-      "location": "TBD",
-      "about": "Team dinner for Comp Team members to hang out, eat, and celebrate the season!",
-      "img": "XXXX",
+      "time": "6pm",
+      "location": "Reservoir Park",
+      "about": "A team dinner for Comp Team members to relax, enjoy good food, receive important updates about upcoming events later this year, and celebrate the season together!",
+      "img": "images/ReservoirPark.webp",
       "color": "#f4a142"
     }
   ],
