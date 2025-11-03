@@ -224,5 +224,45 @@
       "img": "images/MomentumClimbingGymInside.webp",
       "color": "#f45c42"
     }
+  ],
+  "2025-11-05": [
+    {
+      "title": "Weekly Momentum Practice",
+      "time": "8:00 PM - 10:00 PM",
+      "location": "Momentum Indoor Climbing Millcreek",
+      "about": "Weekly Practice at Momentum! ",
+      "img": "images/MomentumClimbingGymInside.webp",
+      "color": "#f45c42"
+    }
+  ],
+  "2025-11-12": [
+    {
+      "title": "Weekly Momentum Practice",
+      "time": "8:00 PM - 10:00 PM",
+      "location": "Momentum Indoor Climbing Millcreek",
+      "about": "Weekly Practice at Momentum! ",
+      "img": "images/MomentumClimbingGymInside.webp",
+      "color": "#f45c42"
+    }
+  ],
+  "2025-11-19": [
+    {
+      "title": "Weekly Momentum Practice",
+      "time": "8:00 PM - 10:00 PM",
+      "location": "Momentum Indoor Climbing Millcreek",
+      "about": "Weekly Practice at Momentum! ",
+      "img": "images/MomentumClimbingGymInside.webp",
+      "color": "#f45c42"
+    }
+  ],
+  "2025-11-26": [
+    {
+      "title": "Weekly Momentum Practice",
+      "time": "8:00 PM - 10:00 PM",
+      "location": "Momentum Indoor Climbing Millcreek",
+      "about": "Weekly Practice at Momentum! ",
+      "img": "images/MomentumClimbingGymInside.webp",
+      "color": "#f45c42"
+    }
   ]
 }
