@@ -267,12 +267,22 @@
   ],
   "2025-11-22": [
     {
-      "title": "Collegiate QE Bouldering Competition",
+      "title": "The Quarry - QE Bouldering Competition",
       "time": "7:00 AM – 11:00 AM",
       "location": "The Quarry Indoor Climbing Center, Ogden, UT",
-      "about": "Exclusive event for college & university climbing teams! Collegiate comp with USU, UTU, UVU, and BYU! Note: This comp event WILL count as a QE!",
+      "about": "Exclusive event for college & university climbing teams! Collegiate comp with USU, UTU, UVU, and BYU! This comp event WILL count as a QE! For more information on how to sign up or if you have any question - Check the Discord!! ",
       "img": "images/TheQuarry.webp",
       "color": "#ff9900"
+    }
+  ],
+  "2025-11-23": [
+    {
+      "title": "Comp Training Day",
+      "time": "8:00 PM - 10:00 PM",
+      "location": "Momentum Indoor Climbing Millcreek",
+      "about": "Focused training session for comp team members only. High intensity drills, coordination problems, and competition prep.",
+      "img": "images/MomentumClimbingGymInside.webp",
+      "color": "#d12f7b"
     }
   ],
   "2025-11-26": [
