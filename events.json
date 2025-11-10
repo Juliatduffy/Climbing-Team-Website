@@ -295,6 +295,16 @@
       "color": "#f45c42"
     }
   ],
+  "2025-11-27": [
+    {
+      "title": "Thanksgiving Break",
+      "time": "All Day",
+      "location": "No Practice",
+      "about": "Happy Thanksgiving! Take the day to rest, recover, be thankful, and enjoy the long weekend. Recharge and come back strong!",
+      "img": "images/ThanksgivingCalendarPic.avif",
+      "color": "#11c21d"
+    }
+  ],
   "2025-12-03": [
     {
       "title": "LAST PRACTICE OF THE SEMESTER!",
