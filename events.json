@@ -1,4 +1,14 @@
 {
+  "2006-03-14": [
+    {
+      "title": "Ethan's Birthday!",
+      "time": "All Day",
+      "location": "Earth'",
+      "about": "Yo I was born today :) pretty cool huh",
+      "img": "images/EthanBirthday.jpeg",
+      "color": "#11c21d"
+    }
+  ],
   "2025-08-25": [
     {
       "title": "Reduced Front Membership!",
@@ -252,7 +262,7 @@
       "location": "Bouldering Project – The Granary, Salt Lake City, UT",
       "about": "Salt Lake City’s biggest community climbing competition returns! An electric, all-day celebration featuring an all-levels climbing comp, open finals, music, food trucks, raffles, vendor market, games, and community connection. Beginners through pros are welcome.",
       "img": "images/BoulderfestPic.webp",
-      "color": "#ff9900"
+      "color": "#3b82f6"
     }
   ],
   "2025-11-19": [
@@ -272,27 +282,17 @@
       "location": "The Quarry Indoor Climbing Center, Ogden, UT",
       "about": "Exclusive event for college & university climbing teams! Collegiate comp with USU, UTU, UVU, and BYU! This comp event WILL count as a QE! For more information on how to sign up or if you have any question - Check the Discord!! ",
       "img": "images/TheQuarry.webp",
-      "color": "#ff9900"
+      "color": "#3b82f6"
     }
   ],
   "2025-11-23": [
     {
-      "title": "Comp Training Day",
-      "time": "8:00 PM - 10:00 PM",
-      "location": "Momentum Indoor Climbing Millcreek",
-      "about": "Focused training session for comp team members only. High intensity drills, coordination problems, and competition prep.",
-      "img": "images/MomentumClimbingGymInside.webp",
-      "color": "#d12f7b"
-    }
-  ],
-  "2025-11-26": [
-    {
-      "title": "Weekly Momentum Practice",
-      "time": "8:00 PM - 10:00 PM",
-      "location": "Momentum Indoor Climbing Millcreek",
-      "about": "Weekly Practice at Momentum! ",
-      "img": "images/MomentumClimbingGymInside.webp",
-      "color": "#f45c42"
+      "title": "Mandatory Training Camp + Mock Comp",
+      "time": "8:00 AM - 10:00 AM (Mock Comp), Stations in Afternoon",
+      "location": "Momentum Indoor Climbing - Fort Union",
+      "about": "Mandatory (unless excused) training camp for comp team members only! We'll run a full mock competition from 8–10am before the gym opens, followed by afternoon stations. This camp is completely FREE for all comp team members. Anyone without a Momentum membership will receive a day pass to return after the mock comp for stations. Excited to see everyone there! More info in the discord!",
+      "img": "images/MomentumFortUnion.jpg",
+      "color": "#ff9900"
     }
   ],
   "2025-11-27": [
@@ -305,6 +305,16 @@
       "color": "#11c21d"
     }
   ],
+  "2025-12-02": [
+    {
+      "title": "BP Study + Climbing Session (All Day)",
+      "time": "All Day",
+      "location": "Bouldering Project – The Granary",
+      "about": "All-day climbing and studying session at BP! We’ll have a private room reserved for students who want a focused study space. Climb during breaks, study between burns. Entry is $13 per student for those who are not BP members. Lets CRUSH our finals together!",
+      "img": "images/BP.jpg",
+      "color": "#4caf8f"
+    }
+  ],
   "2025-12-03": [
     {
       "title": "LAST PRACTICE OF THE SEMESTER!",
@@ -313,6 +323,16 @@
       "about": "Weekly Practice at Momentum! ",
       "img": "images/MomentumClimbingGymInside.webp",
       "color": "#A268BD"
+    }
+  ],
+  "2025-12-06": [
+    {
+      "title": "USAC Training Center QE",
+      "time": "9:00 AM - 2:00 PM",
+      "location": "USA Climbing National Training Center, Salt Lake City",
+      "about": "USA Climbing is hosting a Collegiate Boulder QE at the National Training Center. Competition uses a Boulder Modified Redpoint format with 10 problems and up to 7 attempts per boulder. Registration is open November 22 at 6pm MT through December 3 at noon MT. Entry fee is $50 and there is no cap on entries. A full breakdown, including schedule, waiver, rules, scoring guide, registration links, and official contacts, is posted in the team Discord along with the complete Google Doc.",
+      "img": "images/USAClimbingTC.jpg",
+      "color": "#3b82f6"
     }
   ]
 }
