@@ -295,6 +295,16 @@
       "color": "#ff9900"
     }
   ],
+  "2025-11-25": [
+    {
+      "title": "Summit Sesh!",
+      "time": "7:30 PM - 9:30 PM",
+      "location": "The Summit",
+      "about": "Team climb night at The Summit! Come hang out, climb hard, and have a chill session with the crew for one last climb before Thanksgiving!",
+      "img": "images/TheSummitWall.jpg",
+      "color": "#A268BD"
+    }
+  ],
   "2025-11-27": [
     {
       "title": "Thanksgiving Break",
