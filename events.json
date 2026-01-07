@@ -9,350 +9,180 @@
       "color": "#11c21d"
     }
   ],
-  "2025-08-25": [
+
+  "2026-01-07": [
     {
-      "title": "Reduced Front Membership!",
-      "time": "August 25 - August 29 ",
-      "location": "Read the About > Rec Team > 'How to Set Up Your Membership'",
-      "about": "The Front is giving our members this week (August 25–29) to sign up for their reduced membership rate. More information can be found on Discord and in the 'How to Set Up Your Membership' section on the About > Rec Team page.",
-      "img": "images/TheFrontClimbingClubOutside.webp",
-      "color": "#11c21d"
-    }
-  ],
-  "2025-08-26": [
-    {
-      "title": "Reduced Front Membership!",
-      "time": "August 25 - August 29 ",
-      "location": "Read the About > Rec Team > 'How to Set Up Your Membership'",
-      "about": "The Front is giving our members this week (August 25–29) to sign up for their reduced membership rate. More information can be found on Discord and in the 'How to Set Up Your Membership' section on the About > Rec Team page.",
-      "img": "images/TheFrontClimbingClubInside1.webp",
-      "color": "#11c21d"
-    }
-  ],
-  "2025-08-27": [
-    {
-      "title": "Reduced Front Membership!",
-      "time": "August 25 - August 29 ",
-      "location": "Read the About > Rec Team > 'How to Set Up Your Membership'",
-      "about": "The Front is giving our members this week (August 25–29) to sign up for their reduced membership rate. More information can be found on Discord and in the 'How to Set Up Your Membership' section on the About > Rec Team page.",
-      "img": "images/TheFrontClimbingClubInside2.webp",
-      "color": "#11c21d"
-    },
-    {
-      "title": "Info Session",
-      "time": "4:00 PM - 5:00 PM",
-      "location": "Union Theatre",
-      "about": "Join us for an info session where we’ll answer your questions and introduce you to the team. This is a great opportunity to learn more, connect with others, and get involved. Pizza will be provided at the end of the event!",
-      "img": "images/InfoSessionGavin.png",
-      "color": "#42b6f4"
-    }
-  ],
-  "2025-08-28": [
-    {
-      "title": "Reduced Front Membership!",
-      "time": "August 25 - August 29 ",
-      "location": "Read the About > Rec Team > 'How to Set Up Your Membership'",
-      "about": "The Front is giving our members this week (August 25–29) to sign up for their reduced membership rate. More information can be found on Discord and in the 'How to Set Up Your Membership' section on the About > Rec Team page.",
-      "img": "images/TheFrontClimbingClubInside3.webp",
-      "color": "#11c21d"
-    },
-    {
-      "title": "First Practice @ The Front",
-      "time": "6:00 PM - 8:00 PM",
-      "location": "The Front Climbing Club",
-      "about": "Come join us for our FIRST fall practice! This event is FREE for all Utah Climbing Team members. Sign up and find more details on our Discord!",
-      "img": "images/TheFrontClimbingClubLogoRed.png",
-      "color": "#f45c42"
-    }
-  ],
-  "2025-08-29": [
-    {
-      "title": "Reduced Front Membership!",
-      "time": "August 25 - August 29 ",
-      "location": "Read the About > Rec Team > 'How to Set Up Your Membership'",
-      "about": "The Front is giving our members this week (August 25–29) to sign up for their reduced membership rate. More information can be found on Discord and in the 'How to Set Up Your Membership' section on the About > Rec Team page.",
-      "img": "images/TheFrontClimbingClubInside4.webp",
-      "color": "#11c21d"
-    }
-  ],
-  "2025-09-03": [
-    {
-      "title": "Second Practice @ BP",
-      "time": "5:00 PM - 7:00 PM",
-      "location": "Bouldering Project - The Granary",
-      "about": "Come join us for our SECOND fall practice! Find more details on our Discord!",
-      "img": "images/BoulderingProjectInside.webp",
-      "color": "#f45c42"
-    }
-  ],
-  "2025-09-07": [
-    {
-      "title": "LAST DAY TO SIGN UP!",
-      "time": "11:59 PM",
-      "location": "Check Sign Up Page!",
-      "about": "Sign-up forms must be completed by the 7th to be added to the Utah Climbing Team roster and receive industry membership rates at Momentum, The Front, and Bouldering Project. You can still join after the 7th and participate in practices, events, and trips, but you will NOT receive the reduced membership rates.",
-      "img": "images/mylogo-os.png",
-      "color": "#42b6f4"
-    }
-  ],
-  "2025-09-10": [
-    {
-      "title": "Weekly Momentum Practice",
+      "title": "FIRST PRACTICE OF THE SPRING SEMESTER!",
       "time": "8:00 PM - 10:00 PM",
       "location": "Momentum Indoor Climbing Millcreek",
-      "about": "Weekly Practice at Momentum! ",
+      "about": "We... are... BACK!! Kick off the spring semester with our first official practice of 2026! Come shake off the break rust, reconnect with the team, and start this semester strong! Remember: This Practice is open to ALL Utah Climbing Team members. Expect a chill but stoked sesh, plenty of climbing, and good vibes all around. I WILL SEE YOU THERE!!",
       "img": "images/MomentumClimbingGymInside.webp",
       "color": "#f45c42"
     }
   ],
-  "2025-09-17": [
+
+  "2026-01-17": [
     {
-      "title": "Weekly Momentum Practice",
-      "time": "8:00 PM - 10:00 PM",
-      "location": "Momentum Indoor Climbing Millcreek",
-      "about": "Weekly Practice at Momentum! ",
-      "img": "images/MomentumClimbingGymInside.webp",
-      "color": "#f45c42"
-    }
-  ],
-  "2025-09-19": [
-    {
-      "title": "BP MOVIE NIGHT",
-      "time": "8PM",
-      "location": "Bouldering Project - Yoga Room",
-      "about": "Join us for our first Movie Night at BP! Bring your favorite snacks, popcorn, blankets, and chairs, and get comfy. We’ll be watching some climbing videos (or a full climbing movie) to get psyched! 🎥🍿 More info in discord!",
-      "img": "images/BPMovieNight.png",
-      "color": "#A268BD"
-    }
-  ],
-  "2025-09-20": [
-    {
-      "title": "LCC Day",
-      "time": "6PM",
-      "location": "Little Cottonwood Canyon",
-      "about": "Our first outdoor day trip to LCC! Bring your climbing gear and stoke. More details on Discord!!",
-      "img": "images/TheSlipsPic.JPG",
-      "color": "#11c21d"
-    }
-  ],
-  "2025-09-21": [
-    {
-      "title": "LAST DAY TO UPGRADE FROM REC TEAM TO COMP TEAM",
+      "title": "MLK Weekend Plans (Weather Dependent)",
       "time": "All Day",
-      "location": "Sign Up Page",
-      "about": "Sunday is the LAST day to upgrade from the Rec Team to the Comp Team. Don't miss your chance to compete this semester!",
-      "img": "images/2025CollegiateAllAroundWinners.png",
+      "location": "TBD",
+      "about": "MLK Weekend activities kick off today! Plans are weather dependent so keep an eye on Discord for finalized plans!",
+      "img": "images/MLKWeekend.jpg",
       "color": "#f4a142"
     }
   ],
-  "2025-09-23": [
+
+  "2026-01-18": [
     {
-      "title": "Summit Sesh!",
-      "time": "7:30 PM - 9:30 PM",
-      "location": "The Summit",
-      "about": "Come climb with us! The Utah Climbing Team is teaming up with the Freeskiers and Outdoor Industry Club for a fun community climbing session right here on campus. Whether you’re new to climbing or a seasoned crusher, this is a great chance to meet new people, try some routes, and share the stoke. More details in the discord coming soon!",
-      "img": "images/TheSummitWall.jpg",
-      "color": "#A268BD"
-    }
-  ],
-  "2025-09-24": [
-    {
-      "title": "Weekly Momentum Practice",
-      "time": "8:00 PM - 10:00 PM",
-      "location": "Momentum Indoor Climbing Millcreek",
-      "about": "Weekly Practice at Momentum! ",
-      "img": "images/MomentumClimbingGymInside.webp",
-      "color": "#f45c42"
-    }
-  ],
-  "2025-10-01": [
-    {
-      "title": "Weekly Momentum Practice",
-      "time": "8:00 PM - 10:00 PM",
-      "location": "Momentum Indoor Climbing Millcreek",
-      "about": "Weekly Practice at Momentum! ",
-      "img": "images/MomentumClimbingGymInside.webp",
-      "color": "#f45c42"
-    }
-  ],
-  "2025-10-04": [
-    {
-      "title": "Fall Break Trip to Joe’s Valley",
-      "time": "October 4 - October 12",
-      "location": "Joe’s Valley",
-      "about": "Join us for our Fall Break climbing trip to Joe’s Valley! Come for a day or stay the whole week. Camping and bouldering with the team! More info on time, dates, location, etc. will be posted soon!",
-      "img": "images/Joe'sValley.jpg",
-      "color": "#11c21d"
-    }
-  ],
-  "2025-10-15": [
-    {
-      "title": "Weekly Momentum Practice",
-      "time": "8:00 PM - 10:00 PM",
-      "location": "Momentum Indoor Climbing Millcreek",
-      "about": "Weekly Practice at Momentum! ",
-      "img": "images/MomentumClimbingGymInside.webp",
-      "color": "#f45c42"
-    }
-  ],
-  "2025-10-16": [
-    {
-      "title": "Comp Team Dinner",
-      "time": "6pm",
-      "location": "Reservoir Park",
-      "about": "A team dinner for Comp Team members to relax, enjoy good food, receive important updates about upcoming events later this year, and celebrate the season together!",
-      "img": "images/ReservoirPark.webp",
+      "title": "MLK Weekend Plans (Weather Dependent)",
+      "time": "All Day",
+      "location": "TBD",
+      "about": "MLK Weekend activities kick off today! Plans are weather dependent so keep an eye on Discord for finalized plans!",
+      "img": "images/MLKWeekend.jpg",
       "color": "#f4a142"
     }
   ],
-  "2025-10-22": [
+
+  "2026-01-19": [
     {
-      "title": "Weekly Momentum Practice",
-      "time": "8:00 PM - 10:00 PM",
-      "location": "Momentum Indoor Climbing Millcreek",
-      "about": "Weekly Practice at Momentum! ",
-      "img": "images/MomentumClimbingGymInside.webp",
-      "color": "#f45c42"
-    }
-  ],
-  "2025-10-26": [
-    {
-      "title": "Big Cottonwood Rope Day",
-      "time": "12:00 PM - TBD",
-      "location": "Big Cottonwood Canyon (Meet at BCC Park and Ride)",
-      "about": "Outdoor climbing day on ropes in collaboration with Backcountry Squatters! Meet at the Big Cottonwood Park and Ride at 12 p.m. We'll head to the crag shortly after. Please fill out the attendance form and note that climbing involves inherent risk.",
-      "img": "images/TheSlipsBCC.JPG",
-      "color": "#11c21d"
-    }
-  ],
-  "2025-10-29": [
-    {
-      "title": "Weekly Momentum Practice",
-      "time": "8:00 PM - 10:00 PM",
-      "location": "Momentum Indoor Climbing Millcreek",
-      "about": "Weekly Practice at Momentum! ",
-      "img": "images/MomentumClimbingGymInside.webp",
-      "color": "#f45c42"
-    }
-  ],
-  "2025-11-05": [
-    {
-      "title": "Weekly Momentum Practice",
-      "time": "8:00 PM - 10:00 PM",
-      "location": "Momentum Indoor Climbing Millcreek",
-      "about": "Weekly Practice at Momentum! ",
-      "img": "images/MomentumClimbingGymInside.webp",
-      "color": "#f45c42"
-    }
-  ],
-  "2025-11-12": [
-    {
-      "title": "Weekly Momentum Practice",
-      "time": "8:00 PM - 10:00 PM",
-      "location": "Momentum Indoor Climbing Millcreek",
-      "about": "Weekly Practice at Momentum! ",
-      "img": "images/MomentumClimbingGymInside.webp",
-      "color": "#f45c42"
-    }
-  ],
-  "2025-11-15": [
-    {
-      "title": "Boulderfest 2025",
-      "time": "All–day",
-      "location": "Bouldering Project – The Granary, Salt Lake City, UT",
-      "about": "Salt Lake City’s biggest community climbing competition returns! An electric, all-day celebration featuring an all-levels climbing comp, open finals, music, food trucks, raffles, vendor market, games, and community connection. Beginners through pros are welcome.",
-      "img": "images/BoulderfestPic.webp",
-      "color": "#3b82f6"
-    }
-  ],
-  "2025-11-19": [
-    {
-      "title": "Weekly Momentum Practice",
-      "time": "8:00 PM - 10:00 PM",
-      "location": "Momentum Indoor Climbing Millcreek",
-      "about": "Weekly Practice at Momentum! ",
-      "img": "images/MomentumClimbingGymInside.webp",
-      "color": "#f45c42"
-    }
-  ],
-  "2025-11-22": [
-    {
-      "title": "The Quarry - QE Bouldering Competition",
-      "time": "11:00 AM – 3:00 PM",
-      "location": "The Quarry Indoor Climbing Center, Ogden, UT",
-      "about": "Exclusive event for college & university climbing teams! Collegiate comp with USU, UTU, UVU, and BYU! This comp event WILL count as a QE! For more information on how to sign up or if you have any question - Check the Discord!! ",
-      "img": "images/TheQuarry.webp",
-      "color": "#3b82f6"
-    }
-  ],
-  "2025-11-23": [
-    {
-      "title": "Mandatory Training Camp + Mock Comp",
-      "time": "8:00 AM - 10:00 AM (Mock Comp), Stations in Afternoon",
-      "location": "Momentum Indoor Climbing - Fort Union",
-      "about": "Mandatory (unless excused) training camp for comp team members only! We'll run a full mock competition from 8–10am before the gym opens, followed by afternoon stations. This camp is completely FREE for all comp team members. Anyone without a Momentum membership will receive a day pass to return after the mock comp for stations. Excited to see everyone there! More info in the discord!",
-      "img": "images/MomentumFortUnion.jpg",
-      "color": "#ff9900"
-    }
-  ],
-  "2025-11-25": [
-    {
-      "title": "Summit Sesh!",
-      "time": "7:30 PM - 9:30 PM",
-      "location": "The Summit",
-      "about": "Team climb night at The Summit! Come hang out, climb hard, and have a chill session with the crew for one last climb before Thanksgiving!",
-      "img": "images/TheSummitWall.jpg",
-      "color": "#A268BD"
-    }
-  ],
-  "2025-11-27": [
-    {
-      "title": "Thanksgiving Break",
+      "title": "MLK Weekend Plans (Weather Dependent)",
       "time": "All Day",
-      "location": "No Practice",
-      "about": "Happy Thanksgiving! Take the day to rest, recover, be thankful, and enjoy the long weekend. Recharge and come back strong!",
-      "img": "images/ThanksgivingCalendarPic.avif",
+      "location": "TBD",
+      "about": "MLK Weekend activities kick off today! Plans are weather dependent so keep an eye on Discord for finalized plans!",
+      "img": "images/MLKWeekend.jpg",
+      "color": "#f4a142"
+    }
+  ],
+
+  "2026-02-14": [
+    {
+      "title": "Presidents Weekend Plans (Weather Dependent)",
+      "time": "All Day",
+      "location": "TBD",
+      "about": "Presidents Weekend begins! Plans are weather dependent and will be shared on Discord once conditions are confirmed.",
+      "img": "images/PresidentsWeekend.jpg",
+      "color": "#f4a142"
+    }
+  ],
+
+  "2026-02-15": [
+    {
+      "title": "Presidents Weekend Plans (Weather Dependent)",
+      "time": "All Day",
+      "location": "TBD",
+      "about": "Presidents Weekend continues! Possible outdoor climbing or gym meetups depending on weather. Stay tuned on Discord for details.",
+      "img": "images/PresidentsWeekend.jpg",
+      "color": "#f4a142"
+    }
+  ],
+
+  "2026-02-16": [
+    {
+      "title": "Presidents Weekend Plans (Weather Dependent)",
+      "time": "All Day",
+      "location": "TBD",
+      "about": "Final day of Presidents Weekend activities. Weather-dependent plans will be confirmed on Discord.",
+      "img": "images/PresidentsWeekend.jpg",
+      "color": "#f4a142"
+    }
+  ],
+
+  "2026-03-07": [
+    {
+      "title": "Spring Break Trip to Red Rocks",
+      "time": "All Day",
+      "location": "Red Rock Canyon (Las Vegas, NV)",
+      "about": "Spring Break trip to Red Rocks begins! Come for part of the trip or send the whole week. More info on camping, carpools, itinerary, and sign-ups will be posted on Discord.",
+      "img": "images/RedRocks.jpg",
       "color": "#11c21d"
     }
   ],
-  "2025-12-02": [
+
+  "2026-03-08": [
     {
-      "title": "BP Study + Climbing Session",
-      "time": "3:00 PM - 1:00 AM",
-      "location": "Bouldering Project – The Granary",
-      "about": "Climbing and studying session at BP! We’ll have a private room reserved for students who want a focused study space. Climb during breaks, study between burns. Entry is $13 per student for those who are not BP members. Let's CRUSH our finals together!",
-      "img": "images/BP.jpg",
-      "color": "#4caf8f"
+      "title": "Spring Break Trip to Red Rocks",
+      "time": "All Day",
+      "location": "Red Rock Canyon (Las Vegas, NV)",
+      "about": "Spring Break in Red Rocks! Full day of climbing, hanging out, and enjoying desert sandstone. Check Discord for daily plans and meetup times.",
+      "img": "images/RedRocks.jpg",
+      "color": "#11c21d"
     }
   ],
-  "2025-12-03": [
+
+  "2026-03-09": [
     {
-      "title": "Weekly Momentum Practice",
-      "time": "8:00 PM - 10:00 PM",
-      "location": "Momentum Indoor Climbing Millcreek",
-      "about": "Weekly Practice at Momentum! ",
-      "img": "images/MomentumClimbingGymInside.webp",
-      "color": "#f45c42"
+      "title": "Spring Break Trip to Red Rocks",
+      "time": "All Day",
+      "location": "Red Rock Canyon (Las Vegas, NV)",
+      "about": "Another full day at Red Rocks! Come climb, explore new areas, or just hang at camp. Daily plans and logistics will be shared on Discord.",
+      "img": "images/RedRocks.jpg",
+      "color": "#11c21d"
     }
   ],
-  "2025-12-10": [
+
+  "2026-03-10": [
     {
-      "title": "LAST PRACTICE OF THE SEMESTER!",
-      "time": "8:00 PM - 10:00 PM",
-      "location": "Our final climb of the semester! Come send hard, celebrate the season, and finish strong with the whole crew! Come to Momentum Indoor Climbing Millcreek!!",
-      "about": "Weekly Practice at Momentum! ",
-      "img": "images/MomentumClimbingGymInside.webp",
-      "color": "#A268BD"
+      "title": "Spring Break Trip to Red Rocks",
+      "time": "All Day",
+      "location": "Red Rock Canyon (Las Vegas, NV)",
+      "about": "Spring Break climbing continues at Red Rocks. Whether you’re bouldering, sport climbing, or just soaking up the vibes, this is a full send kind of day.",
+      "img": "images/RedRocks.jpg",
+      "color": "#11c21d"
     }
   ],
-  "2025-12-06": [
+
+  "2026-03-11": [
     {
-      "title": "USAC Training Center QE",
-      "time": "9:00 AM - 2:00 PM",
-      "location": "USA Climbing National Training Center, Salt Lake City",
-      "about": "USA Climbing is hosting a Collegiate Boulder QE at the National Training Center. Competition uses a Boulder Modified Redpoint format with 10 problems and up to 7 attempts per boulder. Registration is open November 22 at 6pm MT through December 3 at noon MT. Entry fee is $50 and there is no cap on entries. A full breakdown, including schedule, waiver, rules, scoring guide, registration links, and official contacts, is posted in the team Discord along with the complete Google Doc.",
-      "img": "images/USAClimbingTC.jpg",
-      "color": "#3b82f6"
+      "title": "Spring Break Trip to Red Rocks",
+      "time": "All Day",
+      "location": "Red Rock Canyon (Las Vegas, NV)",
+      "about": "Midweek Red Rocks sessions! Expect classic lines, warm weather, and great company. Check Discord for group plans and carpools.",
+      "img": "images/RedRocks.jpg",
+      "color": "#11c21d"
+    }
+  ],
+
+  "2026-03-12": [
+    {
+      "title": "Spring Break Trip to Red Rocks",
+      "time": "All Day",
+      "location": "Red Rock Canyon (Las Vegas, NV)",
+      "about": "Another full day of Spring Break climbing at Red Rocks. Come climb hard, explore, or take a chill recovery day if needed.",
+      "img": "images/RedRocks.jpg",
+      "color": "#11c21d"
+    }
+  ],
+
+  "2026-03-13": [
+    {
+      "title": "Spring Break Trip to Red Rocks",
+      "time": "All Day",
+      "location": "Red Rock Canyon (Las Vegas, NV)",
+      "about": "Spring Break sends continue! Join the team for another day of desert climbing and good vibes. Plans posted daily on Discord.",
+      "img": "images/RedRocks.jpg",
+      "color": "#11c21d"
+    }
+  ],
+
+  "2026-03-14": [
+    {
+      "title": "Spring Break Trip to Red Rocks",
+      "time": "All Day",
+      "location": "Red Rock Canyon (Las Vegas, NV)",
+      "about": "Final full climbing day of the Spring Break Red Rocks trip. Make it count! Celebrate a week of climbing with the team.",
+      "img": "images/RedRocks.jpg",
+      "color": "#11c21d"
+    }
+  ],
+
+  "2026-03-15": [
+    {
+      "title": "Spring Break Trip to Red Rocks",
+      "time": "All Day",
+      "location": "Red Rock Canyon (Las Vegas, NV)",
+      "about": "Last day of the Spring Break Red Rocks trip. Travel home, optional morning climbing, and wrap up an awesome week in the desert.",
+      "img": "images/RedRocks.jpg",
+      "color": "#11c21d"
     }
   ]
 }
