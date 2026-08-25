@@ -1,7 +1,7 @@
 body {
   display: flex;
   flex-direction: column;
-  background-image: url("/images/yosem.jpg");
+  background-image: url("/images/photos/scenery-backgrounds/yosem.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

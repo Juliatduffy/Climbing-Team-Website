@@ -3,7 +3,7 @@
    - Sets climbing image as background for the entire page
    ------------------------------------------------------------ */
 body {
-  background-image: url("/images/angler.jpg");
+  background-image: url("/images/photos/scenery-backgrounds/angler.jpg");
   background-size: cover; /* Fill screen */
   background-position: center; /* Keep subject centered */
   background-repeat: no-repeat; /* Don’t tile image */
